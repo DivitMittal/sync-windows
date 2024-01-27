@@ -1,0 +1,13 @@
+
+Name          Version                  Source     Updated             Info
+----          -------                  ------     -------             ----
+7zip          23.01                    main       2024-01-26 21:56:36 
+Cascadia-Code 2111.01                  nerd-fonts 2024-01-26 22:39:07 
+git           2.43.0                   main       2024-01-26 22:03:42 
+neovim        0.9.5                    main       2024-01-27 07:24:58 
+quicklook     3.7.3                    extras     2024-01-27 06:45:10 
+starship      1.17.1                   main       2024-01-27 06:40:16 
+steam         nightly-20240127         games      2024-01-27 05:40:43 
+wezterm       20230712-072601-f4abf8fd extras     2024-01-27 06:41:28 
+zoxide        0.9.2                    main       2024-01-27 07:12:41 
+

@@ -4,9 +4,29 @@
 $env:Path += 'C:\Users\div\scoop\apps\neovim\0.9.5\bin;'
 
 #################################################################################
+# Aliases
+#################################################################################
+Set-Alias -Name neovim -Value nvim
+
+function Invoke-WinPackageManagerBackup {
+    $backupDir = "$HOME/backup/"
+    scoop list > "$backupDir/scoop_backup.txt"
+    winget list > "$backupDir/winget_backup.txt"
+}
+
+Set-Alias -Name windows-backup -Value Invoke-WinPackageManagerBackup
+
+
+function Invoke-UltimateWin {
+    scoop update
+    winget upgrade --all
+    windows-backup
+}
+
+Set-Alias -Name windows-ultimate -Value Invoke-UltimateWin
+#################################################################################
 # Implementation to manage dotfiles
 #################################################################################
-
 function Invoke-GitWithCustomPaths {
     param(
         [string[]]$Arguments

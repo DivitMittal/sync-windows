@@ -6,3 +6,5 @@
 [status]
   showUntrackedFiles = no
 
+[safe]
+	directory = *
