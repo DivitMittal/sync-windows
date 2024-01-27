@@ -1,5 +1,36 @@
+#################################################################################
+# Environment Variables
+#################################################################################
+$env:Path += 'C:\Users\div\scoop\apps\neovim\0.9.5\bin;'
+
+#################################################################################
+# Implementation to manage dotfiles
+#################################################################################
+
+function Invoke-GitWithCustomPaths {
+    param(
+        [string[]]$Arguments
+    )
+
+    # Set custom paths
+    $gitDir = "$HOME/sync-windows/"
+    $workTree = "$HOME"
+
+    # Build git command with custom paths
+    $gitCommand = "git --git-dir=$gitDir --work-tree=$workTree"
+
+    # Append provided arguments to the git command
+    $gitCommand += " " + ($Arguments -join " ")
+
+    # Invoke the git command
+    Invoke-Expression $gitCommand
+}
+
+Set-Alias -Name sw -Value Invoke-GitWithCustomPaths
+
 ################################################################################
 # Utility functions for zoxide.
+################################################################################
 
 
 # Call zoxide binary, returning the output as UTF-8.
@@ -105,6 +136,9 @@ Set-Alias -Name z -Value __zoxide_z -Option AllScope -Scope Global -Force
 Set-Alias -Name zi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 
 #########################################################################################
+# Initializations
+#########################################################################################
+
 # Winfetch 
 winfetch
 
