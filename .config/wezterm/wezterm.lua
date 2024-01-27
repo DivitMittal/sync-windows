@@ -21,7 +21,7 @@ end)
 local config = {
     term = "xterm-256color",
     font = wezterm.font("Cascadia Code"),
-    font_size = 14,
+    font_size = 12,
     adjust_window_size_when_changing_font_size = false,
     window_close_confirmation = "NeverPrompt",
     custom_block_glyphs = false,
