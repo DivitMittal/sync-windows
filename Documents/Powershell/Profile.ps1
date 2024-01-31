@@ -16,7 +16,6 @@ function Invoke-WinPackageManagerBackup {
 
 Set-Alias -Name windows-backup -Value Invoke-WinPackageManagerBackup
 
-
 function Invoke-UltimateWin {
     scoop update
     winget upgrade --all
@@ -24,6 +23,7 @@ function Invoke-UltimateWin {
 }
 
 Set-Alias -Name windows-ultimate -Value Invoke-UltimateWin
+
 #################################################################################
 # Implementation to manage dotfiles
 #################################################################################
@@ -51,7 +51,6 @@ Set-Alias -Name sw -Value Invoke-GitWithCustomPaths
 ################################################################################
 # Utility functions for zoxide.
 ################################################################################
-
 
 # Call zoxide binary, returning the output as UTF-8.
 function global:__zoxide_bin {
@@ -164,3 +163,4 @@ winfetch
 
 # Starship prompt
 Invoke-Expression (&starship init powershell)
+

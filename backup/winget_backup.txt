@@ -3,13 +3,14 @@
 CPU Monitor for Game Bar                      62269AlexShats.CPUMonitorforGameBar_gghb1w55m… 0.1.5.0            
 AMD Software                                  AMD Catalyst Install Manager                   23.9.3             
 Ablaze Floorp (x64 en-US)                     Ablaze.Floorp                                  11.8.2             winget
+AutoHotkey (user)                             AutoHotkey.AutoHotkey                          2.0.11             winget
 Dolby Atmos                                   DolbyLaboratories.DolbyAtmos_rz1tebttyb220     3.20201.255.0      
-Microsoft Edge                                Microsoft.Edge                                 120.0.2210.144     winget
+Microsoft Edge                                Microsoft.Edge                                 121.0.2277.83      winget
 Microsoft Edge Update                         Microsoft Edge Update                          1.3.181.5          
 Microsoft Edge WebView2 Runtime               Microsoft.EdgeWebView2Runtime                  120.0.2210.144     winget
 App Installer                                 Microsoft.AppInstaller                         1.21.3482.0        winget
 English (United Kingdom) Local Experience Pa… Microsoft.LanguageExperiencePacken-GB_8wekyb3… 19041.53.185.0     
-Microsoft Edge                                Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe   120.0.2210.144     
+Microsoft Edge                                Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe   121.0.2277.83      
 Microsoft .Net Native Framework Package 1.7   Microsoft.NET.Native.Framework.1.7_8wekyb3d8b… 1.7.27413.0        
 Microsoft .Net Native Framework Package 2.2   Microsoft.NET.Native.Framework.2.2_8wekyb3d8b… 2.2.29512.0        
 Microsoft .Net Native Runtime Package 1.7     Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe 1.7.27422.0        
@@ -25,10 +26,9 @@ Microsoft Visual C++ 2015 UWP Desktop Runtim… Microsoft.VCLibs.Desktop.14     
 Microsoft Visual C++ 2015 UWP Runtime Package Microsoft.VCLibs.140.00_8wekyb3d8bbwe          14.0.33321.0       
 Microsoft Photos                              Microsoft.Windows.Photos_8wekyb3d8bbwe         2024.11010.10002.0 
 WindowsAppRuntime.1.3                         Microsoft.WindowsAppRuntime.1.3_8wekyb3d8bbwe  3000.934.1904.0    
-Windows Calculator                            Microsoft.WindowsCalculator_8wekyb3d8bbwe      11.2311.0.0        
 Windows Camera                                Microsoft.WindowsCamera_8wekyb3d8bbwe          2023.2312.3.0      
 Microsoft Store                               Microsoft.WindowsStore_8wekyb3d8bbwe           22312.1401.5.0     
-Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.127.325.445   
+Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.130.2159.499  
 Game Bar                                      Microsoft.XboxGamingOverlay_8wekyb3d8bbwe      6.123.11012.0      
 Intel(R) Management Engine Components         {1CEAC85D-2590-4760-800F-8DE5E91F3700}         1806.12.0.1100     
 Microsoft Update Health Tools                 {1FC1A6C2-576E-489A-9B4A-92D21F542136}         3.74.0.0           
