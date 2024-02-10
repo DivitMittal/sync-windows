@@ -27,6 +27,7 @@ Set-Alias -Name windows-ultimate -Value Invoke-UltimateWin
 #################################################################################
 # Implementation to manage dotfiles
 #################################################################################
+
 function Invoke-GitWithCustomPaths {
     param(
         [string[]]$Arguments
