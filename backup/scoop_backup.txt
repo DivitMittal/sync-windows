@@ -2,11 +2,11 @@
 Name          Version                  Source     Updated             Info
 ----          -------                  ------     -------             ----
 7zip          23.01                    main       2024-01-26 21:56:36 
-autohotkey    2.0.11                   extras     2024-01-27 18:34:32 
 Cascadia-Code 2111.01                  nerd-fonts 2024-01-26 22:39:07 
 discord       1.0.9028-17              extras     2024-01-27 22:46:36 
 git           2.43.0                   main       2024-01-26 22:03:42 
-kanata        1.5.0                    extras     2024-02-19 04:30:49 
+kanata-cmd    1.5.0                    extras     2024-02-21 19:10:01 
+msys2         2024-01-13               main       2024-02-25 21:42:16 
 neovim        0.9.5                    main       2024-01-27 07:24:58 
 quicklook     3.7.3                    extras     2024-01-27 06:45:10 
 speedtest-cli 1.2.0                    main       2024-02-01 05:44:51 

@@ -80,7 +80,7 @@
   sCtl (one-shot $ost lctl)
   sAlt (one-shot $ost lalt)
   sSft (one-shot $ost lsft)
-  sFn (one-shot $ost fn)
+  ;; sFn (one-shot $ost fn)
   sWin (multi (one-shot $ost lmet) (one-shot $ost lctl) (one-shot $ost lalt))
   sHyp (multi (one-shot $ost lmet) (one-shot $ost lctl) (one-shot $ost lalt) (one-shot $ost lsft))
   cw (caps-word 2000)
@@ -94,7 +94,7 @@
 (deflayer tl
   _   esc   @sWin   XX     XX    XX       XX  XX   @upf   XX    @cw   _
   _  @sAlt  @sCtl  @sSft  @sMet lrld      @btb  @leff  @dowf  @rigf   tab   _
-  _   @sFn   XX    @sHyp   XX    XX       XX   XX     XX     XX     XX   _
+  _   XX   XX    @sHyp   XX    XX       XX   XX     XX     XX     XX   _
                XX                  _                 @tr
 )
 
