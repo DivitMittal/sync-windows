@@ -25,7 +25,8 @@ set -gx EDITOR 'nvim'
 set -gx VISUAL 'nvim'
 # Adding to PATH env var
 fish_add_path $HOME/.local/bin
-
+fish_add_path $HOME/scoop/shims
+fish_add_path /mingw64/bin
 
 ################################## Additional Programs ##############################################
 if status --is-interactive
@@ -47,15 +48,15 @@ if status --is-interactive
     alias showid "id | sed 's/ /\n/g' | sed 's/,/\n/g'"
 
     # Mapping "ls" to "eza"
-    # set -l eza_params "--all" "--classify" "--icons=always" "--group-directories-first" "--color=always" "--color-scale" "--color-scale-mode=gradient" "--hyperlink"
-    # alias ll "eza -lbhHigUmuSa@ $eza_params"
-    # alias lt "eza -T --level=2 $eza_params" # tree listing with depth 2
-    # alias ls "eza $eza_params"
+    alias ls "ls --almost-all --group-directories-first"
+    alias ll "ls --almost-all --group-directories-first -lH"
 
     # Other similar mappings
     # alias man 'batman'
     # alias cat 'bat'
     # alias ff 'fastfetch --logo-type iterm --logo $HOME/Sync-macOS/assets/a-12.png --pipe false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --gpu-temp true --cpu-temp true --title-color-user magenta --title-color-at blue --cpu-format "{1} @ {#4;35}{8}°C{#}" --gpu-format "{2} @ {#4;35}{4}°C{#}"'
+
+    alias pacman-backup 'pacman -Qe 1> $HOME/backup/msys_pacman.txt'
 
     # Directory shortcuts for macOS
     alias dt "cd $HOME/Desktop/"
@@ -74,7 +75,6 @@ if status --is-interactive
 
 
     ####################################### Initializations ###############################################
-    # Run Fastfetch - fetch system info
     if type -q fastfetch
         fastfetch
     end

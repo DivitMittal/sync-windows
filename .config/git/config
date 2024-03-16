@@ -1,8 +1,15 @@
 [user]
 	name = DivitM
 	email = 64.69.76.69.74.m@gmail.com
+
+[core]
+	editor       = nvim
+	ignorecase   = false
+	excludesfile = ~/.config/git/ignore
+
 [credential "helperselector"]
 	selected = manager
+
 [status]
   showUntrackedFiles = no
 
