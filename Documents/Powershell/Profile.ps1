@@ -18,6 +18,8 @@ Set-Alias -Name windows-backup -Value Invoke-WinPackageManagerBackup
 
 function Invoke-UltimateWin {
     scoop update
+    scoop update --all
+    scoop cleanup --all
     winget upgrade --all
     windows-backup
 }
@@ -159,7 +161,7 @@ Set-Alias -Name zi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 # Initializations
 #########################################################################################
 
-# Winfetch 
+# Winfetch
 winfetch
 
 # Starship prompt
