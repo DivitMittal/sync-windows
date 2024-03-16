@@ -1,0 +1,10 @@
+[user]
+	name = DivitM
+	email = 64.69.76.69.74.m@gmail.com
+[credential "helperselector"]
+	selected = manager
+[status]
+  showUntrackedFiles = no
+
+[safe]
+	directory = *

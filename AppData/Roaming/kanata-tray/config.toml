@@ -2,17 +2,15 @@
 # See https://github.com/rszyma/kanata-tray for help with configuration.
 
 configurations = [
-    "C:\\Users\\div\\.config\\kanata\\custom.kbd",
+    "C:\\Users\\div\\.config\\kanata\\a.kbd",
 ]
 
 executables = [
-    "C:\\Users\\div\\scoop\\shims\\kanata-cmd.exe",
+    "C:\\Users\\div\\Projects\\kanata\\target\\release\\kanata.exe",
 ]
 
-[layer_icons]
-
-
 [general]
+launch_on_start = true
 include_executables_from_system_path = false
 include_configs_from_default_locations = false
-launch_on_start = true
+
