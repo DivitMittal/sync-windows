@@ -6,16 +6,15 @@ $env:Path += 'C:\Users\div\scoop\apps\neovim\0.9.5\bin;'
 #################################################################################
 # Aliases
 #################################################################################
-Set-Alias -Name neovim -Value nvim
-
+### windows-backup
 function Invoke-WinPackageManagerBackup {
     $backupDir = "$HOME/backup/"
     scoop list > "$backupDir/scoop_backup.txt"
     winget list > "$backupDir/winget_backup.txt"
 }
-
 Set-Alias -Name windows-backup -Value Invoke-WinPackageManagerBackup
 
+### windows-ultimate
 function Invoke-UltimateWin {
     scoop update
     scoop update --all
@@ -23,13 +22,25 @@ function Invoke-UltimateWin {
     winget upgrade --all
     windows-backup
 }
-
 Set-Alias -Name windows-ultimate -Value Invoke-UltimateWin
+
+### Eza
+$ezaParams = @("--all", "--classify", "--icons=always", "--group-directories-first", "--color=always", "--color-scale", "--color-scale-mode=gradient", "--hyperlink")
+function Invoke-LsViaEza {
+    $lsCommand = "eza " + ($ezaParams -join " ")
+    Invoke-Expression $lsCommand
+}
+Set-Alias -Name ls -Value Invoke-LsViaEza
+function Invoke-LlViaEza {
+    $llCommand = "eza -lbhHigUmuSa@ " + ($ezaParams -join " ")
+    Invoke-Expression $llCommand
+}
+Set-Alias -Name ll -Value Invoke-LlViaEza
 
 #################################################################################
 # Implementation to manage dotfiles
 #################################################################################
-
+# sw (sync-windows)
 function Invoke-GitWithCustomPaths {
     param(
         [string[]]$Arguments
@@ -48,13 +59,11 @@ function Invoke-GitWithCustomPaths {
     # Invoke the git command
     Invoke-Expression $gitCommand
 }
-
 Set-Alias -Name sw -Value Invoke-GitWithCustomPaths
 
 ################################################################################
 # Utility functions for zoxide.
 ################################################################################
-
 # Call zoxide binary, returning the output as UTF-8.
 function global:__zoxide_bin {
     $encoding = [Console]::OutputEncoding
@@ -66,7 +75,6 @@ function global:__zoxide_bin {
         [Console]::OutputEncoding = $encoding
     }
 }
-
 # pwd based on zoxide's format.
 function global:__zoxide_pwd {
     $cwd = Get-Location
@@ -74,7 +82,6 @@ function global:__zoxide_pwd {
         $cwd.ProviderPath
     }
 }
-
 # cd + custom logic based on the value of _ZO_ECHO.
 function global:__zoxide_cd($dir, $literal) {
     $dir = if ($literal) {
@@ -91,7 +98,6 @@ function global:__zoxide_cd($dir, $literal) {
         }
     }
 }
-
 # Hook configuration for zoxide.
 # Hook to add new entries to the database.
 $global:__zoxide_oldpwd = __zoxide_pwd
@@ -104,13 +110,11 @@ function global:__zoxide_hook {
         $global:__zoxide_oldpwd = $result
     }
 }
-
 # Initialize hook.
 $global:__zoxide_hooked = (Get-Variable __zoxide_hooked -ErrorAction SilentlyContinue -ValueOnly)
 if ($global:__zoxide_hooked -ne 1) {
     $global:__zoxide_hooked = 1
     $global:__zoxide_prompt_old = $function:prompt
-
     function global:prompt {
         if ($null -ne $__zoxide_prompt_old) {
             & $__zoxide_prompt_old
@@ -118,7 +122,6 @@ if ($global:__zoxide_hooked -ne 1) {
         $null = __zoxide_hook
     }
 }
-
 # When using zoxide with --no-cmd, alias these internal functions as desired.
 # Jump to a directory using only keywords.
 function global:__zoxide_z {
@@ -144,7 +147,6 @@ function global:__zoxide_z {
         }
     }
 }
-
 # Jump to a directory using interactive search.
 function global:__zoxide_zi {
     $result = __zoxide_bin query -i -- @args
@@ -152,15 +154,13 @@ function global:__zoxide_zi {
         __zoxide_cd $result $true
     }
 }
-
 # Commands for zoxide. Disable these using --no-cmd.
-Set-Alias -Name z -Value __zoxide_z -Option AllScope -Scope Global -Force
-Set-Alias -Name zi -Value __zoxide_zi -Option AllScope -Scope Global -Force
+Set-Alias -Name cd -Value __zoxide_z -Option AllScope -Scope Global -Force
+Set-Alias -Name cdi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 
 #########################################################################################
 # Initializations
 #########################################################################################
-
 # Winfetch
 winfetch
 

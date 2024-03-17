@@ -27,6 +27,7 @@ set -gx VISUAL 'nvim'
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/scoop/shims
 fish_add_path /mingw64/bin
+fish_add_path $HOME/scoop/persist/rustup/.cargo/bin
 
 ################################## Additional Programs ##############################################
 if status --is-interactive
@@ -40,25 +41,27 @@ if status --is-interactive
     # PatrickF1/fzf.fish plugin environment variables
     set -gx fzf_fd_opts --hidden
     set -gx fzf_preview_dir_cmd eza --all --color=always --icons=always --classify --group-directories-first --group --hyperlink --color-scale --color-scale-mode=gradient
-    # GNU Screen config env var
-    set -gx SCREENRC $HOME/.config/screen/screenrc
 
     ############################################ Aliases #################################################
     alias showpath 'echo $PATH | sed "s/ /\n/g"'
     alias showid "id | sed 's/ /\n/g' | sed 's/,/\n/g'"
 
+    # Remapping ls
+    # alias ls "ls --almost-all --group-directories-first"
+    # alias ll "ls --almost-all --group-directories-first -lH"
     # Mapping "ls" to "eza"
-    alias ls "ls --almost-all --group-directories-first"
-    alias ll "ls --almost-all --group-directories-first -lH"
+    set -l eza_params "--all" "--classify" "--icons=always" "--group-directories-first" "--color=always" "--color-scale" "--color-scale-mode=gradient" "--hyperlink"
+    alias ll "eza -lbhHigUmuSa@ $eza_params"
+    alias lt "eza -T --level=2 $eza_params" # tree listing with depth 2
+    alias ls "eza $eza_params"
 
     # Other similar mappings
-    # alias man 'batman'
-    # alias cat 'bat'
-    # alias ff 'fastfetch --logo-type iterm --logo $HOME/Sync-macOS/assets/a-12.png --pipe false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --gpu-temp true --cpu-temp true --title-color-user magenta --title-color-at blue --cpu-format "{1} @ {#4;35}{8}°C{#}" --gpu-format "{2} @ {#4;35}{4}°C{#}"'
+    alias cat 'bat'
+    alias ff 'fastfetch --pipe false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --gpu-temp true --cpu-temp true --title-color-user magenta --title-color-at blue --cpu-format "{1} @ {#4;35}{8}°C{#}" --gpu-format "{2} @ {#4;35}{4}°C{#}"'
 
     alias pacman-backup 'pacman -Qe 1> $HOME/backup/msys_pacman.txt'
 
-    # Directory shortcuts for macOS
+    # Directory shortcuts
     alias dt "cd $HOME/Desktop/"
     alias dl "cd $HOME/Downloads/"
 
@@ -73,15 +76,20 @@ if status --is-interactive
     abbr --position command --add gitf 'git fetch'
     abbr --position command --add gitc 'git commit'
 
-
     ####################################### Initializations ###############################################
-    if type -q fastfetch
-        fastfetch
-    end
-
     # Starship - custom shell prompt
     if type -q starship
         starship init fish | source
+    end
+
+    # Zoxide utility - smarter cd
+    if type -q zoxide
+        zoxide init --cmd cd fish | source
+    end
+
+    # Atuin - magical shell history
+    if type -q atuin
+        atuin init fish | source
     end
 end
 
