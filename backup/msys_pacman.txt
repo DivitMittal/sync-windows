@@ -3,7 +3,4 @@ filesystem 2023.02.07-1
 fish 3.7.0-1
 mingw-w64-x86_64-bat 0.24.0-3
 mingw-w64-x86_64-fastfetch 2.8.9-1
-mingw-w64-x86_64-fzf 0.46.1-1
-mingw-w64-x86_64-starship 1.17.1-2
 msys2-runtime 3.4.10-5
-vim 9.1.0000-1

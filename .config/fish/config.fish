@@ -24,9 +24,9 @@ end
 set -gx EDITOR 'nvim'
 set -gx VISUAL 'nvim'
 # Adding to PATH env var
+fish_add_path /mingw64/bin
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/scoop/shims
-fish_add_path /mingw64/bin
 fish_add_path $HOME/scoop/persist/rustup/.cargo/bin
 
 ################################## Additional Programs ##############################################

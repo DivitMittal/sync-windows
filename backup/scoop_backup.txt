@@ -21,6 +21,6 @@ speedtest-cli 1.2.0                    main                   2024-02-01 05:44:5
 starship      1.17.1                   main                   2024-01-27 06:40:16 
 steam         nightly-20240127         games                  2024-01-27 05:40:43 
 vscode        1.87.2                   extras                 2024-03-16 16:45:23 
-wezterm       20230712-072601-f4abf8fd extras                 2024-01-27 06:41:28 Install failed
+wezterm       20240203-110809-5046fc22 extras                 2024-03-18 14:34:20 
 zoxide        0.9.4                    main                   2024-03-16 16:43:45 
 
