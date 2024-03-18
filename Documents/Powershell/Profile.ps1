@@ -1,7 +1,9 @@
 #################################################################################
 # Environment Variables
 #################################################################################
-$env:Path += 'C:\Users\div\scoop\apps\neovim\0.9.5\bin;'
+$env:Path += 'C:\Users\div\scoop\shims;'
+$env:Path += 'C:\Users\div\.local\bin;'
+$env:Path += 'C:\Users\div\scoop\apps\msys2\current\mingw64\bin;'
 
 #################################################################################
 # Aliases
