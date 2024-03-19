@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="plugin_audiodeviceselector_plugin_name">音频设备切换</system:String>
+    <system:String x:Key="plugin_audiodeviceselector_plugin_description">快速切换当前的音频播放设备</system:String>
+
+    <system:String x:Key="plugin_audiodeviceselector_device_not_found">未找到设备 '{0}'</system:String>
+    <system:String x:Key="plugin_audiodeviceselector_error_while_changing_device">在切换设备时发生了错误</system:String>
+
+    <system:String x:Key="plugin_audiodeviceselector_settings_devicename_displaymode">设备名称显示模式:</system:String>
+
+    <system:String x:Key="plugin_audiodeviceselector_settings_friendlynameoption">设备友好名称</system:String>
+    <system:String x:Key="plugin_audiodeviceselector_settings_devicenameoption">设备名称优先</system:String>
+    <system:String x:Key="plugin_audiodeviceselector_settings_devicedescriptionoption">设备描述优先</system:String>
+
+</ResourceDictionary>

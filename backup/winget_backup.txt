@@ -1,4 +1,4 @@
-   -    \                                                                                                                            -                                                                                                                         Name                                          Id                                             Version            Source
+   -                                                                                                                            -                                                                                                                         Name                                          Id                                             Version            Source
 -----------------------------------------------------------------------------------------------------------------------
 CPU Monitor for Game Bar                      62269AlexShats.CPUMonitorforGameBar_gghb1w55m… 0.1.5.0            
 AMD Software                                  AMD Catalyst Install Manager                   23.9.3             
@@ -26,7 +26,7 @@ Microsoft Photos                              Microsoft.Windows.Photos_8wekyb3d8
 WindowsAppRuntime.1.3                         Microsoft.WindowsAppRuntime.1.3_8wekyb3d8bbwe  3000.934.1904.0    
 Windows Camera                                Microsoft.WindowsCamera_8wekyb3d8bbwe          2023.2312.3.0      
 Microsoft Store                               Microsoft.WindowsStore_8wekyb3d8bbwe           22401.1401.7.0     
-Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.318.947.752   
+Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.319.113.277   
 Game Bar                                      Microsoft.XboxGamingOverlay_8wekyb3d8bbwe      7.124.2141.0       
 Visual Studio Enterprise 2022                 Microsoft.VisualStudio.2022.Enterprise         17.9.3             winget
 vs_CoreEditorFonts                            {1851460E-0E63-4117-B5BA-25A2F045801B}         17.7.40001         

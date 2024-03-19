@@ -1,0 +1,156 @@
+{
+  "Items": [
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-18T14:50:07.2562188+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-18T14:51:52.6237307+05:30"
+    },
+    {
+      "Query": "pythonw",
+      "ExecutedDateTime": "2024-03-18T14:54:16.1072046+05:30"
+    },
+    {
+      "Query": "\u003E scoop list",
+      "ExecutedDateTime": "2024-03-18T14:54:58.081896+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-18T15:42:21.0492913+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-18T15:43:00.8264388+05:30"
+    },
+    {
+      "Query": "restar",
+      "ExecutedDateTime": "2024-03-18T15:43:54.2467516+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-19T10:26:48.1881958+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-19T10:31:27.1300323+05:30"
+    },
+    {
+      "Query": "pm install ga",
+      "ExecutedDateTime": "2024-03-19T10:32:58.9926515+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-03-19T10:33:39.2417385+05:30"
+    },
+    {
+      "Query": "pm install s",
+      "ExecutedDateTime": "2024-03-19T10:51:39.8337286+05:30"
+    },
+    {
+      "Query": "pm install d",
+      "ExecutedDateTime": "2024-03-19T10:51:45.5071389+05:30"
+    },
+    {
+      "Query": "pm install c",
+      "ExecutedDateTime": "2024-03-19T10:52:31.4934984+05:30"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2024-03-19T10:53:34.6828786+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-03-19T11:36:59.8252824+05:30"
+    },
+    {
+      "Query": "pm install",
+      "ExecutedDateTime": "2024-03-19T11:37:48.2889436+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-03-19T11:38:15.6561895+05:30"
+    },
+    {
+      "Query": "wst",
+      "ExecutedDateTime": "2024-03-19T11:39:32.4764182+05:30"
+    },
+    {
+      "Query": "task",
+      "ExecutedDateTime": "2024-03-19T12:12:44.8709259+05:30"
+    },
+    {
+      "Query": "wez",
+      "ExecutedDateTime": "2024-03-19T12:18:35.113302+05:30"
+    },
+    {
+      "Query": "flow",
+      "ExecutedDateTime": "2024-03-19T12:20:00.933807+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-19T12:23:40.2908935+05:30"
+    },
+    {
+      "Query": "pm install Registry a",
+      "ExecutedDateTime": "2024-03-19T12:24:30.5170702+05:30"
+    },
+    {
+      "Query": "pm install au",
+      "ExecutedDateTime": "2024-03-19T12:24:42.5951883+05:30"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2024-03-19T12:24:58.8684409+05:30"
+    },
+    {
+      "Query": "pm install One-time Password",
+      "ExecutedDateTime": "2024-03-19T12:26:58.5487044+05:30"
+    },
+    {
+      "Query": "flow",
+      "ExecutedDateTime": "2024-03-19T12:27:17.3285329+05:30"
+    },
+    {
+      "Query": "update",
+      "ExecutedDateTime": "2024-03-19T12:27:51.5592529+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-19T12:28:14.4132761+05:30"
+    },
+    {
+      "Query": "lucky hi",
+      "ExecutedDateTime": "2024-03-19T12:34:43.5000148+05:30"
+    },
+    {
+      "Query": "#",
+      "ExecutedDateTime": "2024-03-19T12:35:10.8133484+05:30"
+    },
+    {
+      "Query": "pm install FlowRaindrop",
+      "ExecutedDateTime": "2024-03-19T12:35:27.1364216+05:30"
+    },
+    {
+      "Query": "wst",
+      "ExecutedDateTime": "2024-03-19T12:36:11.8226792+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-19T12:38:00.8539005+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-19T12:40:51.4788849+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-19T12:42:14.7764616+05:30"
+    },
+    {
+      "Query": "pm install Shortcuts",
+      "ExecutedDateTime": "2024-03-19T12:43:41.876805+05:30"
+    }
+  ]
+}

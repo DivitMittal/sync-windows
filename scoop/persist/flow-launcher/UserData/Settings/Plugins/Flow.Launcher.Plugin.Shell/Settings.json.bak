@@ -1,0 +1,12 @@
+{
+  "Shell": 0,
+  "ReplaceWinR": false,
+  "CloseShellAfterPress": false,
+  "LeaveShellOpen": false,
+  "RunAsAdministrator": true,
+  "ShowOnlyMostUsedCMDs": false,
+  "ShowOnlyMostUsedCMDsNumber": 0,
+  "CommandHistory": {
+    "scoop list": 1
+  }
+}

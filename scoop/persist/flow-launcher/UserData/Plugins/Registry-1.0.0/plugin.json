@@ -1,0 +1,12 @@
+﻿{
+  "ID": "8533B2E5632A449F916D3658EABFB595",
+  "ActionKeyword": "reg",
+  "Name": "Registry",
+  "Description": "Navigate the registry and jump to specific keys in Registry Editor.",
+  "Author": "Ioannis G. (@JohnTheGr8)",
+  "Version": "1.0.0",
+  "Language": "fsharp",
+  "Website": "https://github.com/JohnTheGr8/Flow.Plugin.RegJump",
+  "IcoPath": "icon.png",
+  "ExecuteFileName": "Flow.Plugin.RegJump.dll"
+}

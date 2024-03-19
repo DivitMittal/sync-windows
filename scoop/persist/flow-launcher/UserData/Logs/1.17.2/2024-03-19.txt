@@ -1,0 +1,904 @@
+10:16:05.4115+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+10:16:05.4141+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+10:16:05.6739+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <2ms>
+10:16:05.6739+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <2ms>
+10:16:05.6739+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <2ms>
+10:16:05.6739+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <16ms>
+10:16:05.6985+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:16:05.6985+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <32ms>
+10:16:05.6985+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <32ms>
+10:16:05.6985+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <38ms>
+10:16:05.7112+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+10:16:05.7112+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+10:16:05.7112+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+10:16:05.7112+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <44ms>
+10:16:05.7112+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <51ms>
+10:16:05.7270+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:16:05.7270+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:16:05.7270+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:16:05.7270+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <74ms>
+10:16:05.7462+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <79ms>
+10:16:06.1099+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <439ms>
+10:16:06.9335+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+10:16:07.0185+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <1303ms>
+10:16:07.0185+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <59>, Images Number: 59, Unique Items 48
+10:16:07.1987+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+10:16:07.1987+05:30 - INFO  - App.OnStartup - Startup cost <1891ms>
+10:30:24.8144+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:30:24.8144+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:30:24.8144+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:30:24.8144+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:32:43.7606+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+10:32:43.7606+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+10:32:44.0100+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+10:32:44.0100+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+10:32:44.0100+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+10:32:44.0100+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <16ms>
+10:32:44.0300+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:32:44.0300+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <25ms>
+10:32:44.0300+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <29ms>
+10:32:44.0396+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <34ms>
+10:32:44.0396+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <7ms>
+10:32:44.0396+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+10:32:44.0396+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+10:32:44.0396+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <39ms>
+10:32:44.0396+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <46ms>
+10:32:44.0579+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:32:44.0579+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:32:44.0579+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:32:44.0579+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <61ms>
+10:32:44.0715+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <69ms>
+10:32:44.2441+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:32:44.2441+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:32:44.2441+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <242ms>
+10:32:44.8509+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+10:32:45.0679+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+10:32:45.0690+05:30 - INFO  - App.OnStartup - Startup cost <1391ms>
+10:32:45.4993+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <1453ms>
+10:32:45.4993+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <80>, Images Number: 80, Unique Items 64
+10:33:02.9554+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+10:33:02.9554+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+10:33:03.2035+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+10:33:03.2035+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+10:33:03.2035+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+10:33:03.2035+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <16ms>
+10:33:03.2274+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:33:03.2274+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <29ms>
+10:33:03.2274+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <33ms>
+10:33:03.2274+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <37ms>
+10:33:03.2274+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <9ms>
+10:33:03.2274+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+10:33:03.2274+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+10:33:03.2458+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <46ms>
+10:33:03.2458+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <48ms>
+10:33:03.2624+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:33:03.2624+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:33:03.2624+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:33:03.2747+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <78ms>
+10:33:03.2747+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <82ms>
+10:33:03.3187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <120ms>
+10:33:03.4398+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:33:03.4398+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <243ms>
+10:33:03.5981+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+10:33:03.7876+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+10:33:03.7876+05:30 - INFO  - App.OnStartup - Startup cost <916ms>
+10:33:06.6131+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <3373ms>
+10:33:06.6131+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <99>, Images Number: 99, Unique Items 83
+10:50:58.7386+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:50:58.7386+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:50:58.7386+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:50:58.7386+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:51:21.7024+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+10:51:21.7024+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+10:51:21.9650+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+10:51:21.9650+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+10:51:21.9650+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+10:51:21.9650+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <16ms>
+10:51:21.9892+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:21.9923+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <32ms>
+10:51:21.9923+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <33ms>
+10:51:21.9923+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <37ms>
+10:51:21.9923+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <8ms>
+10:51:21.9923+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+10:51:21.9923+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+10:51:22.0070+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <45ms>
+10:51:22.0070+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <48ms>
+10:51:22.0270+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:22.0270+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:22.0270+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:51:22.0270+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <74ms>
+10:51:22.0410+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <83ms>
+10:51:22.0786+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <117ms>
+10:51:22.2372+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:22.2409+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <280ms>
+10:51:22.4101+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+10:51:22.6140+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+10:51:22.6140+05:30 - INFO  - App.OnStartup - Startup cost <999ms>
+10:51:28.6815+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <6681ms>
+10:51:28.6815+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <83>, Images Number: 83, Unique Items 63
+10:51:49.2795+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+10:51:49.2795+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+10:51:49.5498+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <2ms>
+10:51:49.5498+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+10:51:49.5498+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+10:51:49.5498+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <17ms>
+10:51:49.5736+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:49.5736+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <33ms>
+10:51:49.5736+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <34ms>
+10:51:49.5879+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <42ms>
+10:51:49.5879+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <11ms>
+10:51:49.5879+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+10:51:49.5879+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+10:51:49.5879+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <54ms>
+10:51:49.6186+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <72ms>
+10:51:49.6186+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:49.6186+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:49.6186+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:51:49.6332+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <90ms>
+10:51:49.6332+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <102ms>
+10:51:49.6898+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <143ms>
+10:51:49.8031+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:51:49.8124+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <266ms>
+10:51:50.1581+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <613ms>
+10:51:50.3311+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+10:51:50.5585+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+10:51:50.5585+05:30 - INFO  - App.OnStartup - Startup cost <1363ms>
+10:51:52.9877+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <3399ms>
+10:51:52.9877+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <59>, Images Number: 59, Unique Items 48
+10:52:34.0726+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+10:52:34.0726+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+10:52:34.3466+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+10:52:34.3466+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+10:52:34.3466+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+10:52:34.3611+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <32ms>
+10:52:34.3678+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <27ms>
+10:52:34.3678+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:52:34.3678+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <35ms>
+10:52:34.3678+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <36ms>
+10:52:34.3854+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <43ms>
+10:52:34.3854+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <11ms>
+10:52:34.3854+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+10:52:34.3854+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+10:52:34.3854+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <54ms>
+10:52:34.3978+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <59ms>
+10:52:34.4272+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:52:34.4272+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:52:34.4272+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:52:34.4372+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <99ms>
+10:52:34.4372+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <103ms>
+10:52:34.5063+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <165ms>
+10:52:34.6860+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:52:34.6860+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+10:52:34.6860+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+10:52:34.6860+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <347ms>
+10:52:35.2127+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <872ms>
+10:52:35.4717+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+10:52:35.8465+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+10:52:35.8465+05:30 - INFO  - App.OnStartup - Startup cost <1861ms>
+10:52:38.8541+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <4469ms>
+10:52:38.8541+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <80>, Images Number: 80, Unique Items 69
+11:11:08.0655+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+11:11:08.0655+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+11:11:08.3368+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+11:11:08.3368+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+11:11:08.3368+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+11:11:08.3368+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <27ms>
+11:11:08.3368+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <22ms>
+11:11:08.3368+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:11:08.3528+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <32ms>
+11:11:08.3528+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <35ms>
+11:11:08.3528+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <40ms>
+11:11:08.3528+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <11ms>
+11:11:08.3528+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+11:11:08.3528+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+11:11:08.3700+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <49ms>
+11:11:08.3700+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <56ms>
+11:11:08.4017+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:11:08.4017+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:11:08.4017+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+11:11:08.4138+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <96ms>
+11:11:08.4138+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <103ms>
+11:11:08.4690+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <148ms>
+11:11:08.6031+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:11:08.6031+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <289ms>
+11:11:09.0392+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <719ms>
+11:11:09.3067+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+11:11:09.6644+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+11:11:09.6644+05:30 - INFO  - App.OnStartup - Startup cost <1683ms>
+11:11:12.5933+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <4232ms>
+11:11:12.5933+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <69>, Images Number: 69, Unique Items 56
+11:37:10.0671+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:10.0671+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:10.0671+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:10.0671+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+11:37:20.3256+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+11:37:20.3256+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+11:37:20.6204+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+11:37:20.6204+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+11:37:20.6204+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+11:37:20.6204+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <29ms>
+11:37:20.6204+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <25ms>
+11:37:20.6325+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:20.6325+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <34ms>
+11:37:20.6325+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <34ms>
+11:37:20.6469+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <43ms>
+11:37:20.6469+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <12ms>
+11:37:20.6469+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+11:37:20.6469+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+11:37:20.6469+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <53ms>
+11:37:20.6469+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <56ms>
+11:37:20.6856+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:20.6856+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:20.6856+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+11:37:20.6989+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <98ms>
+11:37:20.7147+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <115ms>
+11:37:20.7553+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <151ms>
+11:37:20.8768+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:20.8825+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <280ms>
+11:37:21.2728+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <670ms>
+11:37:21.5192+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+11:37:21.8614+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+11:37:21.8614+05:30 - INFO  - App.OnStartup - Startup cost <1629ms>
+11:37:27.9362+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <7289ms>
+11:37:27.9362+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <90>, Images Number: 90, Unique Items 67
+11:37:51.9448+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+11:37:51.9448+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+11:37:52.2175+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+11:37:52.2175+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+11:37:52.2175+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+11:37:52.2335+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <30ms>
+11:37:52.2405+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <28ms>
+11:37:52.2405+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:52.2405+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <36ms>
+11:37:52.2405+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <37ms>
+11:37:52.2405+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <19ms>
+11:37:52.2574+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <44ms>
+11:37:52.2574+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <11ms>
+11:37:52.2574+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+11:37:52.2574+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+11:37:52.2574+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <55ms>
+11:37:52.2734+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <63ms>
+11:37:52.3130+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:52.3130+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:52.3130+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+11:37:52.3130+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <106ms>
+11:37:52.3263+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <116ms>
+11:37:52.3839+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <170ms>
+11:37:52.5238+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:52.5238+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+11:37:52.5238+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+11:37:52.5238+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <312ms>
+11:37:52.9331+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <719ms>
+11:37:53.1169+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+11:37:53.3259+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+11:37:53.3259+05:30 - INFO  - App.OnStartup - Startup cost <1470ms>
+11:37:56.5990+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <4339ms>
+11:37:56.6007+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <69>, Images Number: 69, Unique Items 58
+11:38:39.9910+05:30 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+11:39:41.0726+05:30 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+11:39:47.8591+05:30 - FATAL - UnHandledException - 
+## Exception
+
+```
+System.IO.InvalidDataException: Traceback (most recent call last):
+  File "C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Windows Startup-1.0.2\run.py", line 12, in <module>
+    WindowsStartup()
+  File "C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Windows Startup-1.0.2\lib\flox\flox.py", line 104, in __init__
+    super().__init__()
+  File "C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Windows Startup-1.0.2\lib\flox\launcher.py", line 28, in __init__
+    results = request_method(*request_parameters)
+  File "C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Windows Startup-1.0.2\plugin\windows_startup.py", line 89, in open_program
+    os.startfile(path)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\div\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\EPKL.exe - Shortcut.lnk'
+
+   Source: Flow.Launcher.Core
+   TargetAssembly: Flow.Launcher.Core, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null
+   TargetModule: Flow.Launcher.Core.dll
+   TargetSite: Void MoveNext()
+   at Flow.Launcher.Core.Plugin.JsonRPCPlugin.ExecuteAsync(ProcessStartInfo startInfo, CancellationToken token) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\JsonRPCPlugin.cs:line 243
+   at Flow.Launcher.Core.Plugin.JsonRPCPlugin.ExecuteAsync(ProcessStartInfo startInfo, CancellationToken token) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\JsonRPCPlugin.cs:line 248
+   at Flow.Launcher.Core.Plugin.JsonRPCPlugin.ExecuteResultAsync(JsonRPCResult result) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\JsonRPCPlugin.cs:line 117
+   at Flow.Launcher.Core.Plugin.JsonRPCPluginBase.<>c__DisplayClass18_0.<<ParseResults>b__0>d.MoveNext() in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\JsonRPCPluginBase.cs:line 89
+--- End of stack trace from previous location ---
+   at Flow.Launcher.ViewModel.MainViewModel.OpenResultAsync(String index) in C:\projects\flow-launcher\Flow.Launcher\ViewModel\MainViewModel.cs:line 294
+   at CommunityToolkit.Mvvm.Input.AsyncRelayCommand.AwaitAndThrowIfFailed(Task executionTask)
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+```
+
+## Environment
+* Command Line: C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Flow.Launcher.dll
+* Timestamp: 03/19/2024 11:39:47
+* Flow Launcher version: 1.17.2
+* OS Version: 19045.4170
+* IntPtr Length: 8
+* x64: True
+* Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+* Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+* CLR Version: 7.0.14
+* Installed .NET Framework: 
+   * v4 Client 4.8.09037
+   * v4 Full 4.8.09037
+   * v4.0 Client 4.0.0.0
+
+## Assemblies - Flow.Launcher
+
+* System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Private.CoreLib.dll)
+* Flow.Launcher, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Flow.Launcher.dll)
+* PresentationFramework, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\PresentationFramework.dll)
+* WindowsBase, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\WindowsBase.dll)
+* System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.dll)
+* System.Xaml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Xaml.dll)
+* System.Threading, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Threading.dll)
+* System.IO.Pipes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.IO.Pipes.dll)
+* System.Security.AccessControl, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Security.AccessControl.dll)
+* System.Security.Principal.Windows, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Security.Principal.Windows.dll)
+* System.Runtime.InteropServices, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.InteropServices.dll)
+* System.Threading.ThreadPool, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Threading.ThreadPool.dll)
+* System.Configuration.ConfigurationManager, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Configuration.ConfigurationManager.dll)
+* System.ObjectModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.ObjectModel.dll)
+* Flow.Launcher.Core, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Flow.Launcher.Core.dll)
+* Flow.Launcher.Infrastructure, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Flow.Launcher.Infrastructure.dll)
+* System.Collections, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Collections.dll)
+* System.ComponentModel.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.ComponentModel.Primitives.dll)
+* System.Private.Uri, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Private.Uri.dll)
+* PresentationCore, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\PresentationCore.dll)
+* System.Security.Cryptography, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Security.Cryptography.dll)
+* System.Collections.Concurrent, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Collections.Concurrent.dll)
+* System.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Memory.dll)
+* System.ComponentModel.TypeConverter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.ComponentModel.TypeConverter.dll)
+* System.Xml.ReaderWriter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Xml.ReaderWriter.dll)
+* System.Private.Xml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Private.Xml.dll)
+* System.Collections.Specialized, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Collections.Specialized.dll)
+* System.Net.WebClient, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.WebClient.dll)
+* System.ComponentModel.EventBasedAsync, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.ComponentModel.EventBasedAsync.dll)
+* System.Text.Encoding.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Text.Encoding.Extensions.dll)
+* System.Threading.Thread, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Threading.Thread.dll)
+* System.Runtime.Serialization.Formatters, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.Serialization.Formatters.dll)
+* System.Xml.XmlSerializer, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Xml.XmlSerializer.dll)
+* System.IO.Packaging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.IO.Packaging.dll)
+* DirectWriteForwarder, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\DirectWriteForwarder.dll)
+* System.Runtime.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.Extensions.dll)
+* System.Diagnostics.Debug, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.Debug.dll)
+* System.Runtime.CompilerServices.VisualC, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.CompilerServices.VisualC.dll)
+* Microsoft.Win32.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Win32.Primitives.dll)
+* System.Collections.NonGeneric, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Collections.NonGeneric.dll)
+* Microsoft.Win32.Registry, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Win32.Registry.dll)
+* System.Linq, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Linq.dll)
+* System.Diagnostics.TraceSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.TraceSource.dll)
+* System.Windows.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Windows.Extensions.dll)
+* System.ComponentModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.ComponentModel.dll)
+* ModernWpf, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\ModernWpf.dll)
+* System.Net.Requests, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Requests.dll)
+* System.Net.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Primitives.dll)
+* System.Net.WebHeaderCollection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.WebHeaderCollection.dll)
+* System.Runtime.Loader, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.Loader.dll)
+* Microsoft.Windows.SDK.NET, Version=10.0.19041.24, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Windows.SDK.NET.dll)
+* WinRT.Runtime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=99ea127f02d97709 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\WinRT.Runtime.dll)
+* Microsoft.Win32.SystemEvents, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Win32.SystemEvents.dll)
+* System.Runtime.CompilerServices.Unsafe, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.CompilerServices.Unsafe.dll)
+* System.Linq.Expressions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Linq.Expressions.dll)
+* System.Security.Cryptography.Algorithms, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Security.Cryptography.Algorithms.dll)
+* System.Numerics.Vectors, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Numerics.Vectors.dll)
+* System.Reflection.Emit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Reflection.Emit.dll)
+* Snippets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (dynamic assembly doesn't has location)
+* UIAutomationTypes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UIAutomationTypes.dll)
+* System.Diagnostics.Process, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.Process.dll)
+* PresentationFramework.Aero2, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\PresentationFramework.Aero2.dll)
+* ModernWpf.Controls, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\ModernWpf.Controls.dll)
+* mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\mscorlib.dll)
+* Flow.Launcher.Plugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Flow.Launcher.Plugin.dll)
+* System.Text.Encoding.CodePages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Text.Encoding.CodePages.dll)
+* System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Text.Json.dll)
+* NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\NLog.dll)
+* netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\netstandard.dll)
+* System.Diagnostics.FileVersionInfo, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.FileVersionInfo.dll)
+* System.IO.FileSystem.Watcher, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.IO.FileSystem.Watcher.dll)
+* System.Data.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Data.Common.dll)
+* System.Net.Mail, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Mail.dll)
+* System.Net.Sockets, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Sockets.dll)
+* NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\NLog.Extensions.Logging.dll)
+* Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Extensions.Logging.Abstractions.dll)
+* Microsoft.Extensions.Logging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Extensions.Logging.dll)
+* NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\NLog.Web.AspNetCore.dll)
+* MemoryPack.Core, Version=1.10.0.0, Culture=neutral, PublicKeyToken=df4c250b14d82627 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\MemoryPack.Core.dll)
+* System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Collections.Immutable.dll)
+* System.Text.Encodings.Web, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Text.Encodings.Web.dll)
+* System.Runtime.Numerics, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.Numerics.dll)
+* System.Reflection.Emit.Lightweight, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Reflection.Emit.Lightweight.dll)
+* System.Reflection.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Reflection.Primitives.dll)
+* System.Reflection.Emit.ILGeneration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Reflection.Emit.ILGeneration.dll)
+* System.Runtime.Intrinsics, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.Intrinsics.dll)
+* System.Drawing.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Drawing.Common.dll)
+* Flow.Launcher.Plugin.BrowserBookmark, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\Flow.Launcher.Plugin.BrowserBookmark.dll)
+* Flow.Launcher.Plugin.Caculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Caculator\Flow.Launcher.Plugin.Caculator.dll)
+* Flow.Launcher.Plugin.Explorer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Explorer\Flow.Launcher.Plugin.Explorer.dll)
+* System.Windows.Forms, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Windows.Forms.dll)
+* System.Windows.Forms.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Windows.Forms.Primitives.dll)
+* Flow.Launcher.Plugin.PluginIndicator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.PluginIndicator\Flow.Launcher.Plugin.PluginIndicator.dll)
+* Flow.Launcher.Plugin.PluginsManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.PluginsManager\Flow.Launcher.Plugin.PluginsManager.dll)
+* Flow.Launcher.Plugin.ProcessKiller, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.ProcessKiller\Flow.Launcher.Plugin.ProcessKiller.dll)
+* Flow.Launcher.Plugin.Program, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Program\Flow.Launcher.Plugin.Program.dll)
+* Microsoft.Extensions.Caching.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Extensions.Caching.Memory.dll)
+* Microsoft.Extensions.Options, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Extensions.Options.dll)
+* Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Extensions.Caching.Abstractions.dll)
+* Microsoft.Extensions.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.Extensions.Primitives.dll)
+* Flow.Launcher.Plugin.Shell, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Shell\Flow.Launcher.Plugin.Shell.dll)
+* WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\WindowsInput.dll)
+* Flow.Launcher.Plugin.Sys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Sys\Flow.Launcher.Plugin.Sys.dll)
+* Flow.Launcher.Plugin.Url, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Url\Flow.Launcher.Plugin.Url.dll)
+* System.Text.RegularExpressions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Text.RegularExpressions.dll)
+* Flow.Launcher.Plugin.WebSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.WebSearch\Flow.Launcher.Plugin.WebSearch.dll)
+* Flow.Launcher.Plugin.WindowsSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.WindowsSettings\Flow.Launcher.Plugin.WindowsSettings.dll)
+* Flow.Launcher.Plugin.ClipboardHistory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Clipboard History-1.1.1\Flow.Launcher.Plugin.ClipboardHistory.dll)
+* WindowsInput, Version=1.0.5.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Clipboard History-1.1.1\WindowsInput.dll)
+* Dictionary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Dictionary-2.3.2\Dictionary.dll)
+* GamesLauncher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GamesLauncher.dll)
+* CommunityToolkit.Mvvm, Version=8.2.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\CommunityToolkit.Mvvm.dll)
+* System.Threading.Channels, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Threading.Channels.dll)
+* System.Net.Http, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Http.dll)
+* System.Net.WebProxy, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.WebProxy.dll)
+* System.Net.ServicePoint, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.ServicePoint.dll)
+* System.Net.Security, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Security.dll)
+* System.Diagnostics.Tracing, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.Tracing.dll)
+* System.Diagnostics.DiagnosticSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.DiagnosticSource.dll)
+* GamesLauncher.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GamesLauncher.Common.dll)
+* System.IO.FileSystem, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.IO.FileSystem.dll)
+* Mages.Core, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Caculator\Mages.Core.dll)
+* GamesLauncher.Platforms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GamesLauncher.Platforms.dll)
+* System.Drawing.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Drawing.Primitives.dll)
+* YamlDotNet, Version=9.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\YamlDotNet.dll)
+* System.Net.Http.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Http.Json.dll)
+* Microsoft.Data.Sqlite, Version=6.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Dictionary-2.3.2\Microsoft.Data.Sqlite.dll)
+* System.Threading.Tasks.Parallel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Threading.Tasks.Parallel.dll)
+* NexusMods.Paths, Version=0.1.6.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\NexusMods.Paths.dll)
+* GameFinder.StoreHandlers.Xbox, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GameFinder.StoreHandlers.Xbox.dll)
+* GameFinder.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GameFinder.Common.dll)
+* OneOf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\OneOf.dll)
+* Microsoft.Data.Sqlite, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\Microsoft.Data.Sqlite.dll)
+* GameFinder.RegistryUtils, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GameFinder.RegistryUtils.dll)
+* GameFinder.StoreHandlers.Steam, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GameFinder.StoreHandlers.Steam.dll)
+* GameFinder.StoreHandlers.GOG, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\GameFinder.StoreHandlers.GOG.dll)
+* System.Threading.Overlapped, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Threading.Overlapped.dll)
+* Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Accessibility.dll)
+* SymSpell, Version=6.7.1.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Dictionary-2.3.2\SymSpell.dll)
+* Microsoft.WindowsAPICodePack.Shell, Version=1.1.5.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\Microsoft.WindowsAPICodePack.Shell.dll)
+* Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\Newtonsoft.Json.dll)
+* Microsoft.Data.Sqlite, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\Microsoft.Data.Sqlite.dll)
+* System.Runtime.InteropServices.RuntimeInformation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.InteropServices.RuntimeInformation.dll)
+* SQLitePCLRaw.core, Version=2.1.6.2060, Culture=neutral, PublicKeyToken=1488e028ca7ab535 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\SQLitePCLRaw.core.dll)
+* FluentResults, Version=3.15.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\FluentResults.dll)
+* SQLitePCLRaw.batteries_v2, Version=2.1.6.2060, Culture=neutral, PublicKeyToken=8226ea5df37bcae9 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\SQLitePCLRaw.batteries_v2.dll)
+* System.Net.Quic, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.Quic.dll)
+* SQLitePCLRaw.provider.e_sqlite3, Version=2.1.6.2060, Culture=neutral, PublicKeyToken=9c301db686d0bd12 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\SQLitePCLRaw.provider.e_sqlite3.dll)
+* Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\Microsoft.Extensions.Logging.Abstractions.dll)
+* ValveKeyValue, Version=0.9.0.0, Culture=neutral, PublicKeyToken=c95eae76bf8177c4 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\ValveKeyValue.dll)
+* System.Net.NameResolution, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Net.NameResolution.dll)
+* System.Runtime.Serialization.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Runtime.Serialization.Primitives.dll)
+* System.Diagnostics.StackTrace, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Diagnostics.StackTrace.dll)
+* System.Security.Claims, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Security.Claims.dll)
+* UIAutomationProvider, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UIAutomationProvider.dll)
+* NHotkey.Wpf, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a76ffb086700b11c (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\NHotkey.Wpf.dll)
+* System.Windows.Controls.Ribbon, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Windows.Controls.Ribbon.dll)
+* WindowsFormsIntegration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\WindowsFormsIntegration.dll)
+* PresentationFramework-SystemData, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\PresentationFramework-SystemData.dll)
+* NHotkey, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a76ffb086700b11c (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\NHotkey.dll)
+* Vogen.SharedTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\GamesLauncher-1.9.0\Vogen.SharedTypes.dll)
+* System.Resources.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Resources.Extensions.dll)
+* System.Drawing, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Drawing.dll)
+* Microsoft.VisualStudio.Threading, Version=17.7.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.VisualStudio.Threading.dll)
+* Microsoft.VisualStudio.Validation, Version=17.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.VisualStudio.Validation.dll)
+* System.Linq.Parallel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Linq.Parallel.dll)
+* ToolGood.Words.Pinyin, Version=3.0.1.4, Culture=neutral, PublicKeyToken=d330f4fd115e6143 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\ToolGood.Words.Pinyin.dll)
+* Microsoft.Search.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f748985a6e9a7cb (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Explorer\Microsoft.Search.Interop.dll)
+* System.Linq.Async, Version=6.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Explorer\System.Linq.Async.dll)
+* System.Data.OleDb, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Explorer\runtimes\win\lib\net7.0\System.Data.OleDb.dll)
+* System.Transactions.Local, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Transactions.Local.dll)
+* System.Diagnostics.PerformanceCounter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Plugins\Flow.Launcher.Plugin.Explorer\runtimes\win\lib\net7.0\System.Diagnostics.PerformanceCounter.dll)
+* PresentationFramework-SystemXml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\PresentationFramework-SystemXml.dll)
+* Microsoft.IO.RecyclableMemoryStream, Version=2.3.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\Microsoft.IO.RecyclableMemoryStream.dll)
+* System.Reflection.Metadata, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.Reflection.Metadata.dll)
+* System.IO.MemoryMappedFiles, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\System.IO.MemoryMappedFiles.dll)
+
+11:41:25.3041+05:30 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+11:41:25.3041+05:30 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+11:41:25.3041+05:30 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+11:41:25.3499+05:30 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+11:41:25.3499+05:30 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+11:41:25.3499+05:30 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:15:23.2329+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:15:23.2329+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:15:23.5419+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <15ms>
+12:15:23.5419+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+12:15:23.5419+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <4ms>
+12:15:23.5419+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <4ms>
+12:15:23.5494+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <24ms>
+12:15:23.5494+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:15:23.5494+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <34ms>
+12:15:23.5494+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <36ms>
+12:15:23.5673+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <24ms>
+12:15:23.5673+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <43ms>
+12:15:23.5673+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <12ms>
+12:15:23.5673+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:15:23.5673+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:15:23.5955+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <71ms>
+12:15:23.5955+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <80ms>
+12:15:23.6252+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:15:23.6252+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:15:23.6252+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:15:23.6252+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <116ms>
+12:15:23.6419+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <121ms>
+12:15:23.6967+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <172ms>
+12:15:23.9052+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:15:23.9052+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:15:23.9052+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:15:23.9052+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <384ms>
+12:15:24.1351+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <611ms>
+12:15:24.9301+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:15:25.1831+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:15:25.1831+05:30 - INFO  - App.OnStartup - Startup cost <2068ms>
+12:15:30.6434+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <7074ms>
+12:15:30.6434+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <72>, Images Number: 72, Unique Items 54
+12:19:55.1854+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:19:55.1854+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:19:55.1854+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:19:55.1854+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:21:48.9251+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:21:48.9251+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:21:49.2010+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+12:21:49.2010+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <4ms>
+12:21:49.2010+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <4ms>
+12:21:49.2010+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <28ms>
+12:21:49.2073+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <22ms>
+12:21:49.2073+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:21:49.2073+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <29ms>
+12:21:49.2177+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <34ms>
+12:21:49.2177+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <20ms>
+12:21:49.2177+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+12:21:49.2177+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:21:49.2177+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:21:49.2177+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <42ms>
+12:21:49.2340+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <49ms>
+12:21:49.2340+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <55ms>
+12:21:49.2754+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:21:49.2754+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:21:49.2754+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:21:49.2828+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <102ms>
+12:21:49.2828+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <108ms>
+12:21:49.3383+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <153ms>
+12:21:49.4725+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:21:49.4725+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:21:49.4725+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <291ms>
+12:21:49.7625+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <578ms>
+12:21:49.9064+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:21:50.1128+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:21:50.1128+05:30 - INFO  - App.OnStartup - Startup cost <1271ms>
+12:21:54.1344+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <4908ms>
+12:21:54.1344+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <69>, Images Number: 69, Unique Items 53
+12:24:16.4765+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:16.4765+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:16.4765+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:16.4765+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:24:16.5326+05:30 - INFO  - CommunityPluginSource.FetchAsync - Resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json has not been modified.
+12:24:36.0814+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:24:36.0814+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:24:36.3258+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+12:24:36.3258+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+12:24:36.3258+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+12:24:36.3382+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <26ms>
+12:24:36.3382+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:24:36.3433+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <21ms>
+12:24:36.3433+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:36.3433+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <31ms>
+12:24:36.3433+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <32ms>
+12:24:36.3433+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <20ms>
+12:24:36.3615+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+12:24:36.3615+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:24:36.3615+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:24:36.3615+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <42ms>
+12:24:36.3615+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <53ms>
+12:24:36.3738+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <52ms>
+12:24:36.4056+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:36.4056+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:36.4056+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:24:36.4056+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <97ms>
+12:24:36.4266+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <107ms>
+12:24:36.4663+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <145ms>
+12:24:36.9288+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <607ms>
+12:24:36.9528+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:24:36.9528+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <635ms>
+12:24:37.1337+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:24:37.3552+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:24:37.3552+05:30 - INFO  - App.OnStartup - Startup cost <1353ms>
+12:24:45.7361+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <9371ms>
+12:24:45.7361+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <88>, Images Number: 88, Unique Items 73
+12:24:47.8628+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:24:47.8628+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:24:48.1147+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+12:24:48.1147+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+12:24:48.1147+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+12:24:48.1272+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:24:48.1272+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <26ms>
+12:24:48.1272+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <23ms>
+12:24:48.1272+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <23ms>
+12:24:48.1272+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:48.1422+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <32ms>
+12:24:48.1422+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <34ms>
+12:24:48.1422+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <20ms>
+12:24:48.1422+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <42ms>
+12:24:48.1422+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+12:24:48.1422+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:24:48.1545+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:24:48.1545+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <54ms>
+12:24:48.1545+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <57ms>
+12:24:48.1875+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:48.1875+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:24:48.1875+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:24:48.1875+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <91ms>
+12:24:48.2030+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <95ms>
+12:24:48.2490+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <123ms>
+12:24:48.6450+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <535ms>
+12:24:49.2583+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:24:49.2583+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <1151ms>
+12:24:49.4150+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:24:49.6315+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:24:49.6315+05:30 - INFO  - App.OnStartup - Startup cost <1854ms>
+12:24:55.4792+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <7323ms>
+12:24:55.4792+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <91>, Images Number: 91, Unique Items 75
+12:26:56.3374+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:26:56.3374+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:26:56.3374+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:26:56.3374+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:26:56.9077+05:30 - INFO  - CommunityPluginSource.FetchAsync - Resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json has not been modified.
+12:27:02.5588+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:27:02.5588+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <31ms>
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <One-time Password> is <4ms>
+12:27:02.8363+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <22ms>
+12:27:02.8439+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <25ms>
+12:27:02.8439+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:27:02.8439+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <34ms>
+12:27:02.8439+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <37ms>
+12:27:02.8598+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <22ms>
+12:27:02.8598+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <44ms>
+12:27:02.8598+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+12:27:02.8598+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:27:02.8598+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:27:02.8598+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <51ms>
+12:27:02.8753+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <58ms>
+12:27:02.8924+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:27:02.8924+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:27:02.8924+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:27:02.9128+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <97ms>
+12:27:02.9128+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <100ms>
+12:27:02.9626+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <126ms>
+12:27:03.4002+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <582ms>
+12:27:05.5178+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:27:05.5178+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <2703ms>
+12:27:05.6848+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:27:05.9210+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:27:05.9210+05:30 - INFO  - App.OnStartup - Startup cost <3441ms>
+12:27:14.6881+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <11823ms>
+12:27:14.6881+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <86>, Images Number: 86, Unique Items 70
+12:27:57.6941+05:30 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+12:35:25.0331+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:25.0331+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:25.0331+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:25.0331+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:35:25.1981+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:31.3280+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:35:31.3280+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:35:31.6174+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+12:35:31.6174+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+12:35:31.6174+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+12:35:31.6174+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <27ms>
+12:35:31.6174+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:35:31.6174+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <21ms>
+12:35:31.6244+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <22ms>
+12:35:31.6244+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:31.6244+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <32ms>
+12:35:31.6244+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <One-time Password> is <18ms>
+12:35:31.6244+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <36ms>
+12:35:31.6397+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <21ms>
+12:35:31.6397+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+12:35:31.6397+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <44ms>
+12:35:31.6397+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:35:31.6397+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:35:31.6545+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <55ms>
+12:35:31.6545+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <53ms>
+12:35:31.6864+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:31.6864+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:31.6864+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:35:31.7035+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <104ms>
+12:35:31.7248+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <FlowRaindrop> is <106ms>
+12:35:31.7475+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <149ms>
+12:35:31.7607+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <143ms>
+12:35:31.9222+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:35:31.9222+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:35:31.9222+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <323ms>
+12:35:32.2087+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <607ms>
+12:35:32.3663+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:35:32.5831+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:35:32.5831+05:30 - INFO  - App.OnStartup - Startup cost <1341ms>
+12:35:37.6468+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <5999ms>
+12:35:37.6468+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <88>, Images Number: 88, Unique Items 68
+12:36:21.0010+05:30 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+12:43:39.5745+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:39.5745+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:39.5745+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:39.5745+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:43:39.8370+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:46.6774+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:43:46.6774+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <19ms>
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <19ms>
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <19ms>
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <32ms>
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <25ms>
+12:43:46.9744+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <28ms>
+12:43:46.9876+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:46.9876+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <37ms>
+12:43:46.9876+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <One-time Password> is <18ms>
+12:43:46.9876+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <39ms>
+12:43:46.9876+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <16ms>
+12:43:47.0002+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+12:43:47.0002+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:43:47.0002+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:43:47.0002+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <49ms>
+12:43:47.0002+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <60ms>
+12:43:47.0002+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <60ms>
+12:43:47.0521+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:47.0521+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:47.0521+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:43:47.0521+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <111ms>
+12:43:47.0694+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shortcuts> is <96ms>
+12:43:47.0694+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <119ms>
+12:43:47.0880+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <FlowRaindrop> is <112ms>
+12:43:47.1183+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <144ms>
+12:43:47.3703+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:43:47.3736+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <419ms>
+12:43:47.5556+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <601ms>
+12:43:47.7139+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:43:47.9391+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:43:47.9391+05:30 - INFO  - App.OnStartup - Startup cost <1345ms>
+12:43:54.4277+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <7424ms>
+12:43:54.4277+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <73>, Images Number: 73, Unique Items 52

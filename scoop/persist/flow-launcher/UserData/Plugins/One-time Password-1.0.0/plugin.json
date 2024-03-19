@@ -1,0 +1,12 @@
+{
+    "ID": "EAE9772F43F949CAB65F826300C5AD3C",
+    "ActionKeyword": "#",
+    "Name": "One-time Password",
+    "Description": "Manage and generate time-based one-time passwords",
+    "Author": "GoodbyeNJN",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/GoodbyeNJN/Flow.Launcher.Plugin.OneTimePassword",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.OneTimePassword.dll"
+}
