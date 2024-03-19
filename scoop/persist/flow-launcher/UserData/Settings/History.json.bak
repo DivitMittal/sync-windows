@@ -151,6 +151,54 @@
     {
       "Query": "pm install Shortcuts",
       "ExecutedDateTime": "2024-03-19T12:43:41.876805+05:30"
+    },
+    {
+      "Query": "q",
+      "ExecutedDateTime": "2024-03-19T12:46:12.4774993+05:30"
+    },
+    {
+      "Query": "q add shell powershell launch-wezterm true wezterm",
+      "ExecutedDateTime": "2024-03-19T12:47:40.6769088+05:30"
+    },
+    {
+      "Query": "q list",
+      "ExecutedDateTime": "2024-03-19T12:47:45.6995258+05:30"
+    },
+    {
+      "Query": "q",
+      "ExecutedDateTime": "2024-03-19T12:47:51.1469404+05:30"
+    },
+    {
+      "Query": "q settings",
+      "ExecutedDateTime": "2024-03-19T12:47:55.0090363+05:30"
+    },
+    {
+      "Query": "flow",
+      "ExecutedDateTime": "2024-03-19T12:49:02.5099407+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-19T12:49:06.0966987+05:30"
+    },
+    {
+      "Query": "pm install Window Walker",
+      "ExecutedDateTime": "2024-03-19T12:50:21.0067005+05:30"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2024-03-19T12:50:47.1778347+05:30"
+    },
+    {
+      "Query": "set",
+      "ExecutedDateTime": "2024-03-19T12:51:09.7833092+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-19T12:55:07.0749459+05:30"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2024-03-19T12:55:23.2910871+05:30"
     }
   ]
 }

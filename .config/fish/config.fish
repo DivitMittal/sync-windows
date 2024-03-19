@@ -27,7 +27,8 @@ set -gx VISUAL 'nvim'
 fish_add_path /mingw64/bin
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/scoop/shims
-fish_add_path $HOME/scoop/persist/rustup/.cargo/bin
+fish_add_path $HOME/.cargo/bin
+fish_add_path /c/Windows/System32/OpenSSH
 
 ################################## Additional Programs ##############################################
 if status --is-interactive

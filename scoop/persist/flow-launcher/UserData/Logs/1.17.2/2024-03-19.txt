@@ -902,3 +902,136 @@ Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
 12:43:47.9391+05:30 - INFO  - App.OnStartup - Startup cost <1345ms>
 12:43:54.4277+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <7424ms>
 12:43:54.4277+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <73>, Images Number: 73, Unique Items 52
+12:50:19.1451+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:19.1451+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:19.1451+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:19.1451+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:50:19.2611+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:24.7562+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:50:24.7562+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:50:25.0284+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <14ms>
+12:50:25.0284+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <14ms>
+12:50:25.0284+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <14ms>
+12:50:25.0284+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <26ms>
+12:50:25.0294+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:50:25.0294+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <21ms>
+12:50:25.0294+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <24ms>
+12:50:25.0294+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:25.0294+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <31ms>
+12:50:25.0463+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <One-time Password> is <19ms>
+12:50:25.0463+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <36ms>
+12:50:25.0463+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <18ms>
+12:50:25.0463+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <46ms>
+12:50:25.0463+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <12ms>
+12:50:25.0463+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:50:25.0463+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:50:25.0671+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <56ms>
+12:50:25.0671+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <55ms>
+12:50:25.0970+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:25.0970+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:25.0970+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:50:25.1136+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <104ms>
+12:50:25.1136+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <106ms>
+12:50:25.1269+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Window Walker> is <99ms>
+12:50:25.1269+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shortcuts> is <101ms>
+12:50:25.1269+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <FlowRaindrop> is <103ms>
+12:50:25.1652+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <138ms>
+12:50:25.3798+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:25.3798+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:50:25.3798+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:50:25.3892+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <376ms>
+12:50:25.5843+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <571ms>
+12:50:25.7380+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:50:25.9472+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:50:25.9472+05:30 - INFO  - App.OnStartup - Startup cost <1267ms>
+12:50:29.2070+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <4147ms>
+12:50:29.2070+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <72>, Images Number: 72, Unique Items 53
+12:52:16.7352+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:52:16.7352+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <14ms>
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <14ms>
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <14ms>
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <26ms>
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <1ms>
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <21ms>
+12:52:17.0187+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <23ms>
+12:52:17.0336+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:52:17.0336+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <One-time Password> is <18ms>
+12:52:17.0336+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <33ms>
+12:52:17.0336+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <34ms>
+12:52:17.0336+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <16ms>
+12:52:17.0336+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <11ms>
+12:52:17.0462+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <42ms>
+12:52:17.0462+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:52:17.0462+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:52:17.0462+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <54ms>
+12:52:17.0610+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <57ms>
+12:52:17.0814+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:52:17.0814+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:52:17.0814+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:52:17.1010+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <100ms>
+12:52:17.1105+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <109ms>
+12:52:17.1105+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shortcuts> is <96ms>
+12:52:17.1253+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <FlowRaindrop> is <105ms>
+12:52:17.1608+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <143ms>
+12:52:17.3642+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:52:17.3642+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <366ms>
+12:52:17.6040+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <600ms>
+12:52:17.7634+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+12:52:17.9827+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:52:17.9837+05:30 - INFO  - App.OnStartup - Startup cost <1327ms>
+12:52:21.8607+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <4814ms>
+12:52:21.8607+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <65>, Images Number: 65, Unique Items 54
+12:59:56.3317+05:30 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:59:56.3317+05:30 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 19045.4170
+IntPtr Length: 8
+x64: True
+12:59:56.6483+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <16ms>
+12:59:56.6483+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <16ms>
+12:59:56.6483+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <16ms>
+12:59:56.6483+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <28ms>
+12:59:56.6483+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <2ms>
+12:59:56.6572+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <26ms>
+12:59:56.6572+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Audio Device Selector> is <29ms>
+12:59:56.6572+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.6572+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <One-time Password> is <19ms>
+12:59:56.6572+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <35ms>
+12:59:56.6572+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <38ms>
+12:59:56.6739+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <15ms>
+12:59:56.6739+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <45ms>
+12:59:56.6739+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <14ms>
+12:59:56.6739+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <93>
+12:59:56.6739+05:30 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <11>
+12:59:56.6874+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <57ms>
+12:59:56.6874+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <65ms>
+12:59:56.7052+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.7052+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.7052+05:30 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:59:56.7309+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <103ms>
+12:59:56.7349+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <109ms>
+12:59:56.7488+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shortcuts> is <102ms>
+12:59:56.7488+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <FlowRaindrop> is <107ms>
+12:59:56.7912+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <GamesLauncher> is <143ms>
+12:59:57.1612+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Dictionary> is <531ms>
+13:00:08.8231+05:30 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <12192ms>
+13:00:09.6152+05:30 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\div\scoop\apps\python310\3.10.11\pythonw.exe
+Node Path: C:\Users\div\scoop\apps\nodejs\21.7.1\node.exe
+13:00:10.0778+05:30 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:00:10.0778+05:30 - INFO  - App.OnStartup - Startup cost <13850ms>
+13:00:21.7341+05:30 - INFO  - ImageLoader.Initialize - Preload images cost <25056ms>
+13:00:21.7341+05:30 - INFO  - ImageLoader.Initialize - Number of preload images is <97>, Images Number: 97, Unique Items 68
