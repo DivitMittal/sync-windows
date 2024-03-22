@@ -1,8 +1,8 @@
 #################################################################################
 # Environment Variables
 #################################################################################
-$env:Path += 'C:\Users\div\scoop\shims;'
 $env:Path += 'C:\Users\div\.local\bin;'
+$env:Path += 'C:\Users\div\scoop\shims;'
 $env:Path += 'C:\Users\div\scoop\apps\msys2\current\mingw64\bin;'
 
 #################################################################################
@@ -45,6 +45,7 @@ Set-Alias -Name ll -Value Invoke-LlViaEza
 # sw (sync-windows)
 function Invoke-GitWithCustomPaths {
     param(
+        [Parameter(ValueFromRemainingArguments=$true)]
         [string[]]$Arguments
     )
 
@@ -56,7 +57,7 @@ function Invoke-GitWithCustomPaths {
     $gitCommand = "git --git-dir=$gitDir --work-tree=$workTree"
 
     # Append provided arguments to the git command
-    $gitCommand += " " + ($Arguments -join " ")
+    $gitCommand += " " + $Arguments
 
     # Invoke the git command
     Invoke-Expression $gitCommand
@@ -163,8 +164,8 @@ Set-Alias -Name cdi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 #########################################################################################
 # Initializations
 #########################################################################################
-# Winfetch
-winfetch
+# fastfetch
+fastfetch
 
 # Starship prompt
 Invoke-Expression (&starship init powershell)

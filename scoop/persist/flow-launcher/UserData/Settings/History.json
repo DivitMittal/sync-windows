@@ -199,6 +199,110 @@
     {
       "Query": "settings",
       "ExecutedDateTime": "2024-03-19T12:55:23.2910871+05:30"
+    },
+    {
+      "Query": "s updates",
+      "ExecutedDateTime": "2024-03-19T13:00:34.8060762+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-19T13:13:41.0292595+05:30"
+    },
+    {
+      "Query": "wez",
+      "ExecutedDateTime": "2024-03-19T13:14:31.9744927+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-19T13:23:02.6523484+05:30"
+    },
+    {
+      "Query": "restart",
+      "ExecutedDateTime": "2024-03-19T13:23:37.7513782+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-21T12:01:24.2799725+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-03-21T12:01:46.2973593+05:30"
+    },
+    {
+      "Query": "pm install unin",
+      "ExecutedDateTime": "2024-03-21T12:02:29.5577964+05:30"
+    },
+    {
+      "Query": "upda",
+      "ExecutedDateTime": "2024-03-21T12:05:16.3166755+05:30"
+    },
+    {
+      "Query": "s update",
+      "ExecutedDateTime": "2024-03-21T12:05:37.5010757+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-03-21T12:05:54.9816248+05:30"
+    },
+    {
+      "Query": "apple",
+      "ExecutedDateTime": "2024-03-21T12:06:07.2336278+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-21T12:51:26.2786877+05:30"
+    },
+    {
+      "Query": "code",
+      "ExecutedDateTime": "2024-03-21T12:52:05.9074997+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-21T13:10:01.8499164+05:30"
+    },
+    {
+      "Query": "fi",
+      "ExecutedDateTime": "2024-03-21T13:17:46.5312927+05:30"
+    },
+    {
+      "Query": "disk",
+      "ExecutedDateTime": "2024-03-21T14:08:50.9637941+05:30"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2024-03-21T14:14:55.7773603+05:30"
+    },
+    {
+      "Query": "downloads",
+      "ExecutedDateTime": "2024-03-22T18:42:42.3007026+05:30"
+    },
+    {
+      "Query": "C:\\Users\\Public\\Downloads\\",
+      "ExecutedDateTime": "2024-03-22T18:42:43.2739728+05:30"
+    },
+    {
+      "Query": "s upda",
+      "ExecutedDateTime": "2024-03-22T18:43:57.7133198+05:30"
+    },
+    {
+      "Query": "store",
+      "ExecutedDateTime": "2024-03-22T18:44:01.2474976+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-22T18:44:23.1503121+05:30"
+    },
+    {
+      "Query": "shut",
+      "ExecutedDateTime": "2024-03-22T18:47:12.1297262+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-23T00:06:13.7027063+05:30"
+    },
+    {
+      "Query": "unin cu",
+      "ExecutedDateTime": "2024-03-23T00:07:59.7731984+05:30"
     }
   ]
 }

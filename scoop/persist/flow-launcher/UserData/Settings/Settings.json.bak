@@ -3,7 +3,7 @@
   "OpenResultModifiers": "Alt",
   "ColorScheme": "System",
   "ShowOpenResultHotkey": false,
-  "WindowSize": 700,
+  "WindowSize": 610,
   "PreviewHotkey": "F1",
   "Language": "en",
   "Theme": "Win11System",
@@ -19,8 +19,8 @@
   "UseGlyphIcons": true,
   "UseAnimation": true,
   "UseSound": false,
-  "UseClock": true,
-  "UseDate": true,
+  "UseClock": false,
+  "UseDate": false,
   "TimeFormat": "hh:mm tt",
   "DateFormat": "dd\u0027/\u0027MM",
   "FirstLaunch": false,
@@ -100,12 +100,12 @@
   "AlwaysStartEn": false,
   "QuerySearchPrecision": "Regular",
   "AutoUpdates": false,
-  "WindowLeft": 527.4285714285714,
-  "WindowTop": 286.85714285714283,
+  "WindowLeft": 572.5714285714286,
+  "WindowTop": 285.7142857142857,
   "CustomWindowLeft": 0,
   "CustomWindowTop": 0,
   "MaxResultsToShow": 5,
-  "ActivateTimes": 156,
+  "ActivateTimes": 243,
   "CustomPluginHotkeys": [
     {
       "Hotkey": "Ctrl \u002B Alt \u002B Shift \u002B Win \u002B Return",
@@ -368,6 +368,16 @@
         "Version": "1.1.4",
         "ActionKeywords": [
           "q"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "095A6AE3A255532EAAD78F05A71D4981": {
+        "ID": "095A6AE3A255532EAAD78F05A71D4981",
+        "Name": "Quick Uninstaller",
+        "Version": "2.0.0",
+        "ActionKeywords": [
+          "unin"
         ],
         "Priority": 0,
         "Disabled": false
