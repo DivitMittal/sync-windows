@@ -303,6 +303,38 @@
     {
       "Query": "unin cu",
       "ExecutedDateTime": "2024-03-23T00:07:59.7731984+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-23T00:38:45.9439348+05:30"
+    },
+    {
+      "Query": "upda",
+      "ExecutedDateTime": "2024-03-23T00:45:11.6813482+05:30"
+    },
+    {
+      "Query": "s upd",
+      "ExecutedDateTime": "2024-03-23T00:45:21.1568424+05:30"
+    },
+    {
+      "Query": "store",
+      "ExecutedDateTime": "2024-03-23T00:45:44.4729442+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-23T00:46:06.8984528+05:30"
+    },
+    {
+      "Query": "disk",
+      "ExecutedDateTime": "2024-03-23T00:46:25.1912236+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-03-23T01:06:12.894787+05:30"
+    },
+    {
+      "Query": "task",
+      "ExecutedDateTime": "2024-03-23T01:12:45.3776327+05:30"
     }
   ]
 }

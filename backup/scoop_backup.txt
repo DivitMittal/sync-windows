@@ -2,6 +2,7 @@
 Name          Version                  Source                 Updated             Info
 ----          -------                  ------                 -------             ----
 7zip          23.01                    main                   2024-03-16 16:46:44 
+autoruns      14.11                    sysinternals           2024-03-23 01:20:04 
 Cascadia-Code 2111.01                  nerd-fonts             2024-03-16 16:47:44 
 dark          3.14                     main                   2024-03-16 16:31:39 
 discord       1.0.9035-18              extras                 2024-03-16 16:44:28 
