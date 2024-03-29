@@ -13,3 +13,4 @@ kanata_executable = "C:\\Users\\div\\Projects\\kanata\\target\\release\\kanata.e
 kanata_config = "C:\\Users\\div\\.config\\kanata\\a.kbd" # if empty or not omitted, kanata default config locations will be used.
 autorun = true
 
+

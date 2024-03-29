@@ -1,45 +1,46 @@
-   -                                                                                                                            -                                                                                                                         Name                                   Id                                      Version            Available      Source
+   -    \                                                                                                                            -                                                                                                                         Name                                          Id                                             Version            Source
 -----------------------------------------------------------------------------------------------------------------------
-CPU Monitor for Game Bar               62269AlexShats.CPUMonitorforGameBar_gg… 0.1.5.0                           
-AMD Software                           AMD Catalyst Install Manager            23.9.3                            
-Ablaze Floorp (x64 en-US)              Ablaze.Floorp                           11.11.1                           winget
-Dolby Atmos                            DolbyLaboratories.DolbyAtmos_rz1tebtty… 3.20201.255.0                     
-Microsoft Edge                         Microsoft.Edge                          122.0.2365.92      122.0.2365.106 winget
-Microsoft Edge Update                  Microsoft Edge Update                   1.3.185.21                        
-Microsoft Edge WebView2 Runtime        Microsoft.EdgeWebView2Runtime           122.0.2365.92                     winget
-App Installer                          Microsoft.AppInstaller                  1.22.10661.0                      winget
-Microsoft Edge                         Microsoft.MicrosoftEdge.Stable_8wekyb3… 122.0.2365.92                     
-Microsoft .Net Native Framework Packa… Microsoft.NET.Native.Framework.1.7_8we… 1.7.27413.0                       
-Microsoft .Net Native Framework Packa… Microsoft.NET.Native.Framework.2.2_8we… 2.2.29512.0                       
-Microsoft .Net Native Runtime Package… Microsoft.NET.Native.Runtime.1.7_8weky… 1.7.27422.0                       
-Microsoft .Net Native Runtime Package… Microsoft.NET.Native.Runtime.2.2_8weky… 2.2.28604.0                       
-PowerShell                             Microsoft.PowerShell_8wekyb3d8bbwe      7.4.1.0                           
-Snip & Sketch                          Microsoft.ScreenSketch_8wekyb3d8bbwe    10.2008.3001.0                    
-Microsoft Engagement Framework         Microsoft.Services.Store.Engagement_8w… 10.0.23012.0                      
-Store Experience Host                  Microsoft.StorePurchaseApp_8wekyb3d8bb… 22312.1401.4.0                    
-Microsoft.UI.Xaml.2.4                  Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe     2.42007.9001.0                    
-Microsoft.UI.Xaml.2.7                  Microsoft.UI.Xaml.2.7                   7.2208.15002.0                    winget
-Microsoft.UI.Xaml.2.8                  Microsoft.UI.Xaml.2.8                   8.2310.30001.0                    winget
-Microsoft Visual C++ 2015 UWP Desktop… Microsoft.VCLibs.Desktop.14             14.0.33519.0                      winget
-Microsoft Visual C++ 2015 UWP Runtime… Microsoft.VCLibs.140.00_8wekyb3d8bbwe   14.0.33519.0                      
-Microsoft Photos                       Microsoft.Windows.Photos_8wekyb3d8bbwe  2024.11030.15001.0                
-WindowsAppRuntime.1.3                  Microsoft.WindowsAppRuntime.1.3_8wekyb… 3000.934.1904.0                   
-Windows Camera                         Microsoft.WindowsCamera_8wekyb3d8bbwe   2023.2312.3.0                     
-Microsoft Store                        Microsoft.WindowsStore_8wekyb3d8bbwe    22401.1401.7.0                    
-Windows Package Manager Source (winge… Microsoft.Winget.Source_8wekyb3d8bbwe   2024.322.2011.680                 
-Game Bar                               Microsoft.XboxGamingOverlay_8wekyb3d8b… 7.124.2141.0                      
-Visual Studio Enterprise 2022          Microsoft.VisualStudio.2022.Enterprise  17.9.3                            winget
-vs_CoreEditorFonts                     {1851460E-0E63-4117-B5BA-25A2F045801B}  17.7.40001                        
-Intel(R) Management Engine Components  {1CEAC85D-2590-4760-800F-8DE5E91F3700}  1806.12.0.1100                    
-Microsoft Update Health Tools          {1FC1A6C2-576E-489A-9B4A-92D21F542136}  3.74.0.0                          
-Windows SDK AddOn                      {34462024-520E-4586-BF36-A19D1A0CFEDE}  10.1.0.0                          
-Microsoft SQL Server 2019 LocalDB      {36E492B8-CB83-4DA5-A5D2-D99A8E8228A1}  15.0.4153.1                       
-Microsoft Visual C++ 2015-2022 Redist… Microsoft.VCRedist.2015+.x64            14.40.33617.1                     winget
-Epic Online Services                   {57A956AB-4BCC-45C6-9B40-957E4E125568}  2.0.44.0                          
-Microsoft System CLR Types for SQL Se… Microsoft.CLRTypesSQLServer.2019        15.0.2000.5                       winget
-Windows Software Development Kit - Wi… Microsoft.WindowsSDK.10.0.20348         10.1.20348.1                      winget
-Microsoft Visual Studio Installer      {6F320B93-EE3C-4826-85E0-ADF79F8D4C61}  3.9.2164.57262                    
-Apple Software Update                  {A3985C05-7386-411F-A4BF-32A73F37EB44}  2.6.3.1                           
-Epic Games Launcher                    EpicGames.EpicGamesLauncher             1.3.93.0                          winget
-Update for Windows 10 for x64-based S… {B9A7A138-BFD5-4C73-A269-F78CCA28150E}  8.94.0.0                          
-Boot Camp Services                     {FCFFE6B6-BAE8-490E-88D0-097A9DA1C43D}  6.1.7748                          
+CPU Monitor for Game Bar                      62269AlexShats.CPUMonitorforGameBar_gghb1w55m… 0.1.6.0            
+AMD Software                                  AMD Catalyst Install Manager                   23.9.3             
+Ablaze Floorp (x64 en-US)                     Ablaze.Floorp                                  11.11.2            winget
+Dolby Atmos                                   DolbyLaboratories.DolbyAtmos_rz1tebttyb220     3.20201.255.0      
+Microsoft Edge                                Microsoft.Edge                                 123.0.2420.65      winget
+Microsoft Edge Update                         Microsoft Edge Update                          1.3.185.27         
+Microsoft Edge WebView2 Runtime               Microsoft.EdgeWebView2Runtime                  122.0.2365.92      winget
+App Installer                                 Microsoft.AppInstaller                         1.22.10861.0       winget
+Microsoft Edge                                Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe   123.0.2420.65      
+Microsoft .Net Native Framework Package 1.7   Microsoft.NET.Native.Framework.1.7_8wekyb3d8b… 1.7.27413.0        
+Microsoft .Net Native Framework Package 2.2   Microsoft.NET.Native.Framework.2.2_8wekyb3d8b… 2.2.29512.0        
+Microsoft .Net Native Runtime Package 1.7     Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe 1.7.27422.0        
+Microsoft .Net Native Runtime Package 2.2     Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe 2.2.28604.0        
+PowerShell                                    Microsoft.PowerShell_8wekyb3d8bbwe             7.4.1.0            
+Snip & Sketch                                 Microsoft.ScreenSketch_8wekyb3d8bbwe           10.2008.3001.0     
+Microsoft Engagement Framework                Microsoft.Services.Store.Engagement_8wekyb3d8… 10.0.23012.0       
+Store Experience Host                         Microsoft.StorePurchaseApp_8wekyb3d8bbwe       22312.1401.4.0     
+Microsoft.UI.Xaml.2.4                         Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe            2.42007.9001.0     
+Microsoft.UI.Xaml.2.7                         Microsoft.UI.Xaml.2.7                          7.2208.15002.0     winget
+Microsoft.UI.Xaml.2.8                         Microsoft.UI.Xaml.2.8                          8.2310.30001.0     winget
+Microsoft Visual C++ 2015 UWP Desktop Runtim… Microsoft.VCLibs.Desktop.14                    14.0.33519.0       winget
+Microsoft Visual C++ 2015 UWP Runtime Package Microsoft.VCLibs.140.00_8wekyb3d8bbwe          14.0.33519.0       
+Microsoft Copilot                             Microsoft.Windows.Ai.Copilot.Provider_8wekyb3… 1.0.3.0            
+Microsoft Photos                              Microsoft.Windows.Photos_8wekyb3d8bbwe         2024.11030.15001.0 
+WindowsAppRuntime.1.3                         Microsoft.WindowsAppRuntime.1.3_8wekyb3d8bbwe  3000.934.1904.0    
+Windows Camera                                Microsoft.WindowsCamera_8wekyb3d8bbwe          2023.2312.3.0      
+Microsoft Store                               Microsoft.WindowsStore_8wekyb3d8bbwe           22402.1401.4.0     
+Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.329.403.313   
+Game Bar                                      Microsoft.XboxGamingOverlay_8wekyb3d8bbwe      7.124.3191.0       
+Visual Studio Enterprise 2022                 Microsoft.VisualStudio.2022.Enterprise         17.9.5             winget
+vs_CoreEditorFonts                            {1851460E-0E63-4117-B5BA-25A2F045801B}         17.7.40001         
+Intel(R) Management Engine Components         {1CEAC85D-2590-4760-800F-8DE5E91F3700}         1806.12.0.1100     
+Microsoft Update Health Tools                 {1FC1A6C2-576E-489A-9B4A-92D21F542136}         3.74.0.0           
+Windows SDK AddOn                             {34462024-520E-4586-BF36-A19D1A0CFEDE}         10.1.0.0           
+Microsoft SQL Server 2019 LocalDB             {36E492B8-CB83-4DA5-A5D2-D99A8E8228A1}         15.0.4153.1        
+Microsoft Visual C++ 2015-2022 Redistributab… Microsoft.VCRedist.2015+.x64                   14.40.33617.1      winget
+Epic Online Services                          {57A956AB-4BCC-45C6-9B40-957E4E125568}         2.0.44.0           
+Microsoft System CLR Types for SQL Server 20… Microsoft.CLRTypesSQLServer.2019               15.0.2000.5        winget
+Windows Software Development Kit - Windows 1… Microsoft.WindowsSDK.10.0.20348                10.1.20348.1       winget
+Microsoft Visual Studio Installer             {6F320B93-EE3C-4826-85E0-ADF79F8D4C61}         3.9.2164.57262     
+Apple Software Update                         {A3985C05-7386-411F-A4BF-32A73F37EB44}         2.6.3.1            
+Epic Games Launcher                           EpicGames.EpicGamesLauncher                    1.3.93.0           winget
+Update for Windows 10 for x64-based Systems … {B9A7A138-BFD5-4C73-A269-F78CCA28150E}         8.94.0.0           
+Boot Camp Services                            {FCFFE6B6-BAE8-490E-88D0-097A9DA1C43D}         6.1.7748           

@@ -2,5 +2,5 @@ base 2022.06-1
 filesystem 2023.02.07-1
 fish 3.7.0-1
 mingw-w64-x86_64-bat 0.24.0-3
-mingw-w64-x86_64-fastfetch 2.8.9-1
-msys2-runtime 3.4.10-5
+mingw-w64-x86_64-fastfetch 2.8.10-1
+msys2-runtime 3.4.10-6

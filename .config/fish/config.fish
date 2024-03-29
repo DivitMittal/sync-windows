@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 #################################### Setting variables ########################################
 # Delete all previous paths in current fish terminal session
-set --erase fish_user_paths
+set -e fish_user_paths
 
 ## Fish variables
 set -g fish_greeting ''
@@ -23,6 +23,10 @@ end
 ## Environment Variables
 set -gx EDITOR 'nvim'
 set -gx VISUAL 'nvim'
+set -gx PAGER 'less'
+set -x LESS '--RAW-CONTROL-CHARS --mouse -C --tilde --tabs=2 -W --status-column -i'
+set -x LESSHISTFILE '-'
+
 # Adding to PATH env var
 fish_add_path /mingw64/bin
 fish_add_path $HOME/.local/bin
@@ -33,19 +37,26 @@ fish_add_path /c/Windows/System32/OpenSSH
 ################################## Additional Programs ##############################################
 if status --is-interactive
     ####################################   Config when fish is interactive ###############################################3
-    # fifc plugin environment variables
-    set -gx fifc_editor nvim
-    set -gx fifc_fd_opts --hidden
-    set -gx fifc_bat_opts --style=numbers
-    set -gx fifc_exa_opts --all --classify --icons --oneline --group-directories-first --group
+    ## FZF - fuzzy finder
+    # fzf
+    set -x FZF_DEFAULT_OPTS "--multi --cycle --border --height 50% --bind='space:toggle' --bind='tab:down' --bind='btab:up' --no-scrollbar --marker='*' --preview-window=wrap"
+    set -x FZF_DEFAULT_COMMAND 'fd --hidden'
 
-    # PatrickF1/fzf.fish plugin environment variables
+    # PatrickF1/fzf.fish plugin
     set -gx fzf_fd_opts --hidden
     set -gx fzf_preview_dir_cmd eza --all --color=always --icons=always --classify --group-directories-first --group --hyperlink --color-scale --color-scale-mode=gradient
+    set -gx fzf_diff_highlighter delta --paging=never --width=20
+    set -gx fzf_preview_file_cmd bat --style=numbers
+    fzf_configure_bindings --variables=\ev --processes=\ep --git_status=\es --git_log=\el --history=\er --directory=\ef
+
+    # fifc plugin
+    set -gx fifc_editor nvim
+    set -gx fifc_fd_opts --hidden
+    set -gx fifc_eza_opts --all
 
     ############################################ Aliases #################################################
     alias showpath 'echo $PATH | sed "s/ /\n/g"'
-    alias showid "id | sed 's/ /\n/g' | sed 's/,/\n/g'"
+    alias showid "id | sed 's/ /\n/g'"
 
     # Remapping ls
     # alias ls "ls --almost-all --group-directories-first"
@@ -57,9 +68,9 @@ if status --is-interactive
     alias ls "eza $eza_params"
 
     # Other similar mappings
-    alias cat 'bat'
-    alias ff 'fastfetch --pipe false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --gpu-temp true --cpu-temp true --title-color-user magenta --title-color-at blue --cpu-format "{1} @ {#4;35}{8}°C{#}" --gpu-format "{2} @ {#4;35}{4}°C{#}"'
+    alias cat 'bat --paging=never'
 
+    # maintenance aliases
     alias pacman-backup 'pacman -Qe 1> $HOME/backup/msys_pacman.txt'
 
     # Directory shortcuts
