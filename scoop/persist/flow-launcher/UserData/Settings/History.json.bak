@@ -367,6 +367,30 @@
     {
       "Query": "wezterm",
       "ExecutedDateTime": "2024-03-29T15:34:51.830975+05:30"
+    },
+    {
+      "Query": "backup",
+      "ExecutedDateTime": "2024-03-29T15:56:24.2012387+05:30"
+    },
+    {
+      "Query": "C:\\Users\\div\\backup\\",
+      "ExecutedDateTime": "2024-03-29T15:56:24.9805239+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-04-03T19:46:08.1816214+05:30"
+    },
+    {
+      "Query": "s",
+      "ExecutedDateTime": "2024-04-03T19:49:24.2112018+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-04-03T19:49:38.2934693+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-04-03T19:52:18.5757363+05:30"
     }
   ]
 }
