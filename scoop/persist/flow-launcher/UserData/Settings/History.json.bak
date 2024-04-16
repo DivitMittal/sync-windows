@@ -439,6 +439,18 @@
     {
       "Query": "regit",
       "ExecutedDateTime": "2024-04-13T16:47:26.9242051+05:30"
+    },
+    {
+      "Query": "set",
+      "ExecutedDateTime": "2024-04-13T18:12:02.7191729+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-04-13T18:13:04.7820177+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-04-13T18:15:56.6272026+05:30"
     }
   ]
 }

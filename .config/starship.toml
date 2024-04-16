@@ -2,17 +2,16 @@
 # Starship Preferences
 #######################################################
 
+
 # Prompt
 #######################################################
-
 # Left prompt format
-format = """[╭─a/c─➜⇉❯>](bold blue) $username$sudo$time
-[┣─sys───➜⇉❯>](bold yellow) $shell$status$cmd_duration$docker_context$hostname
-[┣─proj──➜⇉❯>](bold red) $directory$git_branch$git_commit$git_status
+format = """[╭─sys─➜⇉❯>](bold blue) $sudo$username$hostname$shell$status$cmd_duration$docker_context
+[┣─pwd──➜⇉❯>](bold red) $directory$git_branch$git_commit$git_status
 [╰─cmd─➜⇉❯](bold green) $character"""
 
 # Right prompt format
-right_format = """$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda${custom.docker}$package"""
+right_format = """$nix_shell$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda${custom.docker}$package"""
 
 # Adds a new line after the prompt
 add_newline = true
@@ -24,6 +23,18 @@ scan_timeout = 50
 
 # System
 #######################################################
+[username]
+disabled = false
+style_user = "italic bright-purple"
+style_root = "red bold"
+format = "[$user]($style)"
+show_always = true
+
+[sudo]
+disabled = false
+style = "bold green"
+symbol = "🧙"
+format = "$symbol"
 
 [character]
 disabled = false
@@ -48,7 +59,7 @@ powershell_indicator = "_"
 unknown_indicator = "❓"
 bash_indicator = "🐑"
 zsh_indicator = "🦓"
-format = "🐚:$indicator "
+format = "via $indicator "
 
 [directory]
 disabled = false
@@ -58,28 +69,17 @@ truncate_to_repo = false
 home_symbol = "🏡"
 style = "white"
 
-[username]
-disabled = false
-style_user = "italic bright-purple"
-style_root = "red bold"
-format = "👤:[$user]($style) "
-show_always = true
-
-[sudo]
-disabled = false
-style = "bold green"
-symbol = "🧙"
-format = "as $symbol "
-
-[time]
-disabled = false
-format = 'at ⏰:[\[$time\]](bold yellow) '
-
 [hostname]
 disabled = false
 ssh_only = false
-format = 'on [$hostname](bold red) '
+format = '[@](bold blue)[$hostname](bold red) '
 trim_at = "."
+
+# disabled
+[time]
+disabled = true
+format = '@ ⏰:[\[$time\]](bold yellow) '
+use_12hr = true
 
 [status]
 disabled = true
@@ -100,7 +100,6 @@ threshold = 100
 
 # Services
 #######################################################
-
 [git_commit]
 disabled = true
 only_detached = false
@@ -127,12 +126,6 @@ deleted = "🚮"
 
 [docker_context]
 disabled = true
-
-# To supress anaconda's own prompt moddifer, run,  conda config --set changeps1 False
-[conda]
-disabled = false
-format = "in [$symbol$environment](dimmed green) "
-ignore_base = true
 
 
 # Programming Languages and Frameworks
@@ -173,3 +166,17 @@ description = "Shows a  docker symbol if the current directory has Dockerfile or
 files = ["Dockerfile", "docker-compose.yml", "docker-compose.yaml"]
 symbol = "🐳"
 format = "with $symbol "
+
+# To supress anaconda's own prompt moddifer, run,  conda config --set changeps1 False
+[conda]
+disabled = false
+format = "in [$symbol$environment](dimmed green) "
+ignore_base = true
+
+[nix_shell]
+disabled = false
+impure_msg = '[impure shell](bold red)'
+pure_msg = '[pure shell](bold green)'
+unknown_msg = '[unknown shell](bold yellow)'
+format = 'via [☃️ $state( \($name\))](bold blue) '
+
