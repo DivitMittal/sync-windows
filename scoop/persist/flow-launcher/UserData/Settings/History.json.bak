@@ -523,6 +523,82 @@
     {
       "Query": "store",
       "ExecutedDateTime": "2024-04-26T06:34:40.3437105+05:30"
+    },
+    {
+      "Query": "set",
+      "ExecutedDateTime": "2024-05-02T00:58:09.2180143+05:30"
+    },
+    {
+      "Query": "rec",
+      "ExecutedDateTime": "2024-05-02T00:58:20.9704187+05:30"
+    },
+    {
+      "Query": "photos",
+      "ExecutedDateTime": "2024-05-02T00:59:06.8630238+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-02T00:59:19.0211909+05:30"
+    },
+    {
+      "Query": "flow",
+      "ExecutedDateTime": "2024-05-02T01:00:51.4078529+05:30"
+    },
+    {
+      "Query": "floorp",
+      "ExecutedDateTime": "2024-05-02T01:00:54.4204283+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-02T01:06:08.2709614+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-05-03T02:31:20.2373972+05:30"
+    },
+    {
+      "Query": "we",
+      "ExecutedDateTime": "2024-05-03T02:33:51.9241187+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-10T16:30:02.6125509+05:30"
+    },
+    {
+      "Query": "s",
+      "ExecutedDateTime": "2024-05-10T16:34:11.799484+05:30"
+    },
+    {
+      "Query": "d",
+      "ExecutedDateTime": "2024-05-10T16:45:52.5257298+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-10T16:45:55.6849612+05:30"
+    },
+    {
+      "Query": "gl",
+      "ExecutedDateTime": "2024-05-10T23:35:20.4331249+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-11T01:18:42.4708685+05:30"
+    },
+    {
+      "Query": "rest",
+      "ExecutedDateTime": "2024-05-11T01:55:56.3008935+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-14T02:32:52.5986469+05:30"
+    },
+    {
+      "Query": "up",
+      "ExecutedDateTime": "2024-05-14T02:36:38.3505505+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-14T02:47:10.3347408+05:30"
     }
   ]
 }

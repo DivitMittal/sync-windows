@@ -4,19 +4,13 @@
 set -e fish_user_paths
 
 ## Fish variables
-set -g fish_greeting ''
+set -g fish_greeting
 
 if status --is-interactive
-    # Emulates vim's cursor shape behavior
     set -g fish_vi_force_cursor 1
-    # Set the normal and visual mode cursors to a block
     set -g fish_cursor_default block
-    # Set the insert mode cursor to a line
     set -g fish_cursor_insert line
-    # Set the replace mode cursor to an underscore
     set -g fish_cursor_replace_one underscore
-    # The following variable can be used to configure cursor shape in
-    # visual mode, but due to fish_cursor_default, is redundant here
     set -g fish_cursor_visual block
 end
 
@@ -74,8 +68,8 @@ if status --is-interactive
     alias pacman-backup 'pacman -Qe 1> $HOME/backup/msys_pacman.txt'
 
     # Directory shortcuts
-    alias dt "cd $HOME/Desktop/"
-    alias dl "cd $HOME/Downloads/"
+    alias dt "builtin cd $HOME/Desktop/"
+    alias dl "builtin cd $HOME/Downloads/"
 
     # Abbreviations
     abbr --position anywhere --add nv nvim
@@ -90,18 +84,10 @@ if status --is-interactive
 
     ####################################### Initializations ###############################################
     # Starship - custom shell prompt
-    if type -q starship
-        starship init fish | source
-    end
-
+    type -q starship; and starship init fish | source
     # Zoxide utility - smarter cd
-    if type -q zoxide
-        zoxide init --cmd cd fish | source
-    end
-
+    type -q zoxide; and zoxide init --cmd cd fish | source
     # Atuin - magical shell history
-    if type -q atuin
-        atuin init fish | source
-    end
+    type -q atuin; and atuin init fish | source
 end
 

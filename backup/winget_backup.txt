@@ -1,13 +1,14 @@
-   -    \                                                                                                                            -                                                                                                                         Name                                          Id                                             Version            Source
+   -                                                                                                                            -                                                                                                                         Name                                          Id                                             Version            Source
 -----------------------------------------------------------------------------------------------------------------------
 CPU Monitor for Game Bar                      62269AlexShats.CPUMonitorforGameBar_gghb1w55m… 0.1.6.0            
 AMD Software                                  AMD Catalyst Install Manager                   23.9.3             
 Ablaze Floorp (x64 en-US)                     Ablaze.Floorp                                  11.12.2            winget
 Dolby Atmos                                   DolbyLaboratories.DolbyAtmos_rz1tebttyb220     3.20201.255.0      
-Microsoft Edge                                Microsoft.Edge                                 124.0.2478.67      winget
-Microsoft Edge Update                         Microsoft Edge Update                          1.3.185.29         
-Microsoft Edge WebView2 Runtime               Microsoft.EdgeWebView2Runtime                  124.0.2478.67      winget
-App Installer                                 Microsoft.AppInstaller                         1.22.11132.0       winget
+Microsoft Edge                                Microsoft.Edge                                 124.0.2478.97      winget
+Microsoft Edge Update                         Microsoft Edge Update                          1.3.187.37         
+Microsoft Edge WebView2 Runtime               Microsoft.EdgeWebView2Runtime                  124.0.2478.97      winget
+App Installer                                 Microsoft.AppInstaller                         1.22.11261.0       winget
+English (United Kingdom) Local Experience Pa… Microsoft.LanguageExperiencePacken-GB_8wekyb3… 19041.59.203.0     
 Microsoft Edge                                Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe   123.0.2420.97      
 Microsoft .Net Native Framework Package 1.7   Microsoft.NET.Native.Framework.1.7_8wekyb3d8b… 1.7.27413.0        
 Microsoft .Net Native Framework Package 2.2   Microsoft.NET.Native.Framework.2.2_8wekyb3d8b… 2.2.29512.0        
@@ -26,8 +27,8 @@ Microsoft Copilot                             Microsoft.Windows.Ai.Copilot.Provi
 Microsoft Photos                              Microsoft.Windows.Photos_8wekyb3d8bbwe         2024.11030.15001.0 
 WindowsAppRuntime.1.3                         Microsoft.WindowsAppRuntime.1.3_8wekyb3d8bbwe  3000.934.1904.0    
 Windows Camera                                Microsoft.WindowsCamera_8wekyb3d8bbwe          2024.2402.5.0      
-Microsoft Store                               Microsoft.WindowsStore_8wekyb3d8bbwe           22403.1401.3.0     
-Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.501.1837.835  
+Microsoft Store                               Microsoft.WindowsStore_8wekyb3d8bbwe           22403.1401.5.0     
+Windows Package Manager Source (winget)       Microsoft.Winget.Source_8wekyb3d8bbwe          2024.513.2139.179  
 Game Bar                                      Microsoft.XboxGamingOverlay_8wekyb3d8bbwe      7.124.3191.0       
 Visual Studio Enterprise 2022                 Microsoft.VisualStudio.2022.Enterprise         17.9.6             winget
 vs_CoreEditorFonts                            {1851460E-0E63-4117-B5BA-25A2F045801B}         17.7.40001         
@@ -40,7 +41,7 @@ Epic Online Services                          {57A956AB-4BCC-45C6-9B40-957E4E125
 Microsoft System CLR Types for SQL Server 20… Microsoft.CLRTypesSQLServer.2019               15.0.2000.5        winget
 Windows Software Development Kit - Windows 1… Microsoft.WindowsSDK.10.0.20348                10.1.20348.1       winget
 Microsoft Visual Studio Installer             {6F320B93-EE3C-4826-85E0-ADF79F8D4C61}         3.9.2164.57262     
-Apple Software Update                         {A3985C05-7386-411F-A4BF-32A73F37EB44}         2.6.3.1            
+Apple Software Update                         Apple.AppleSoftwareUpdate                      2.7.0.3            winget
 Epic Games Launcher                           EpicGames.EpicGamesLauncher                    1.3.93.0           winget
 Update for Windows 10 for x64-based Systems … {B9A7A138-BFD5-4C73-A269-F78CCA28150E}         8.94.0.0           
 Boot Camp Services                            {FCFFE6B6-BAE8-490E-88D0-097A9DA1C43D}         6.1.7748           
