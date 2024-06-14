@@ -598,7 +598,31 @@
     },
     {
       "Query": "wezterm",
-      "ExecutedDateTime": "2024-05-14T02:47:10.3347408+05:30"
+      "ExecutedDateTime": "2024-05-14T02:54:01.8513744+05:30"
+    },
+    {
+      "Query": "flor",
+      "ExecutedDateTime": "2024-05-14T02:54:42.2986706+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-14T04:48:19.95493+05:30"
+    },
+    {
+      "Query": "restart",
+      "ExecutedDateTime": "2024-05-14T05:11:54.8738821+05:30"
+    },
+    {
+      "Query": "upda",
+      "ExecutedDateTime": "2024-05-29T00:20:10.7352744+05:30"
+    },
+    {
+      "Query": "S updat",
+      "ExecutedDateTime": "2024-05-29T00:20:24.7485872+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-05-29T01:08:01.2628585+05:30"
     }
   ]
 }
