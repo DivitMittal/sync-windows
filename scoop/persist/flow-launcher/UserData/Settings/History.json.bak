@@ -622,7 +622,55 @@
     },
     {
       "Query": "wezterm",
-      "ExecutedDateTime": "2024-05-29T01:08:01.2628585+05:30"
+      "ExecutedDateTime": "2024-06-15T03:11:12.3519889+05:30"
+    },
+    {
+      "Query": "up",
+      "ExecutedDateTime": "2024-06-15T03:19:23.807956+05:30"
+    },
+    {
+      "Query": "upda",
+      "ExecutedDateTime": "2024-06-25T15:49:52.2898188+05:30"
+    },
+    {
+      "Query": "store",
+      "ExecutedDateTime": "2024-06-25T15:51:47.7081373+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-06-25T16:01:03.9313748+05:30"
+    },
+    {
+      "Query": "up",
+      "ExecutedDateTime": "2024-06-25T16:03:08.0965222+05:30"
+    },
+    {
+      "Query": "s u",
+      "ExecutedDateTime": "2024-06-25T16:03:37.8211851+05:30"
+    },
+    {
+      "Query": "wez",
+      "ExecutedDateTime": "2024-06-25T16:03:41.9612904+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-07-15T01:31:15.0223895+05:30"
+    },
+    {
+      "Query": "up",
+      "ExecutedDateTime": "2024-07-23T18:02:41.3251126+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-07-23T18:08:46.8022348+05:30"
+    },
+    {
+      "Query": "down",
+      "ExecutedDateTime": "2024-07-23T18:27:46.6957684+05:30"
+    },
+    {
+      "Query": "C:\\Users\\Public\\Downloads\\",
+      "ExecutedDateTime": "2024-07-23T18:27:47.5365905+05:30"
     }
   ]
 }
