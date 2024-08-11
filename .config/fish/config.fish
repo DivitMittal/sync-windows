@@ -76,11 +76,12 @@ if status --is-interactive
     abbr --position anywhere --add v vim
     abbr --position anywhere --add .2 'cd ../..'
     abbr --position anywhere --add .3 'cd ../../..'
-    abbr --position command --add gits 'git status'
-    abbr --position command --add gitph 'git push'
-    abbr --position command --add gitpl 'git pull'
-    abbr --position command --add gitf 'git fetch'
-    abbr --position command --add gitc 'git commit'
+    abbr --position command --add gs 'git status'
+    abbr --position command --add ga 'git add'
+    abbr --position command --add gph 'git push'
+    abbr --position command --add gpl 'git pull'
+    abbr --position command --add gf 'git fetch'
+    abbr --position command --add gc 'git commit -m ""'
 
     ####################################### Initializations ###############################################
     # Starship - custom shell prompt

@@ -102,11 +102,11 @@
   "QuerySearchPrecision": "Regular",
   "AutoUpdates": false,
   "WindowLeft": 1142.2857142857142,
-  "WindowTop": 41.14285714285714,
+  "WindowTop": 42.285714285714285,
   "CustomWindowLeft": 2000,
   "CustomWindowTop": 20,
   "MaxResultsToShow": 5,
-  "ActivateTimes": 594,
+  "ActivateTimes": 687,
   "CustomPluginHotkeys": [
     {
       "Hotkey": "Ctrl \u002B Alt \u002B Shift \u002B Win \u002B Return",

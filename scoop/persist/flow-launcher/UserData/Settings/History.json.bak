@@ -671,6 +671,122 @@
     {
       "Query": "C:\\Users\\Public\\Downloads\\",
       "ExecutedDateTime": "2024-07-23T18:27:47.5365905+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-07-23T18:32:30.3641515+05:30"
+    },
+    {
+      "Query": "update",
+      "ExecutedDateTime": "2024-08-10T11:59:27.7510534+05:30"
+    },
+    {
+      "Query": "store",
+      "ExecutedDateTime": "2024-08-10T11:59:31.6562827+05:30"
+    },
+    {
+      "Query": "epic",
+      "ExecutedDateTime": "2024-08-10T12:01:20.3496138+05:30"
+    },
+    {
+      "Query": "update",
+      "ExecutedDateTime": "2024-08-10T12:01:40.6599219+05:30"
+    },
+    {
+      "Query": "epic",
+      "ExecutedDateTime": "2024-08-10T12:05:29.9569477+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-10T17:03:37.9668322+05:30"
+    },
+    {
+      "Query": "floorp",
+      "ExecutedDateTime": "2024-08-10T17:06:23.5018256+05:30"
+    },
+    {
+      "Query": "epic",
+      "ExecutedDateTime": "2024-08-10T17:09:39.5960322+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-10T17:14:39.4362255+05:30"
+    },
+    {
+      "Query": "ph",
+      "ExecutedDateTime": "2024-08-10T17:15:04.8928778+05:30"
+    },
+    {
+      "Query": "camera",
+      "ExecutedDateTime": "2024-08-10T19:53:47.0416652+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-10T20:09:18.6824167+05:30"
+    },
+    {
+      "Query": "wt",
+      "ExecutedDateTime": "2024-08-11T16:37:51.6271778+05:30"
+    },
+    {
+      "Query": "sleep",
+      "ExecutedDateTime": "2024-08-11T16:39:23.0114223+05:30"
+    },
+    {
+      "Query": "wt",
+      "ExecutedDateTime": "2024-08-11T16:44:03.1407607+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T16:50:58.8991297+05:30"
+    },
+    {
+      "Query": "slep",
+      "ExecutedDateTime": "2024-08-11T16:52:01.9491481+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T16:54:48.2614775+05:30"
+    },
+    {
+      "Query": "autor",
+      "ExecutedDateTime": "2024-08-11T16:55:55.8567158+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T17:27:01.2469225+05:30"
+    },
+    {
+      "Query": "note",
+      "ExecutedDateTime": "2024-08-11T17:29:48.7397682+05:30"
+    },
+    {
+      "Query": "download",
+      "ExecutedDateTime": "2024-08-11T17:33:32.8399877+05:30"
+    },
+    {
+      "Query": "C:\\Users\\Public\\Downloads\\",
+      "ExecutedDateTime": "2024-08-11T17:33:33.7921461+05:30"
+    },
+    {
+      "Query": "sleep",
+      "ExecutedDateTime": "2024-08-11T18:13:59.4168209+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T18:23:00.0213164+05:30"
+    },
+    {
+      "Query": "update",
+      "ExecutedDateTime": "2024-08-11T18:24:05.5986061+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T18:25:40.4761007+05:30"
+    },
+    {
+      "Query": "shut",
+      "ExecutedDateTime": "2024-08-11T20:11:45.6634157+05:30"
     }
   ]
 }
