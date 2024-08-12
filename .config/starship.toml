@@ -1,6 +1,6 @@
 add_newline = true
 command_timeout = 800
-format = "[╭─sys─-➜❯](bold blue) $sudo$username$hostname$shell$status$cmd_duration$docker_context\n[┣─pwd─-➜❯](bold red) $directory$git_branch$git_commit$git_status\n[╰─cmd─➜❯](bold green)$character\n"
+format = "[╭─sys─-➜❯](bold blue) $sudo$username$hostname$shell$status$cmd_duration$docker_context\n[┣─pwd─-➜❯](bold red) $directory$git_branch$git_commit$git_status\n[╰─cmd─➜❯](bold green)$character"
 right_format = "$nix_shell$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda$package"
 scan_timeout = 50
 
