@@ -1,137 +1,90 @@
-#######################################################
-# Starship Preferences
-#######################################################
-
-
-# Prompt
-#######################################################
-# Left prompt format
-format = """[╭─sys─➜⇉❯>](bold blue) $sudo$username$hostname$shell$status$cmd_duration$docker_context
-[┣─pwd──➜⇉❯>](bold red) $directory$git_branch$git_commit$git_status
-[╰─cmd─➜⇉❯](bold green) $character"""
-
-# Right prompt format
-right_format = """$nix_shell$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda${custom.docker}$package"""
-
-# Adds a new line after the prompt
 add_newline = true
-# Max time for the prompt commands to run in milliseconds
 command_timeout = 800
-# Max time for scaning files in the current directory in milliseconds
+format = "[╭─sys─-➜❯](bold blue) $sudo$username$hostname$shell$status$cmd_duration$docker_context\n[┣─pwd─-➜❯](bold red) $directory$git_branch$git_commit$git_status\n[╰─cmd─➜❯](bold green)$character\n"
+right_format = "$nix_shell$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda$package"
 scan_timeout = 50
 
-
-# System
-#######################################################
-[username]
-disabled = false
-style_user = "italic bright-purple"
-style_root = "red bold"
-format = "[$user]($style)"
-show_always = true
-
-[sudo]
-disabled = false
-style = "bold green"
-symbol = "🧙"
-format = "$symbol"
-
-[character]
-disabled = false
-success_symbol = "[➜](bold green)"
-error_symbol = "[✗](bold red)"
-vicmd_symbol = "[V](bold blue)"
-format = "$symbol "
-
-[cmd_duration]
-disabled = false
-show_milliseconds = true
-format = "took [$duration](bold yellow) "
-
-[package]
-disabled = false
-format = "[🎁 $version](208 bold) "
-
-[shell]
-disabled = false
-fish_indicator = "🐠"
-powershell_indicator = "_"
-unknown_indicator = "❓"
-bash_indicator = "🐑"
-zsh_indicator = "🦓"
-format = "via $indicator "
-
-[directory]
-disabled = false
-truncation_length = 10
-truncation_symbol = "…/"
-truncate_to_repo = false
-home_symbol = "🏡"
-style = "white"
-
-[hostname]
-disabled = false
-ssh_only = false
-format = '[@](bold blue)[$hostname](bold red) '
-trim_at = "."
-
-# disabled
-[time]
-disabled = true
-format = '@ ⏰:[\[$time\]](bold yellow) '
-use_12hr = true
-
-[status]
-disabled = true
-style = "red"
-symbol = "💥 "
-format = '[\[$symbol$status\]]($style) '
-
 [battery]
-disabled = true
-full_symbol = "💪"
-unknown_symbol = "💡"
 charging_symbol = "⚡️"
+disabled = true
 discharging_symbol = "💦"
 format = "🔋:$symbol "
+full_symbol = "💪"
+unknown_symbol = "💡"
+
 [[battery.display]]
 threshold = 100
 
+[character]
+disabled = false
+error_symbol = "[✗](bold red)"
+format = "$symbol "
+success_symbol = "[➜](bold green)"
+vicmd_symbol = "[V](bold blue)"
 
-# Services
-#######################################################
-[git_commit]
+[cmd_duration]
+disabled = false
+format = "took [$duration](bold yellow) "
+show_milliseconds = true
+
+[conda]
 disabled = true
-only_detached = false
-tag_disabled = false
-style = "red"
+format = "in [$symbol$environment](dimmed green) "
+ignore_base = true
 
-[git_branch]
-disabled = false
-always_show_remote = true
-format = "on 🌱:[$branch](bold yellow) 🎋:[$remote_name/$remote_branch](bold blue) "
+[custom.docker]
+description = "Shows a  docker symbol if the current directory has Dockerfile or docker-compose.yml files"
+disabled = true
+files = ["Dockerfile", "docker-compose.yml", "docker-compose.yaml"]
+format = "with $symbol "
+symbol = "🐳"
 
-[git_status]
+[dart]
 disabled = false
-ahead = '🏃\([$count](bold blue)\)'
-diverged = '😵\(\(🏃[$ahead_count](bold blue)\);🐌\([$behind_count](bold blue)\)\)'
-behind = '🐌\([$count](bold blue)\)'
-conflicted = "🤔"
-untracked = "👀"
-modified = "📝"
-stashed = "📦"
-staged = '🎤\([$count](bold blue)\)'
-renamed = "🐣"
-deleted = "🚮"
+
+[directory]
+disabled = false
+home_symbol = "🏡"
+style = "white"
+truncate_to_repo = false
+truncation_length = 10
+truncation_symbol = "…/"
 
 [docker_context]
 disabled = true
 
-
-# Programming Languages and Frameworks
-#############################################################################
-[lua]
+[git_branch]
+always_show_remote = true
 disabled = false
+format = "on 🌱:[$branch](bold yellow) 🎋:[$remote_name/$remote_branch](bold blue) "
+
+[git_commit]
+disabled = true
+only_detached = false
+style = "red"
+tag_disabled = false
+
+[git_status]
+ahead = "🏃\\([$count](bold blue)\\)"
+behind = "🐌\\([$count](bold blue)\\)"
+conflicted = "🤔"
+deleted = "🚮"
+disabled = false
+diverged = "😵\\(\\(🏃[$ahead_count](bold blue)\\);🐌\\([$behind_count](bold blue)\\)\\)"
+modified = "📝"
+renamed = "🐣"
+staged = "🎤\\([$count](bold blue)\\)"
+stashed = "📦"
+untracked = "👀"
+
+[golang]
+disabled = false
+
+[hostname]
+disabled = false
+format = "[@](bold blue)[$hostname](bold red) "
+ssh_only = false
+trim_at = "."
 
 [java]
 disabled = false
@@ -139,13 +92,24 @@ disabled = false
 [kotlin]
 disabled = false
 
-[dart]
+[lua]
 disabled = false
 
-[golang]
+[nix_shell]
 disabled = false
+format = "via [☃️ $state( \\($name\\))](bold blue) "
+impure_msg = "[impure shell](bold red)"
+pure_msg = "[pure shell](bold green)"
+unknown_msg = "[unknown shell](bold yellow)"
 
 [nodejs]
+disabled = false
+
+[package]
+disabled = false
+format = "[🎁 $version](208 bold) "
+
+[php]
 disabled = false
 
 [python]
@@ -154,29 +118,38 @@ disabled = false
 [rust]
 disabled = false
 
+[shell]
+bash_indicator = "🐑"
+disabled = false
+fish_indicator = "🐠"
+format = "via $indicator "
+powershell_indicator = "_"
+unknown_indicator = "❓"
+zsh_indicator = "🦓"
+
+[status]
+disabled = true
+format = "[\\[$symbol$status\\]]($style) "
+style = "red"
+symbol = "💥 "
+
+[sudo]
+disabled = false
+format = "$symbol"
+style = "bold green"
+symbol = "🧙"
+
 [swift]
 disabled = false
 
-[php]
-disabled = false
+[time]
+disabled = true
+format = "@ ⏰:[\\[$time\\]](bold yellow) "
+use_12hr = true
 
-[custom.docker]
+[username]
 disabled = false
-description = "Shows a  docker symbol if the current directory has Dockerfile or docker-compose.yml files"
-files = ["Dockerfile", "docker-compose.yml", "docker-compose.yaml"]
-symbol = "🐳"
-format = "with $symbol "
-
-# To supress anaconda's own prompt moddifer, run,  conda config --set changeps1 False
-[conda]
-disabled = false
-format = "in [$symbol$environment](dimmed green) "
-ignore_base = true
-
-[nix_shell]
-disabled = false
-impure_msg = '[impure shell](bold red)'
-pure_msg = '[pure shell](bold green)'
-unknown_msg = '[unknown shell](bold yellow)'
-format = 'via [☃️ $state( \($name\))](bold blue) '
-
+format = "[$user]($style)"
+show_always = true
+style_root = "red bold"
+style_user = "italic bright-purple"
