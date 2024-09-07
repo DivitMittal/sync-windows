@@ -787,6 +787,90 @@
     {
       "Query": "shut",
       "ExecutedDateTime": "2024-08-11T20:11:45.6634157+05:30"
+    },
+    {
+      "Query": "update",
+      "ExecutedDateTime": "2024-08-11T22:32:18.8313521+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T22:34:53.14868+05:30"
+    },
+    {
+      "Query": "file",
+      "ExecutedDateTime": "2024-08-11T22:36:19.4376469+05:30"
+    },
+    {
+      "Query": "quick",
+      "ExecutedDateTime": "2024-08-11T22:37:26.4312466+05:30"
+    },
+    {
+      "Query": "nvim",
+      "ExecutedDateTime": "2024-08-11T22:40:26.59629+05:30"
+    },
+    {
+      "Query": "flo",
+      "ExecutedDateTime": "2024-08-11T22:40:55.8168093+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T22:42:43.7611581+05:30"
+    },
+    {
+      "Query": "florr",
+      "ExecutedDateTime": "2024-08-11T22:42:56.5841608+05:30"
+    },
+    {
+      "Query": "flo",
+      "ExecutedDateTime": "2024-08-11T22:43:02.0417178+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-11T22:45:46.5768247+05:30"
+    },
+    {
+      "Query": "fl",
+      "ExecutedDateTime": "2024-08-11T22:46:01.8245055+05:30"
+    },
+    {
+      "Query": "resta",
+      "ExecutedDateTime": "2024-08-11T22:47:18.1715549+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-13T05:03:25.0440708+05:30"
+    },
+    {
+      "Query": "fire",
+      "ExecutedDateTime": "2024-08-13T05:05:21.9928385+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-13T05:11:07.8241205+05:30"
+    },
+    {
+      "Query": "div",
+      "ExecutedDateTime": "2024-08-13T05:18:28.9861589+05:30"
+    },
+    {
+      "Query": "C:\\Users\\div\\",
+      "ExecutedDateTime": "2024-08-13T05:18:30.1539898+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-08-13T05:29:28.1040207+05:30"
+    },
+    {
+      "Query": "fire",
+      "ExecutedDateTime": "2024-08-13T05:29:49.5410851+05:30"
+    },
+    {
+      "Query": "up",
+      "ExecutedDateTime": "2024-09-08T00:06:09.8857352+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T00:06:23.253286+05:30"
     }
   ]
 }

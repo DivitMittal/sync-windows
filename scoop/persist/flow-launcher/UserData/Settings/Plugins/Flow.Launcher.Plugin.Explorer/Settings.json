@@ -5,8 +5,11 @@
   "EditorPath": "",
   "FolderEditorPath": "",
   "ShellPath": "cmd",
+  "ExcludedFileTypes": "",
   "UseLocationAsWorkingDir": false,
-  "ShowWindowsContextMenu": true,
+  "ShowInlinedWindowsContextMenu": false,
+  "WindowsContextMenuIncludedItems": "",
+  "WindowsContextMenuExcludedItems": "",
   "DefaultOpenFolderInFileManager": false,
   "SearchActionKeyword": "*",
   "SearchActionKeywordEnabled": true,
@@ -19,6 +22,11 @@
   "QuickAccessActionKeyword": "*",
   "QuickAccessKeywordEnabled": false,
   "WarnWindowsSearchServiceOff": true,
+  "ShowFileSizeInPreviewPanel": true,
+  "ShowCreatedDateInPreviewPanel": true,
+  "ShowModifiedDateInPreviewPanel": true,
+  "PreviewPanelDateFormat": "yyyy-MM-dd",
+  "PreviewPanelTimeFormat": "HH:mm",
   "IndexSearchEngine": 0,
   "PathEnumerationEngine": 0,
   "ContentSearchEngine": 0,
@@ -26,5 +34,6 @@
   "SortOption": 1,
   "EnableEverythingContentSearch": false,
   "EverythingEnabled": false,
-  "EverythingSearchFullPath": false
+  "EverythingSearchFullPath": false,
+  "EverythingEnableRunCount": true
 }
