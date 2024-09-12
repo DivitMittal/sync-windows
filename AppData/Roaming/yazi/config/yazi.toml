@@ -125,7 +125,8 @@ run = "$EDITOR \"$@\""
 desc = "Edit via $EDITOR"
 for = "windows"
 orphan = true
-run = "$EDITOR \"%*\""
+block = true
+run = "nvim \"%*\""
 
 [[opener.editVS]]
 block = true
