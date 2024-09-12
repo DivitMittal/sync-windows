@@ -1,9 +1,16 @@
 #################################################################################
 # Environment Variables
 #################################################################################
+$scoopPath = "$HOME\scoop\apps"
+
 $env:Path += "$HOME\.local\bin;"
 $env:Path += "$HOME\scoop\shims;"
-$env:Path += "$HOME\scoop\apps\msys2\current\mingw64\bin;"
+$env:Path += "$scoopPath\msys2\current\mingw64\bin;"
+
+$env:EDITOR = "nvim"
+$env:VISUAL = "nvim"
+$env:SHELL = "pwsh"
+$env:YAZI_FILE_ONE = "$scoopPath\git\current\usr\bin\file.exe"
 
 #################################################################################
 # Aliases
@@ -67,16 +74,14 @@ function Invoke-Yazi {
 Set-Alias -Name y -Value Invoke-Yazi
 
 # bat
-Set-Alias -Name cat -Value bat
+function Invoke-Bat {
+  bat --paging=never
+}
+Set-Alias -Name cat -Value Invoke-Bat
 
 # msys
 function Invoke-Msys { msys2 -shell fish }
 Set-Alias -Name msys -Value Invoke-Msys
-
-# function Invoke-FastFetch {
-#   # mingw64 compiled
-#   fastfetch --logo "Windows" --pipe false --title-color-user magenta --title-color-at blue --title-color-host red --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --gpu-temp true --cpu-temp true --cpu-format "{1} @ {#4;35}{8}{#}" --gpu-format "{2} @ {#4;35}{4}{#}"
-# }
 
 #################################################################################
 # Implementation to manage dotfiles
@@ -203,8 +208,5 @@ Set-Alias -Name cdi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 #########################################################################################
 # Initializations
 #########################################################################################
-# fastfetch
-# Invoke-FastFetch
-
-# Starship prompt
+fastfetch
 Invoke-Expression (&starship init powershell)

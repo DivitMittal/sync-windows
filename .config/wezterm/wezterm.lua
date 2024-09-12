@@ -67,6 +67,7 @@ end
 ---------------------------------------------------------------------------------------------
 -- config
 local config = {
+  enable_kitty_graphics = true;
   term = "xterm-256color",
   font = w.font("Cascadia Code"),
   font_size = 12,

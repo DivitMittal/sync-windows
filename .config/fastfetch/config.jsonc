@@ -34,8 +34,8 @@
     }
   },
   "logo": {
-    "source": "./a-12.png",
-    // "type": "iterm"
+    "source": "Windows 7",
+    //"type": "iterm"
   },
   "modules": [
     {
