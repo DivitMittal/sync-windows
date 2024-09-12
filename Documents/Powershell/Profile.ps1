@@ -3,12 +3,13 @@
 #################################################################################
 $scoopPath = "$env:userprofile\scoop\apps"
 
-$env:Path += "$env:userprofile\.local\bin;"
-$env:Path += "$env:userprofile\scoop\shims;"
-$env:Path += "$scoopPath\msys2\current\mingw64\bin;"
+$env:Path += ";$env:userprofile\.local\bin"
+$env:Path += ";$env:userprofile\scoop\shims"
+$env:Path += ";$scoopPath\msys2\current\mingw64\bin"
 
-$env:EDITOR = "nvim"
-$env:VISUAL = "nvim"
+$EDITOR = "$env:userprofile\scoop\shims\nvim.exe"
+$env:EDITOR = "$EDITOR"
+$env:VISUAL = "$EDITOR"
 $env:SHELL = "pwsh"
 $env:YAZI_FILE_ONE = "$scoopPath\git\current\usr\bin\file.exe"
 
