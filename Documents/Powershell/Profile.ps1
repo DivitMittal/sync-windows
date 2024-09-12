@@ -1,10 +1,10 @@
 #################################################################################
 # Environment Variables
 #################################################################################
-$scoopPath = "$HOME\scoop\apps"
+$scoopPath = "$env:userprofile\scoop\apps"
 
-$env:Path += "$HOME\.local\bin;"
-$env:Path += "$HOME\scoop\shims;"
+$env:Path += "$env:userprofile\.local\bin;"
+$env:Path += "$env:userprofile\scoop\shims;"
 $env:Path += "$scoopPath\msys2\current\mingw64\bin;"
 
 $env:EDITOR = "nvim"
@@ -17,7 +17,7 @@ $env:YAZI_FILE_ONE = "$scoopPath\git\current\usr\bin\file.exe"
 #################################################################################
 # windows-backup
 function Invoke-WinPackageManagerBackup {
-  $backupDir = "$HOME/backup/"
+  $backupDir = "$env:userprofile/backup/"
   scoop list > "$backupDir/scoop_backup.txt"
   winget list > "$backupDir/winget_backup.txt"
 }
@@ -93,17 +93,11 @@ function Invoke-GitWithCustomPaths {
     [string[]]$Arguments
   )
 
-  # Set custom paths
-  $gitDir = "$HOME/sync-windows/"
-  $workTree = "$HOME"
+  $gitDir = "$env:userprofile/sync-windows/"
+  $workTree = "$env:userprofile"
 
-  # Build git command with custom paths
-  $gitCommand = "git --git-dir=$gitDir --work-tree=$workTree"
+  $gitCommand = "git --git-dir=$gitDir --work-tree=$workTree " + $Arguments
 
-  # Append provided arguments to the git command
-  $gitCommand += " " + $Arguments
-
-  # Invoke the git command
   Invoke-Expression $gitCommand
 }
 Set-Alias -Name sw -Value Invoke-GitWithCustomPaths
