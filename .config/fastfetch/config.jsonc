@@ -1,0 +1,101 @@
+{
+  "display": {
+    "brightColor": true,
+    "color": {
+      "keys": "light_magenta",
+      "output": "light_white",
+      "separator": "light_white",
+      "title": "white"
+    },
+    "constants": [
+      "───────────────────----────────"
+    ],
+    "freq": {
+      "ndigits": 2
+    },
+    "hideCursor": true,
+    "key": {
+      "paddingLeft": 0,
+      "type": "both"
+    },
+    "percent": {
+      "ndigits": 0,
+      "type": 9
+    },
+    "pipe": false,
+    "separator": " -➜❯ ",
+    "size": {
+      "binaryPrefix": "iec",
+      "ndigits": 2
+    },
+    "temp": {
+      "ndigits": 0,
+      "unit": "C"
+    }
+  },
+  "logo": {
+    "source": "./a-12.png",
+    // "type": "iterm"
+  },
+  "modules": [
+    {
+      "format": "┌{$1} info {$1}┐",
+      "type": "Custom"
+    },
+    {
+      "keyColor": "light_blue",
+      "type": "OS"
+    },
+    {
+      "keyColor": "light_blue",
+      "type": "Kernel"
+    },
+    {
+      "key": "Resolution",
+      "keyColor": "light_blue",
+      "type": "Display"
+    },
+    {
+      "keyColor": "light_green",
+      "type": "Terminal"
+    },
+    {
+      "key": "Font",
+      "keyColor": "light_green",
+      "type": "TerminalFont"
+    },
+    {
+      "format": "{1} @ {#4;35}{8}{#}",
+      "keyColor": "light_red",
+      "temp": true,
+      "type": "CPU"
+    },
+    {
+      "keyColor": "light_red",
+      "type": "processes"
+    },
+    {
+      "format": "{2} @ {#4;35}{4}{#}",
+      "keyColor": "light_magenta",
+      "temp": true,
+      "type": "GPU"
+    },
+    {
+      "key": "RAM",
+      "keyColor": "light_yellow",
+      "type": "Memory"
+    },
+    {
+      "keyColor": "light_yellow",
+      "type": "Swap"
+    },
+    {
+      "keyColor": "light_cyan",
+      "type": "LocalIP"
+    },
+    {
+      "format": "└{$1}─────{$1}┘",
+      "type": "Custom"
+    }
+  ]
+}

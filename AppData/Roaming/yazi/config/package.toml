@@ -1,5 +1,13 @@
 [plugin]
-deps = [{ use = "yazi-rs/plugins:max-preview", rev = "2dc65ab" }, { use = "yazi-rs/plugins:full-border", rev = "2dc65ab" }, { use = "yazi-rs/plugins:diff", rev = "2dc65ab" }, { use = "yazi-rs/plugins:chmod", rev = "2dc65ab" }, { use = "yazi-rs/plugins:smart-filter", rev = "2dc65ab" }, { use = "ndtoan96/ouch", rev = "251da69" }]
+deps = [
+  { use = "yazi-rs/plugins:max-preview", rev = "ba2a7d7" },
+  { use = "yazi-rs/plugins:full-border", rev = "ba2a7d7" },
+  { use = "yazi-rs/plugins:diff", rev = "ba2a7d7" },
+  { use = "yazi-rs/plugins:chmod", rev = "ba2a7d7" },
+  { use = "yazi-rs/plugins:smart-filter", rev = "ba2a7d7" },
+  { use = "AnirudhG07/rich-preview", rev = "8ae3caf" },
+  { use = "ndtoan96/ouch", rev = "251da69" }, { use = "Reledia/hexyl", rev = "f845ea5" }, { use = "yazi-rs/plugins:git", rev = "549d766" },
+]
 
 [flavor]
 deps = []
