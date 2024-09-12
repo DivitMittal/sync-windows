@@ -1,0 +1,203 @@
+[[filetype.rules]]
+fg = "#e0def4"
+name = "*"
+
+[[filetype.rules]]
+fg = "#524f67"
+name = "*/"
+
+[[filetype.rules]]
+fg = "#9ccfd8"
+mime = "image/*"
+
+[[filetype.rules]]
+fg = "#f6c177"
+mime = "video/*"
+
+[[filetype.rules]]
+fg = "#f6c177"
+mime = "audio/*"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/zip"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/gzip"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/x-tar"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/x-bzip"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/x-bzip2"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/x-7z-compressed"
+
+[[filetype.rules]]
+fg = "#eb6f92"
+mime = "application/x-rar"
+
+[help]
+[help.desc]
+fg = "#9399b2"
+
+[help.footer]
+bg = "#e0def4"
+fg = "#2A273F"
+
+[help.hovered]
+bg = "#585b70"
+bold = true
+
+[help.on]
+fg = "#eb6f92"
+
+[help.run]
+fg = "#9ccfd8"
+
+[input]
+[input.border]
+fg = "#524f67"
+
+[input.selected]
+reversed = true
+
+[input.title]
+
+[input.value]
+
+[manager]
+border_symbol = "│"
+syntect_theme = "~/.config/yazi/rose-pine.tmTheme"
+tab_width = 1
+[manager.border_style]
+fg = "#524f67"
+
+[manager.cwd]
+fg = "#eb6f92"
+
+[manager.find_keyword]
+fg = "#f6c177"
+italic = true
+
+[manager.find_position]
+bg = "reset"
+fg = "#eb6f92"
+italic = true
+
+[manager.hovered]
+bg = "#26233a"
+fg = "#e0def4"
+
+[manager.marker_copied]
+bg = "#f6c177"
+fg = "#f6c177"
+
+[manager.marker_cut]
+bg = "#B4637A"
+fg = "#B4637A"
+
+[manager.marker_selected]
+bg = "#9ccfd8"
+fg = "#9ccfd8"
+
+[manager.preview_hovered]
+underline = true
+
+[manager.tab_active]
+bg = "#eb6f92"
+fg = "#e0def4"
+
+[manager.tab_inactive]
+bg = "#2A273F"
+fg = "#e0def4"
+
+[select]
+[select.active]
+fg = "#eb6f92"
+
+[select.border]
+fg = "#524f67"
+
+[select.inactive]
+
+[status]
+separator_close = ""
+separator_open = ""
+[status.mode_normal]
+bg = "#ebbcba"
+bold = true
+fg = "#191724"
+
+[status.mode_select]
+bg = "#9ccfd8"
+bold = true
+fg = "#191724"
+
+[status.mode_unset]
+bg = "#b4637a"
+bold = true
+fg = "#e0def4"
+
+[status.permissions_r]
+fg = "#f6c177"
+
+[status.permissions_s]
+fg = "#524f67"
+
+[status.permissions_t]
+fg = "#31748f"
+
+[status.permissions_w]
+fg = "#B4637A"
+
+[status.permissions_x]
+fg = "#9ccfd8"
+
+[status.progress_error]
+bg = "#2A273F"
+fg = "#B4637A"
+
+[status.progress_label]
+bold = true
+fg = "#e0def4"
+
+[status.progress_normal]
+bg = "#2A273F"
+fg = "#191724"
+
+[status.separator_style]
+bg = "#2A273F"
+fg = "#2A273F"
+
+[tasks]
+[tasks.border]
+fg = "#524f67"
+
+[tasks.hovered]
+underline = true
+
+[tasks.title]
+
+[which]
+separator = "  "
+[which.cand]
+fg = "#9ccfd8"
+
+[which.desc]
+fg = "#eb6f92"
+
+[which.rest]
+fg = "#9399b2"
+
+[which.separator_style]
+fg = "#585b70"
