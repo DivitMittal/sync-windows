@@ -871,6 +871,110 @@
     {
       "Query": "wezterm",
       "ExecutedDateTime": "2024-09-08T00:06:23.253286+05:30"
+    },
+    {
+      "Query": "clean",
+      "ExecutedDateTime": "2024-09-08T00:20:32.7333811+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T00:21:20.0389666+05:30"
+    },
+    {
+      "Query": "firef",
+      "ExecutedDateTime": "2024-09-08T00:21:55.5575361+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T00:27:39.7802747+05:30"
+    },
+    {
+      "Query": "zen",
+      "ExecutedDateTime": "2024-09-08T00:36:54.8074432+05:30"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2024-09-08T00:39:36.6955267+05:30"
+    },
+    {
+      "Query": "set",
+      "ExecutedDateTime": "2024-09-08T00:40:07.1589192+05:30"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2024-09-08T00:42:21.1332491+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T00:42:32.4137213+05:30"
+    },
+    {
+      "Query": "flow",
+      "ExecutedDateTime": "2024-09-08T00:44:58.7763402+05:30"
+    },
+    {
+      "Query": "setting",
+      "ExecutedDateTime": "2024-09-08T00:46:13.8633565+05:30"
+    },
+    {
+      "Query": "zen",
+      "ExecutedDateTime": "2024-09-08T00:46:57.8325306+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T01:43:17.2273873+05:30"
+    },
+    {
+      "Query": "epic",
+      "ExecutedDateTime": "2024-09-08T02:03:54.7346901+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T02:09:12.3789437+05:30"
+    },
+    {
+      "Query": "zen",
+      "ExecutedDateTime": "2024-09-08T02:10:49.4822+05:30"
+    },
+    {
+      "Query": "download",
+      "ExecutedDateTime": "2024-09-08T02:26:27.5155333+05:30"
+    },
+    {
+      "Query": "C:\\Users\\Public\\Downloads\\",
+      "ExecutedDateTime": "2024-09-08T02:26:28.2834993+05:30"
+    },
+    {
+      "Query": "fi",
+      "ExecutedDateTime": "2024-09-08T02:36:31.0515512+05:30"
+    },
+    {
+      "Query": "recy",
+      "ExecutedDateTime": "2024-09-08T02:38:10.7556932+05:30"
+    },
+    {
+      "Query": "contr",
+      "ExecutedDateTime": "2024-09-08T02:40:56.1627861+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T03:07:10.8018139+05:30"
+    },
+    {
+      "Query": "zen",
+      "ExecutedDateTime": "2024-09-08T03:13:17.4873629+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-08T03:24:48.2156662+05:30"
+    },
+    {
+      "Query": "update",
+      "ExecutedDateTime": "2024-09-12T22:18:11.119351+05:30"
+    },
+    {
+      "Query": "wezterm",
+      "ExecutedDateTime": "2024-09-12T22:20:40.5394616+05:30"
     }
   ]
 }
