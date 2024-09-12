@@ -55,7 +55,7 @@ function Invoke-LlViaEza {
 Set-Alias -Name ll -Value Invoke-LlViaEza
 
 # yazi
-Set-Alias -Name yy -Value yazi
+Set-Alias -Name y -Value yazi
 
 # bat
 Set-Alias -Name cat -Value bat
@@ -199,4 +199,3 @@ Invoke-FastFetch
 
 # Starship prompt
 Invoke-Expression (&starship init powershell)
-
