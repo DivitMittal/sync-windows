@@ -1,7 +1,0 @@
-11:39:47 ERROR (launcher.py): Exception while calling method: open_program
-Traceback (most recent call last):
-  File "C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Windows Startup-1.0.2\lib\flox\launcher.py", line 28, in __init__
-    results = request_method(*request_parameters)
-  File "C:\Users\div\scoop\apps\flow-launcher\current\app-1.17.2\UserData\Plugins\Windows Startup-1.0.2\plugin\windows_startup.py", line 89, in open_program
-    os.startfile(path)
-FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\div\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\EPKL.exe - Shortcut.lnk'
