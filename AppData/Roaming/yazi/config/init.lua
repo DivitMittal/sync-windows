@@ -1,1 +1,16 @@
-/nix/store/3p6id68i6rxxsakm7hvarkzczf69090l-home-manager-files/.config/yazi/init.lua
+require("full-border"):setup()
+require("git"):setup()
+
+-- Add symlink target to the status bar
+function Status:name()
+	local h = cx.active.current.hovered
+	if h == nil then
+		return ui.Span("")
+	end
+
+	local linked = ""
+	if h.link_to ~= nil then
+		linked = " -> " .. tostring(h.link_to)
+	end
+	return ui.Span(" " .. h.name .. linked)
+end

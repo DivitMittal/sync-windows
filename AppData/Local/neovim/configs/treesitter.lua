@@ -1,1 +1,18 @@
-/nix/store/3p6id68i6rxxsakm7hvarkzczf69090l-home-manager-files/.config/nvim/lua/configs/treesitter.lua
+return {
+  ensure_installed = {
+    "vim",
+    "vimdoc",
+    "lua",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "tsx",
+    "c",
+    "markdown",
+    "markdown_inline",
+  },
+  indent = {
+    enable = true,
+  },
+}
