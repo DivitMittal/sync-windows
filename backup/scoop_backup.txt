@@ -7,19 +7,19 @@ Cascadia-Code 2404.23                  nerd-fonts             2024-05-02 00:43:5
 chafa         1.14.4                   main                   2024-09-13 01:38:34 
 discord       1.0.9156-20              extras                 2024-09-07 23:54:38 
 eza           0.18.0                   anderlli0053_DEV-tools 2024-03-17 14:19:33 
-fastfetch     2.24.0                   main                   2024-09-13 01:49:14 
+fastfetch     2.25.0                   main                   2024-09-25 02:21:31 
 fd            9.0.0                    anderlli0053_DEV-tools 2024-03-19 12:18:42 
 flow-launcher 1.19.1                   extras                 2024-09-07 23:59:00 
 fzf           0.46.1                   anderlli0053_DEV-tools 2024-03-17 15:01:42 
 gcc           13.2.0                   main                   2024-03-16 16:01:42 
-git           2.46.0                   main                   2024-08-10 12:18:12 
+git           2.46.2                   main                   2024-09-25 02:22:06 
 imagemagick   7.1.1-38                 main                   2024-09-13 01:40:14 
 innounp       0.50                     main                   2024-09-13 01:40:02 
 jq            1.7.1                    anderlli0053_DEV-tools 2024-03-19 12:18:44 
 less          661                      main                   2024-08-13 05:04:08 
 msys2         2024-07-27               main                   2024-08-10 12:18:49 
 neovim        0.10.1                   main                   2024-08-10 12:49:02 
-nodejs        22.8.0                   main                   2024-09-07 23:55:22 
+nodejs        22.9.0                   main                   2024-09-25 02:22:21 
 ouch          0.5.1                    main                   2024-08-11 16:57:00 
 poppler       23.11.0-0                anderlli0053_DEV-tools 2024-03-19 12:18:49 
 psshutdown    2.6                      sysinternals           2024-08-12 18:55:03 
@@ -31,5 +31,5 @@ vim           9.1.0                    main                   2024-09-13 01:33:0
 vscode        1.93.1                   extras                 2024-09-13 02:52:33 
 wezterm       20240203-110809-5046fc22 extras                 2024-03-18 14:34:20 
 yazi          0.3.3                    main                   2024-09-07 23:57:06 
-zoxide        0.9.4                    main                   2024-03-16 16:43:45 
+zoxide        0.9.6                    main                   2024-09-25 02:22:26 
 
