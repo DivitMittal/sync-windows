@@ -1,5 +1,6 @@
-<p align="center"><img src="./assets/dotfiles.svg" alt="dotfiles-logo" height="100px" width="100px"/></p>
+<h1 align='center'>Windows ~/.dotfiles</h1>
+<div align="center">
+  <img src="./assets/dotfiles.svg" alt="dotfiles-logo" height='160'/>
+</div>
 
-# ~/.dotfiles</h2>
-These are dotfiles, pref. files, config. files, shell scripts, etc., predominantly for Microsoft Windows.
-
+These are dotfiles, pref. files, config. files, shell scripts, etc., for Microsoft Windows.
