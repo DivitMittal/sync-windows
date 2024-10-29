@@ -3,7 +3,7 @@
 
 return {
   base46 = {
-    theme = "gatekeeper",
+    theme = 'gatekeeper',
     transparency = true,
     integrations = {
       "git",
@@ -15,7 +15,7 @@ return {
       Comment = { italic = true, },
     },
     hl_add = {
-      NvimTreeOpenedFolderName = { fg = "green", bold = true },
+      NvimTreeOpenedFolderName = { fg = 'green', bold = true },
     },
   },
 
@@ -28,8 +28,19 @@ return {
       load_on_startup = false,
     },
     statusline = {
-      separator_style = "round",
+      separator_style = 'round',
     },
+  },
+
+  cheatsheet = {
+    theme = 'grid',
+  },
+
+  term = {
+    winopts = {
+      number = true,
+      relativenumber = true,
+    }
   },
 
   lsp = {
@@ -38,19 +49,6 @@ return {
 
   mason = {
     cmd = true,
-    pkgs = {
-      -- lua stuff
-      "lua-language-server",
-      "stylua",
-      -- web dev stuff
-      "css-lsp",
-      "html-lsp",
-      "typescript-language-server",
-      "deno",
-      "prettier",
-      -- c/cpp stuff
-      "clangd",
-      "clang-format",
-    },
+    pkgs = require 'configs.mason',
   },
 }
