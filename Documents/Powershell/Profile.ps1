@@ -11,7 +11,9 @@ $EDITOR = "$env:userprofile\scoop\shims\nvim.exe"
 $env:EDITOR = "$EDITOR"
 $env:VISUAL = "$EDITOR"
 $env:SHELL = "pwsh"
+
 $env:YAZI_FILE_ONE = "$scoopPath\git\current\usr\bin\file.exe"
+$env:KOMOREBI_CONFIG_HOME = "$env:userprofile\.config\komorebi"
 
 #################################################################################
 # Aliases
