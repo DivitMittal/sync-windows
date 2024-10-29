@@ -74,6 +74,7 @@ local config = {
   adjust_window_size_when_changing_font_size = false,
   window_close_confirmation = "NeverPrompt",
   custom_block_glyphs = false,
+  warn_about_missing_glyphs = false,
   harfbuzz_features = { "calt=1", "clig=1", "liga=1" },
   colors = {
     foreground = 'silver',
