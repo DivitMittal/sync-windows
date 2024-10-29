@@ -1,0 +1,11 @@
+{
+  "EnableQuickAccessHotKey": true,
+  "QuickAccessHotKey": {
+    "Ctrl": true,
+    "Shift": false,
+    "Alt": true,
+    "Win": false,
+    "Key": 68
+  },
+  "SearchWindowsAcrossAllVDesktop": false
+}

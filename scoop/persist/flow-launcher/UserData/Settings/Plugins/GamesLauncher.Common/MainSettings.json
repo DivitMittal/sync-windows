@@ -1,0 +1,9 @@
+{
+  "SynchronizeEpicGamesStore": true,
+  "SynchronizeSteam": true,
+  "SynchronizeXbox": true,
+  "SynchronizeAmazon": true,
+  "SynchronizeUbisoft": true,
+  "SynchronizeEaApp": true,
+  "SynchronizeGogGalaxy": true
+}
