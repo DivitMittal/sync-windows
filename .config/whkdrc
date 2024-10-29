@@ -1,0 +1,21 @@
+.shell pwsh
+
+############## General rules and keys defined to integrate seamlessly with custom TLTR keyboard layout
+# cmd + ctrl + shift + alt or TL + d : hyper key (meant for popping stuff on the display)
+# cmd + ctrl + alt or TL + w         : window manager key (meant for window manipulation)
+# fn or TL + x                       : function key
+
+# Reload whkd configuration
+alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
+alt + shift + o         : komorebic reload-configuration
+
+# App shortcuts - these require shell to be pwsh / powershell
+win + ctrl + shift + alt + return: Start-Process wezterm -WindowStyle hidden
+
+win + ctrl + alt + q     : komorebic close
+
+win + ctrl + alt + right             : komorebic cycle-workspace next
+win + ctrl + alt + left              : komorebic cycle-workspace previous
+
+win + ctrl + alt + tab               : komorebic cycle-move-to-workspace next
+win + ctrl + alt + shift + tab       : komorebic cycle-move-to-workspace previous
