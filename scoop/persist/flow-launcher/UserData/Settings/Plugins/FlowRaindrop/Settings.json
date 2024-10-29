@@ -1,4 +1,4 @@
 {
-  "api_token": "",
-  "cache_ttl": "5 minutes"
+  "cache_ttl": "5 minutes",
+  "api_token": ""
 }
