@@ -31,19 +31,19 @@
     {
       "workspaces": [
         {
-          "name": "I",
+          "name": "1",
         },
         {
-          "name": "II",
+          "name": "2",
         },
         {
-          "name": "III",
+          "name": "3",
         },
         {
-          "name": "IV",
+          "name": "4",
         },
         {
-          "name": "V",
+          "name": "5",
         }
       ]
     }
