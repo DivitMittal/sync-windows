@@ -1,12 +1,12 @@
 [plugin]
 deps = [
-  { use = "yazi-rs/plugins:max-preview", rev = "ad52adf" },
-  { use = "yazi-rs/plugins:full-border", rev = "ad52adf" },
-  { use = "yazi-rs/plugins:diff", rev = "ad52adf" },
-  { use = "yazi-rs/plugins:chmod", rev = "ad52adf" },
-  { use = "yazi-rs/plugins:smart-filter", rev = "ad52adf" },
-  { use = "AnirudhG07/rich-preview", rev = "fe43219" },
-  { use = "ndtoan96/ouch", rev = "d13f7c0" }, { use = "Reledia/hexyl", rev = "ccc0a4a" }, { use = "yazi-rs/plugins:git", rev = "ad52adf" },
+  { use = "yazi-rs/plugins:max-preview", rev = "7afba3a" },
+  { use = "yazi-rs/plugins:full-border", rev = "7afba3a" },
+  { use = "yazi-rs/plugins:diff", rev = "7afba3a" },
+  { use = "yazi-rs/plugins:chmod", rev = "7afba3a" },
+  { use = "yazi-rs/plugins:smart-filter", rev = "7afba3a" },
+  { use = "AnirudhG07/rich-preview", rev = "8be4d27" },
+  { use = "ndtoan96/ouch", rev = "b869886" }, { use = "Reledia/hexyl", rev = "39d3d4e" }, { use = "yazi-rs/plugins:git", rev = "7afba3a" },
 ]
 
 [flavor]

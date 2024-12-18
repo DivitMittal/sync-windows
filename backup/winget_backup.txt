@@ -1,59 +1,68 @@
-   -                                                                                                                            -                                                                                                                         Name                                          Id                                             Version            Source
+   -                                                                                                                            -                                                                                                                         Name                                            Id                                               Version        Source
 -----------------------------------------------------------------------------------------------------------------------
-AMD Software                                  ARP\Machine\X64\AMD Catalyst Install Manager   23.9.3             
-Zen Browser (x64 en-US)                       ARP\Machine\X64\Zen Browser 1.0.1-a.22 (x64 e… 1.0.1-a.22         
-Intel(R) Management Engine Components         ARP\Machine\X64\{1CEAC85D-2590-4760-800F-8DE5… 1806.12.0.1100     
-Microsoft Update Health Tools                 ARP\Machine\X64\{1FC1A6C2-576E-489A-9B4A-92D2… 3.74.0.0           
-Microsoft Visual C++ 2008 Redistributable - … ARP\Machine\X64\{350AA351-21FA-3270-8B7A-8354… 9.0.21022          
-Microsoft SQL Server 2019 LocalDB             ARP\Machine\X64\{36E492B8-CB83-4DA5-A5D2-D99A… 15.0.4153.1        
-Update for x64-based Windows Systems (KB5001… ARP\Machine\X64\{DA80A019-4C3B-4DAA-ACA1-6937… 8.94.0.0           
-Boot Camp Services                            ARP\Machine\X64\{FCFFE6B6-BAE8-490E-88D0-097A… 6.1.7748           
-Microsoft Edge                                Microsoft.Edge                                 131.0.2903.70      winget
-vs_CoreEditorFonts                            ARP\Machine\X86\{1851460E-0E63-4117-B5BA-25A2… 17.7.40001         
-Windows SDK AddOn                             ARP\Machine\X86\{34462024-520E-4586-BF36-A19D… 10.1.0.0           
-Epic Online Services                          ARP\Machine\X86\{57A956AB-4BCC-45C6-9B40-957E… 2.0.44.0           
-Microsoft Visual C++ 2015-2022 Redistributab… Microsoft.VCRedist.2015+.x64                   14.42.34433.0      winget
-Apple Software Update                         Apple.AppleSoftwareUpdate                      2.7.0.3            winget
-Epic Games Launcher                           EpicGames.EpicGamesLauncher                    1.3.93.0           winget
-CPU Monitor for Game Bar                      MSIX\62269AlexShats.CPUMonitorforGameBar_0.1.… 0.1.7.0            
-Dolby Atmos                                   MSIX\DolbyLaboratories.DolbyAtmos_3.20201.255… 3.20201.255.0      
-Copilot                                       MSIX\Microsoft.Copilot_0.4.2.0_neutral__8weky… 0.4.2.0            
-App Installer                                 Microsoft.AppInstaller                         1.24.25200.0       winget
-English (United Kingdom) Local Experience Pa… MSIX\Microsoft.LanguageExperiencePacken-GB_19… 19041.62.219.0     
-Microsoft Edge                                MSIX\Microsoft.MicrosoftEdge.Stable_127.0.265… 127.0.2651.98      
-PC Manager                                    MSIX\Microsoft.MicrosoftPCManager_3.14.10.0_x… 3.14.10.0          
-Microsoft .Net Native Framework Package 1.7   MSIX\Microsoft.NET.Native.Framework.1.7_1.7.2… 1.7.27413.0        
-Microsoft .Net Native Framework Package 1.7   MSIX\Microsoft.NET.Native.Framework.1.7_1.7.2… 1.7.27413.0        
-Microsoft .Net Native Framework Package 2.2   MSIX\Microsoft.NET.Native.Framework.2.2_2.2.2… 2.2.29512.0        
-Microsoft .Net Native Framework Package 2.2   MSIX\Microsoft.NET.Native.Framework.2.2_2.2.2… 2.2.29512.0        
-Microsoft .Net Native Runtime Package 1.7     MSIX\Microsoft.NET.Native.Runtime.1.7_1.7.274… 1.7.27422.0        
-Microsoft .Net Native Runtime Package 1.7     MSIX\Microsoft.NET.Native.Runtime.1.7_1.7.274… 1.7.27422.0        
-Microsoft .Net Native Runtime Package 2.2     MSIX\Microsoft.NET.Native.Runtime.2.2_2.2.286… 2.2.28604.0        
-Microsoft .Net Native Runtime Package 2.2     MSIX\Microsoft.NET.Native.Runtime.2.2_2.2.286… 2.2.28604.0        
-PowerShell                                    MSIX\Microsoft.PowerShell_7.4.6.0_x64__8wekyb… 7.4.6.0            
-Snip & Sketch                                 MSIX\Microsoft.ScreenSketch_10.2008.3001.0_x6… 10.2008.3001.0     
-Microsoft Engagement Framework                MSIX\Microsoft.Services.Store.Engagement_10.0… 10.0.23012.0       
-Microsoft Engagement Framework                MSIX\Microsoft.Services.Store.Engagement_10.0… 10.0.23012.0       
-Store Experience Host                         MSIX\Microsoft.StorePurchaseApp_22408.1401.0.… 22408.1401.0.0     
-Microsoft.UI.Xaml.2.4                         MSIX\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64… 2.42007.9001.0     
-Microsoft.UI.Xaml.2.4                         MSIX\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x86… 2.42007.9001.0     
-Microsoft.UI.Xaml.2.7                         Microsoft.UI.Xaml.2.7                          7.2409.9001.0      winget
-Microsoft.UI.Xaml.2.7                         Microsoft.UI.Xaml.2.7                          7.2409.9001.0      winget
-Microsoft.UI.Xaml.2.8                         Microsoft.UI.Xaml.2.8                          8.2310.30001.0     winget
-Microsoft.UI.Xaml.2.8                         Microsoft.UI.Xaml.2.8                          8.2310.30001.0     winget
-Microsoft Visual C++ 2015 UWP Desktop Runtim… Microsoft.VCLibs.Desktop.14                    14.0.33728.0       winget
-Microsoft Visual C++ 2015 UWP Desktop Runtim… Microsoft.VCLibs.Desktop.14                    14.0.33728.0       winget
-Microsoft Visual C++ 2015 UWP Desktop Runtim… Microsoft.VCLibs.Desktop.14                    14.0.33519.0       winget
-Microsoft Visual C++ 2015 UWP Desktop Runtim… Microsoft.VCLibs.Desktop.14                    14.0.33321.0       winget
-Microsoft Visual C++ 2015 UWP Runtime Package MSIX\Microsoft.VCLibs.140.00_14.0.33321.0_x64… 14.0.33321.0       
-Microsoft Visual C++ 2015 UWP Runtime Package MSIX\Microsoft.VCLibs.140.00_14.0.33519.0_x64… 14.0.33519.0       
-Microsoft Visual C++ 2015 UWP Runtime Package MSIX\Microsoft.VCLibs.140.00_14.0.33519.0_x86… 14.0.33519.0       
-Microsoft Photos                              MSIX\Microsoft.Windows.Photos_2024.11100.1600… 2024.11100.16009.0 
-WindowsAppRuntime.1.3                         MSIX\Microsoft.WindowsAppRuntime.1.3_3000.934… 3000.934.1904.0    
-WindowsAppRuntime.1.3                         MSIX\Microsoft.WindowsAppRuntime.1.3_3000.934… 3000.934.1904.0    
-WindowsAppRuntime.1.5                         MSIX\Microsoft.WindowsAppRuntime.1.5_5001.275… 5001.275.500.0     
-WindowsAppRuntime.1.5                         MSIX\Microsoft.WindowsAppRuntime.1.5_5001.275… 5001.275.500.0     
-Windows Camera                                MSIX\Microsoft.WindowsCamera_2024.2408.1.0_x6… 2024.2408.1.0      
-Microsoft Store                               MSIX\Microsoft.WindowsStore_22410.1401.4.0_x6… 22410.1401.4.0     
-Windows Package Manager Source (winget) V2    MSIX\Microsoft.Winget.Source_2024.1130.1954.0… 2024.1130.1954.0   
-Game Bar                                      MSIX\Microsoft.XboxGamingOverlay_7.224.10282.… 7.224.10282.0      
+AMD Software                                    ARP\Machine\X64\AMD Catalyst Install Manager     21.30.45.18    
+Intel(R) Management Engine Components           ARP\Machine\X64\{1CEAC85D-2590-4760-800F-8DE5E9… 1806.12.0.1100 
+Microsoft Update Health Tools                   ARP\Machine\X64\{1FC1A6C2-576E-489A-9B4A-92D21F… 3.74.0.0       
+Microsoft Visual C++ 2008 Redistributable - x6… ARP\Machine\X64\{350AA351-21FA-3270-8B7A-835434… 9.0.21022      
+Microsoft SQL Server 2019 LocalDB               ARP\Machine\X64\{36E492B8-CB83-4DA5-A5D2-D99A8E… 15.0.4153.1    
+Update for x64-based Windows Systems (KB500171… ARP\Machine\X64\{DA80A019-4C3B-4DAA-ACA1-6937D7… 8.94.0.0       
+Boot Camp Services                              ARP\Machine\X64\{FCFFE6B6-BAE8-490E-88D0-097A9D… 6.1.7748       
+Microsoft Edge                                  Microsoft.Edge                                   131.0.2903.99  winget
+vs_CoreEditorFonts                              ARP\Machine\X86\{1851460E-0E63-4117-B5BA-25A2F0… 17.7.40001     
+Windows SDK AddOn                               ARP\Machine\X86\{34462024-520E-4586-BF36-A19D1A… 10.1.0.0       
+Microsoft Visual C++ 2015-2022 Redistributable… Microsoft.VCRedist.2015+.x64                     14.42.34433.0  winget
+Apple Software Update                           Apple.AppleSoftwareUpdate                        2.7.0.3        winget
+DataSpell                                       ARP\User\X64\JetBrains Toolbox (DataSpell) 4c0b… 2024.3.1       
+CPU Monitor for Game Bar                        MSIX\62269AlexShats.CPUMonitorforGameBar_0.1.7.… 0.1.7.0        
+Dolby Atmos                                     MSIX\DolbyLaboratories.DolbyAtmos_3.20201.255.0… 3.20201.255.0  
+Windows Application Compatibility Enhancements  MSIX\Microsoft.ApplicationCompatibilityEnhancem… 1.2411.16.0    
+Copilot                                         MSIX\Microsoft.Copilot_1.1.9.0_neutral__8wekyb3… 1.1.9.0        
+App Installer                                   Microsoft.AppInstaller                           1.24.25200.0   winget
+English (United Kingdom) Local Experience Pack  MSIX\Microsoft.LanguageExperiencePacken-GB_2610… 26100.24.38.0  
+Microsoft Edge                                  MSIX\Microsoft.MicrosoftEdge.Stable_131.0.2903.… 131.0.2903.70  
+PC Manager                                      MSIX\Microsoft.MicrosoftPCManager_3.14.14.0_x64… 3.14.14.0      
+Microsoft .Net Native Framework Package 1.7     MSIX\Microsoft.NET.Native.Framework.1.7_1.7.274… 1.7.27413.0    
+Microsoft .Net Native Framework Package 1.7     MSIX\Microsoft.NET.Native.Framework.1.7_1.7.274… 1.7.27413.0    
+Microsoft .Net Native Framework Package 2.2     MSIX\Microsoft.NET.Native.Framework.2.2_2.2.295… 2.2.29512.0    
+Microsoft .Net Native Framework Package 2.2     MSIX\Microsoft.NET.Native.Framework.2.2_2.2.295… 2.2.29512.0    
+Microsoft .Net Native Runtime Package 1.7       MSIX\Microsoft.NET.Native.Runtime.1.7_1.7.27422… 1.7.27422.0    
+Microsoft .Net Native Runtime Package 1.7       MSIX\Microsoft.NET.Native.Runtime.1.7_1.7.27422… 1.7.27422.0    
+Microsoft .Net Native Runtime Package 2.2       MSIX\Microsoft.NET.Native.Runtime.2.2_2.2.28604… 2.2.28604.0    
+Microsoft .Net Native Runtime Package 2.2       MSIX\Microsoft.NET.Native.Runtime.2.2_2.2.28604… 2.2.28604.0    
+PowerShell                                      MSIX\Microsoft.PowerShell_7.4.6.0_x64__8wekyb3d… 7.4.6.0        
+Snipping Tool                                   MSIX\Microsoft.ScreenSketch_11.2409.25.0_x64__8… 11.2409.25.0   
+Windows Security                                MSIX\Microsoft.SecHealthUI_1000.26100.1.0_x64__… 1000.26100.1.0 
+Microsoft Engagement Framework                  MSIX\Microsoft.Services.Store.Engagement_10.0.2… 10.0.23012.0   
+Microsoft Engagement Framework                  MSIX\Microsoft.Services.Store.Engagement_10.0.2… 10.0.23012.0   
+Store Experience Host                           MSIX\Microsoft.StorePurchaseApp_22410.1401.0.0_… 22410.1401.0.0 
+Microsoft.UI.Xaml.2.4                           MSIX\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__… 2.42007.9001.0 
+Microsoft.UI.Xaml.2.4                           MSIX\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x86__… 2.42007.9001.0 
+Microsoft.UI.Xaml.2.7                           Microsoft.UI.Xaml.2.7                            7.2409.9001.0  winget
+Microsoft.UI.Xaml.2.7                           Microsoft.UI.Xaml.2.7                            7.2409.9001.0  winget
+Microsoft.UI.Xaml.2.8                           Microsoft.UI.Xaml.2.8                            8.2310.30001.0 winget
+Microsoft.UI.Xaml.2.8                           Microsoft.UI.Xaml.2.8                            8.2310.30001.0 winget
+Microsoft Visual C++ 2015 UWP Desktop Runtime … Microsoft.VCLibs.Desktop.14                      14.0.33728.0   winget
+Microsoft Visual C++ 2015 UWP Desktop Runtime … Microsoft.VCLibs.Desktop.14                      14.0.33728.0   winget
+Microsoft Visual C++ 2015 UWP Desktop Runtime … Microsoft.VCLibs.Desktop.14                      14.0.33519.0   winget
+Microsoft Visual C++ 2015 UWP Desktop Runtime … Microsoft.VCLibs.Desktop.14                      14.0.33321.0   winget
+Microsoft Visual C++ 2015 UWP Runtime Package   MSIX\Microsoft.VCLibs.140.00_14.0.33321.0_x64__… 14.0.33321.0   
+Microsoft Visual C++ 2015 UWP Runtime Package   MSIX\Microsoft.VCLibs.140.00_14.0.33519.0_x64__… 14.0.33519.0   
+Microsoft Visual C++ 2015 UWP Runtime Package   MSIX\Microsoft.VCLibs.140.00_14.0.33519.0_x86__… 14.0.33519.0   
+Widgets Platform Runtime                        MSIX\Microsoft.WidgetsPlatformRuntime_1.6.1.0_x… 1.6.1.0        
+Dev Home (Preview)                              Microsoft.DevHome                                0.1901.687.0   winget
+Microsoft Photos                                MSIX\Microsoft.Windows.Photos_2024.11120.5010.0… 2024.11120.50… 
+WindowsAppRuntime.1.3                           MSIX\Microsoft.WindowsAppRuntime.1.3_3000.934.1… 3000.934.1904… 
+WindowsAppRuntime.1.3                           MSIX\Microsoft.WindowsAppRuntime.1.3_3000.934.1… 3000.934.1904… 
+WindowsAppRuntime.1.5                           MSIX\Microsoft.WindowsAppRuntime.1.5_5001.275.5… 5001.275.500.0 
+WindowsAppRuntime.1.5                           MSIX\Microsoft.WindowsAppRuntime.1.5_5001.311.2… 5001.311.2039… 
+WindowsAppRuntime.1.5                           MSIX\Microsoft.WindowsAppRuntime.1.5_5001.311.2… 5001.311.2039… 
+WindowsAppRuntime.1.6                           MSIX\Microsoft.WindowsAppRuntime.1.6_6000.318.2… 6000.318.2304… 
+WindowsAppRuntime.1.6                           MSIX\Microsoft.WindowsAppRuntime.1.6_6000.318.2… 6000.318.2304… 
+Windows Camera                                  MSIX\Microsoft.WindowsCamera_2024.2408.1.0_x64_… 2024.2408.1.0  
+Microsoft Store                                 MSIX\Microsoft.WindowsStore_22411.1401.5.0_x64_… 22411.1401.5.0 
+Windows Terminal                                Microsoft.WindowsTerminal                        1.21.3231.0    winget
+Windows Package Manager Source (winget) V2      MSIX\Microsoft.Winget.Source_2024.1218.853.15_n… 2024.1218.853… 
+Game Bar                                        MSIX\Microsoft.XboxGamingOverlay_7.224.11211.0_… 7.224.11211.0  
+Windows Subsystem for Linux                     Microsoft.WSL                                    2.3.26.0       winget
+Windows Web Experience Pack                     MSIX\MicrosoftWindows.Client.WebExperience_524.… 524.30502.30.0 
+Cross Device Experience Host                    MSIX\MicrosoftWindows.CrossDevice_1.24112.22.0_… 1.24112.22.0   

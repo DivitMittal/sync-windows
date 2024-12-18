@@ -122,13 +122,13 @@
   "AlwaysStartEn": false,
   "QuerySearchPrecision": "Regular",
   "AutoUpdates": false,
-  "WindowLeft": 1142,
+  "WindowLeft": 1142.2857142857142,
   "WindowTop": 40,
   "CustomWindowLeft": 2000,
   "CustomWindowTop": 70,
   "KeepMaxResults": false,
   "MaxResultsToShow": 5,
-  "ActivateTimes": 969,
+  "ActivateTimes": 994,
   "CustomPluginHotkeys": [],
   "CustomShortcuts": [],
   "DontPromptUpdateMsg": false,
@@ -153,7 +153,7 @@
   "AnimationSpeed": "Custom",
   "CustomAnimationLength": 150,
   "PluginSettings": {
-    "PythonExecutablePath": "C:\\Users\\div\\scoop\\apps\\flow-launcher\\current\\app-1.19.3\\UserData\\Environments\\Python\\PythonEmbeddable-v3.11.4\\pythonw.exe",
+    "PythonExecutablePath": "C:\\Users\\div\\scoop\\apps\\flow-launcher\\current\\app-1.19.4\\UserData\\Environments\\Python\\PythonEmbeddable-v3.11.4\\pythonw.exe",
     "NodeExecutablePath": "C:\\Users\\div\\scoop\\apps\\nodejs\\21.7.1\\node.exe",
     "Plugins": {
       "0ECADE17459B49F587BF81DC3A125110": {
