@@ -160,9 +160,7 @@
         "ID": "0ECADE17459B49F587BF81DC3A125110",
         "Name": "Browser Bookmarks",
         "Version": "3.1.5",
-        "ActionKeywords": [
-          "b"
-        ],
+        "ActionKeywords": ["b"],
         "Priority": 0,
         "Disabled": false
       },
@@ -170,9 +168,7 @@
         "ID": "CEA0FDFC6D3B4085823D60DC76F28855",
         "Name": "Calculator",
         "Version": "3.1.0",
-        "ActionKeywords": [
-          "*"
-        ],
+        "ActionKeywords": ["*"],
         "Priority": 0,
         "Disabled": false
       },
@@ -180,13 +176,7 @@
         "ID": "572be03c74c642baae319fc283e561a8",
         "Name": "Explorer",
         "Version": "3.1.5",
-        "ActionKeywords": [
-          "*",
-          "doc:",
-          "*",
-          "*",
-          "*"
-        ],
+        "ActionKeywords": ["*", "doc:", "*", "*", "*"],
         "Priority": 0,
         "Disabled": false
       },
@@ -194,9 +184,7 @@
         "ID": "6A122269676E40EB86EB543B945932B9",
         "Name": "Plugin Indicator",
         "Version": "3.0.3",
-        "ActionKeywords": [
-          "?"
-        ],
+        "ActionKeywords": ["?"],
         "Priority": 0,
         "Disabled": false
       },
@@ -204,9 +192,7 @@
         "ID": "9f8f9b14-2518-4907-b211-35ab6290dee7",
         "Name": "Plugins Manager",
         "Version": "3.1.0",
-        "ActionKeywords": [
-          "pm"
-        ],
+        "ActionKeywords": ["pm"],
         "Priority": 0,
         "Disabled": false
       },
@@ -214,9 +200,7 @@
         "ID": "b64d0a79-329a-48b0-b53f-d658318a1bf6",
         "Name": "Process Killer",
         "Version": "3.0.4",
-        "ActionKeywords": [
-          "kill"
-        ],
+        "ActionKeywords": ["kill"],
         "Priority": 0,
         "Disabled": false
       },
@@ -224,9 +208,7 @@
         "ID": "791FC278BA414111B8D1886DFE447410",
         "Name": "Program",
         "Version": "3.2.0",
-        "ActionKeywords": [
-          "*"
-        ],
+        "ActionKeywords": ["*"],
         "Priority": 0,
         "Disabled": false
       },
@@ -234,9 +216,7 @@
         "ID": "D409510CD0D2481F853690A07E6DC426",
         "Name": "Shell",
         "Version": "3.2.0",
-        "ActionKeywords": [
-          "\u003E"
-        ],
+        "ActionKeywords": ["\u003E"],
         "Priority": 0,
         "Disabled": false
       },
@@ -244,9 +224,7 @@
         "ID": "CEA08895D2544B019B2E9C5009600DF4",
         "Name": "System Commands",
         "Version": "3.1.1",
-        "ActionKeywords": [
-          "*"
-        ],
+        "ActionKeywords": ["*"],
         "Priority": 0,
         "Disabled": false
       },
@@ -254,9 +232,7 @@
         "ID": "0308FD86DE0A4DEE8D62B9B535370992",
         "Name": "URL",
         "Version": "3.0.4",
-        "ActionKeywords": [
-          "*"
-        ],
+        "ActionKeywords": ["*"],
         "Priority": 0,
         "Disabled": false
       },
@@ -294,9 +270,7 @@
         "ID": "5043CETYU6A748679OPA02D27D99677A",
         "Name": "Windows Settings",
         "Version": "4.0.6",
-        "ActionKeywords": [
-          "s"
-        ],
+        "ActionKeywords": ["s"],
         "Priority": 0,
         "Disabled": false
       },
@@ -304,9 +278,7 @@
         "ID": "54545DC7B3A542DBB6C7DA50DEAD455B",
         "Name": "GamesLauncher",
         "Version": "1.9.0",
-        "ActionKeywords": [
-          "gl"
-        ],
+        "ActionKeywords": ["gl"],
         "Priority": 0,
         "Disabled": false
       },
@@ -314,9 +286,7 @@
         "ID": "c3406b5c-22f0-4984-b018-3dae897cab3f",
         "Name": "Dictionary",
         "Version": "2.3.2",
-        "ActionKeywords": [
-          "d"
-        ],
+        "ActionKeywords": ["d"],
         "Priority": 0,
         "Disabled": false
       },
@@ -324,9 +294,7 @@
         "ID": "8025ce8b-b1ce-49cd-af48-b343a0df8606",
         "Name": "Clipboard History",
         "Version": "1.1.1",
-        "ActionKeywords": [
-          "cb"
-        ],
+        "ActionKeywords": ["cb"],
         "Priority": 0,
         "Disabled": false
       },
@@ -334,9 +302,7 @@
         "ID": "747F1A93B6D24CCFBC433BA2455B3BEA",
         "Name": "Windows Startup",
         "Version": "1.0.2",
-        "ActionKeywords": [
-          "wst"
-        ],
+        "ActionKeywords": ["wst"],
         "Priority": 0,
         "Disabled": false
       },
@@ -344,9 +310,7 @@
         "ID": "8533B2E5632A449F916D3658EABFB595",
         "Name": "Registry",
         "Version": "1.0.0",
-        "ActionKeywords": [
-          "reg"
-        ],
+        "ActionKeywords": ["reg"],
         "Priority": 0,
         "Disabled": false
       },
@@ -354,9 +318,7 @@
         "ID": "C04175CF5284406DAA9E30A85EC7DA76",
         "Name": "Audio Device Selector",
         "Version": "1.0.3",
-        "ActionKeywords": [
-          "ad"
-        ],
+        "ActionKeywords": ["ad"],
         "Priority": 0,
         "Disabled": false
       },
@@ -364,9 +326,7 @@
         "ID": "EAE9772F43F949CAB65F826300C5AD3C",
         "Name": "One-time Password",
         "Version": "1.0.0",
-        "ActionKeywords": [
-          "#"
-        ],
+        "ActionKeywords": ["#"],
         "Priority": 0,
         "Disabled": false
       },
@@ -374,9 +334,7 @@
         "ID": "B9B8174812E4474D96C148317BE2BFB7",
         "Name": "FlowRaindrop",
         "Version": "1.0.0",
-        "ActionKeywords": [
-          "rd"
-        ],
+        "ActionKeywords": ["rd"],
         "Priority": 0,
         "Disabled": false
       },
@@ -384,9 +342,7 @@
         "ID": "661D020D-4E0B-414B-B12B-58F795A20D79",
         "Name": "Shortcuts",
         "Version": "1.1.4",
-        "ActionKeywords": [
-          "q"
-        ],
+        "ActionKeywords": ["q"],
         "Priority": 0,
         "Disabled": false
       },
@@ -394,9 +350,7 @@
         "ID": "095A6AE3A255532EAAD78F05A71D4981",
         "Name": "Quick Uninstaller",
         "Version": "2.0.0",
-        "ActionKeywords": [
-          "unin"
-        ],
+        "ActionKeywords": ["unin"],
         "Priority": 0,
         "Disabled": false
       },
@@ -404,9 +358,7 @@
         "ID": "0A3D1C9663EB49308749EC0FED268729",
         "Name": "OpenWindowSearch",
         "Version": "1.0.0",
-        "ActionKeywords": [
-          "*"
-        ],
+        "ActionKeywords": ["*"],
         "Priority": 0,
         "Disabled": false
       }
