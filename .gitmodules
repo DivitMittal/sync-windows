@@ -1,0 +1,3 @@
+[submodule "AppData/Local/nvim"]
+  path = AppData/Local/nvim
+  url = https://github.com/DivitMittal/Nvim-Cfg

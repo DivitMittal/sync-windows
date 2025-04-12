@@ -1,9 +1,14 @@
 -- This file needs to have same structure as nvconfig.lua
 -- https://github.com/NvChad/ui/blob/v2.5/lua/nvconfig.lua
 
+---@return boolean
+function IsWindows()
+  return vim.uv.os_uname().version:match "Windows"
+end
+
 return {
   base46 = {
-    theme = 'gatekeeper',
+    theme = "gatekeeper",
     transparency = true,
     integrations = {
       "git",
@@ -12,14 +17,14 @@ return {
     },
     -- highlights
     hl_override = {
-      Comment = { italic = true, },
+      Comment = { italic = true },
     },
     hl_add = {
-      NvimTreeOpenedFolderName = { fg = 'green', bold = true },
+      NvimTreeOpenedFolderName = { fg = "green", bold = true },
     },
   },
 
-  ui ={
+  ui = {
     cmp = {
       icons = true,
       lspkind_text = true,
@@ -28,19 +33,19 @@ return {
       load_on_startup = false,
     },
     statusline = {
-      separator_style = 'round',
+      separator_style = "round",
     },
   },
 
   cheatsheet = {
-    theme = 'grid',
+    theme = "grid",
   },
 
   term = {
     winopts = {
       number = true,
       relativenumber = true,
-    }
+    },
   },
 
   lsp = {
@@ -48,7 +53,7 @@ return {
   },
 
   mason = {
-    cmd = true,
-    pkgs = require 'configs.mason',
+    cmd = IsWindows(),
+    pkgs = require "configs.mason_pkgs",
   },
 }
