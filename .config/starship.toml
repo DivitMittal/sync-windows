@@ -1,7 +1,8 @@
 add_newline = true
-command_timeout = 800
-format = "[╭─sys─-➜❯](bold blue) $sudo$username$hostname$shell$status$cmd_duration$docker_context\n[┣─pwd─-➜❯](bold red) $directory$git_branch$git_commit$git_status\n[╰─cmd─➜❯](bold green)$character"
-right_format = "$nix_shell$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda$package"
+command_timeout = 425
+follow_symlinks = true
+format = "[╭─env─-➜❯](bold blue) $sudo$username$hostname$shell${custom.yazi}$status$custom$cmd_duration$docker_context$directory$git_branch$git_commit$git_status\n[╰─cmd─➜❯](bold green) $character"
+right_format = "$direnv$nix_shell$lua$rust$java$kotlin$dart$python$golang$swift$nodejs$php$conda$package"
 scan_timeout = 50
 
 [battery]
@@ -24,13 +25,15 @@ vicmd_symbol = "[V](bold blue)"
 
 [cmd_duration]
 disabled = false
-format = "took [$duration](bold yellow) "
+format = "took [$duration]($style) "
 show_milliseconds = true
+style = "bold yellow"
 
 [conda]
 disabled = true
-format = "in [$symbol$environment](dimmed green) "
+format = "in [$symbol$environment]($style) "
 ignore_base = true
+style = "dimmed green"
 
 [custom.docker]
 description = "Shows a  docker symbol if the current directory has Dockerfile or docker-compose.yml files"
@@ -39,16 +42,29 @@ files = ["Dockerfile", "docker-compose.yml", "docker-compose.yaml"]
 format = "with $symbol "
 symbol = "🐳"
 
+[custom.yazi]
+description = "Indicate the shell was launched by `yazi`"
+disabled = false
+symbol = "on 🦆 "
+when = "test -n \"$YAZI_LEVEL\""
+
 [dart]
 disabled = false
 
 [directory]
 disabled = false
+format = "at [$path]($style)[$read_only]($read_only_style) "
 home_symbol = "🏡"
-style = "white"
+style = "cyan"
 truncate_to_repo = false
 truncation_length = 10
 truncation_symbol = "…/"
+
+[direnv]
+disabled = false
+format = "[$symbol$loaded/$allowed]($style) "
+style = "orange"
+symbol = "with 📂env: "
 
 [docker_context]
 disabled = true
@@ -56,7 +72,8 @@ disabled = true
 [git_branch]
 always_show_remote = true
 disabled = false
-format = "on 🌱:[$branch](bold yellow) 🎋:[$remote_name/$remote_branch](bold blue) "
+format = "on 🌱:[$branch]($style) 🎋:[$remote_name/$remote_branch]($style) "
+style = "bold yellow"
 
 [git_commit]
 disabled = true
@@ -65,25 +82,27 @@ style = "red"
 tag_disabled = false
 
 [git_status]
-ahead = "🏃\\([$count](bold blue)\\)"
-behind = "🐌\\([$count](bold blue)\\)"
+ahead = "🏃\\([$count]($style)\\)"
+behind = "🐌\\([$count]($style)\\)"
 conflicted = "🤔"
 deleted = "🚮"
 disabled = false
-diverged = "😵\\(\\(🏃[$ahead_count](bold blue)\\);🐌\\([$behind_count](bold blue)\\)\\)"
+diverged = "😵\\(\\(🏃[$ahead_count]($style)\\);🐌\\([$behind_count]($style)\\)\\)"
 modified = "📝"
 renamed = "🐣"
-staged = "🎤\\([$count](bold blue)\\)"
+staged = "🎤\\([$count]($style)\\)"
 stashed = "📦"
-untracked = "👀"
+style = "bold blue"
+untracked = "🙈"
 
 [golang]
 disabled = false
 
 [hostname]
 disabled = false
-format = "[@](bold blue)[$hostname](bold red) "
+format = "[@](bold blue)[$hostname]($style) "
 ssh_only = false
+style = "bold red"
 trim_at = "."
 
 [java]
@@ -97,7 +116,7 @@ disabled = false
 
 [nix_shell]
 disabled = false
-format = "via [☃️ $state( \\($name\\))](bold blue) "
+format = "via [❄️ $state( \\($name\\))](bold blue) "
 impure_msg = "[impure shell](bold red)"
 pure_msg = "[pure shell](bold green)"
 unknown_msg = "[unknown shell](bold yellow)"
@@ -107,7 +126,8 @@ disabled = false
 
 [package]
 disabled = false
-format = "[🎁 $version](208 bold) "
+format = "[🎁 $version]($sytle) "
+style = "208 bold"
 
 [php]
 disabled = false
@@ -135,7 +155,7 @@ symbol = "💥 "
 
 [sudo]
 disabled = false
-format = "$symbol"
+format = " [$symbol]($style)"
 style = "bold green"
 symbol = "🧙"
 
