@@ -13,7 +13,7 @@
     "freq": {
       "ndigits": 2
     },
-    "hideCursor": true,
+    "hideCursor": false,
     "key": {
       "paddingLeft": 0,
       "type": "both"
@@ -34,12 +34,15 @@
     }
   },
   "logo": {
-    "source": "Windows 7",
-    //"type": "iterm"
+    "height": 20,
+    "preserveAspectRatio": true,
+    "source": "../../assets/qezta.png",
+    "type": "kitty",
+    "width": 40
   },
   "modules": [
     {
-      "format": "┌{$1} info {$1}┐",
+      "format": "┌{$1}─────{$1}┐",
       "type": "Custom"
     },
     {
@@ -49,11 +52,6 @@
     {
       "keyColor": "light_blue",
       "type": "Kernel"
-    },
-    {
-      "key": "Resolution",
-      "keyColor": "light_blue",
-      "type": "Display"
     },
     {
       "keyColor": "light_green",
