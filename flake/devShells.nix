@@ -8,7 +8,7 @@
       packages = builtins.attrValues {
         inherit
           (pkgs)
-          stylua
+          powershell
           ;
       };
     };
