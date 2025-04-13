@@ -1,0 +1,7 @@
+aliases:
+  co: pr checkout
+editor: ""
+git_protocol: ssh
+pager: less
+prompt: enabled
+version: "1"

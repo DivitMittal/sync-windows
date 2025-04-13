@@ -1,0 +1,44 @@
+git:
+  autoFetch: true
+  autoRefresh: true
+  fetchAll: true
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
+    useConfig: false
+  parseEmoji: true
+gui:
+  animateExplosion: true
+  border: rounded
+  mouseEvents: true
+  nerdFontsVersion: '3'
+  showBottomLine: true
+  showFileIcons: true
+  showFileTree: true
+  showRandomTip: true
+keybinding:
+  universal:
+    executeShellCommand: '!'
+    gotoBottom: G
+    gotoTop: g
+    nextBlock: ''
+    nextBlock-alt: ''
+    nextBlock-alt2: <tab>
+    nextItem: <down>
+    nextItem-alt: ''
+    prevBlock: ''
+    prevBlock-alt: ''
+    prevBlock-alt2: <backtab>
+    prevItem: <up>
+    prevItem-alt: ''
+    scrollDownMain: ''
+    scrollDownMain-alt1: E
+    scrollDownMain-alt2: ''
+    scrollLeft: <left>
+    scrollRight: <right>
+    scrollUpMain: ''
+    scrollUpMain-alt1: U
+    scrollUpMain-alt2: ''
+notARepository: skip
+update:
+  method: never
