@@ -1,7 +1,3 @@
-[user]
-	name = DivitM
-	email = 64.69.76.69.74.m@gmail.com
-
 [core]
 	editor       = nvim
 	ignorecase   = false
@@ -15,3 +11,29 @@
 
 [safe]
 	directory = *
+
+[user]
+	email = "64.69.76.69.74.m@gmail.com"
+	name = "Divit Mittal"
+
+[color]
+	ui = "auto"
+
+[fetch]
+	prune = true
+
+[grep]
+	lineNumber = true
+
+[help]
+	autocorrect = "1"
+
+[init]
+	defaultBranch = "main"
+
+[alias]
+	clean-U = "clean -d -x -f"
+	clean-U-dr = "clean -d -x f -n"
+	graph = "log --graph --all --full-history --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset' --date=short"
+	last = "log -1 HEAD"
+	unstage = "restore --staged"
