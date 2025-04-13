@@ -4,7 +4,7 @@ cd_origin = "top-center"
 cd_title = "Change directory:"
 create_offset = [0, 2, 50, 3]
 create_origin = "top-center"
-create_title = "Create:"
+create_title = ["Create:", "Create (dir):"]
 delete_offset = [0, 2, 50, 3]
 delete_origin = "top-center"
 delete_title = "Delete {n} selected file{s} permanently? (y/N)"
@@ -38,6 +38,7 @@ enabled = false
 
 [manager]
 linemode = "permissions"
+mouse_events = ["click", "scroll"]
 ratio = [1, 3, 3]
 show_hidden = true
 show_symlink = false
@@ -48,7 +49,7 @@ sort_sensitive = false
 
 [[open.rules]]
 name = "*/"
-use = ["edit", "editVS", "open", "reveal"]
+use = ["edit", "editVS", "open", "reveal", "look"]
 
 [[open.rules]]
 mime = "text/*"
@@ -64,15 +65,15 @@ use = ["edit", "editVS", "reveal"]
 
 [[open.rules]]
 mime = "image/*"
-use = ["open", "reveal"]
+use = ["open", "reveal", "look"]
 
 [[open.rules]]
 mime = "video/*"
-use = ["play", "reveal"]
+use = ["play", "reveal", "look"]
 
 [[open.rules]]
 mime = "audio/*"
-use = ["play", "reveal"]
+use = ["play", "reveal", "look"]
 
 [[open.rules]]
 mime = "inode/x-empty"
@@ -112,9 +113,8 @@ use = ["extract", "reveal"]
 
 [[open.rules]]
 mime = "*"
-use = ["open", "reveal"]
+use = ["edit", "open", "reveal", "look"]
 
-[opener]
 [[opener.edit]]
 block = true
 desc = "Edit via $EDITOR"
@@ -125,8 +125,7 @@ run = "$EDITOR \"$@\""
 desc = "Edit via $EDITOR"
 for = "windows"
 orphan = true
-block = true
-run = "nvim \"%*\""
+run = "$EDITOR \"%*\""
 
 [[opener.editVS]]
 block = true
@@ -141,14 +140,19 @@ orphan = true
 run = "code \"%*\""
 
 [[opener.extract]]
-desc = "extract here"
+desc = "Extract Here"
 for = "unix"
 run = "ouch d \"$1\""
 
 [[opener.extract]]
-desc = "extract here"
+desc = "Extract Here"
 for = "windows"
 run = "ouch d \"%1\""
+
+[[opener.look]]
+desc = "QuickLook"
+for = "macos"
+run = "qlmanage -p \"$@\""
 
 [[opener.open]]
 desc = "Default Open"
@@ -167,35 +171,28 @@ orphan = true
 run = "start \"\" \"%1\""
 
 [[opener.play]]
-desc = "play via mpv"
+desc = "Play via mpv"
 for = "unix"
 orphan = true
-run = "mpv \"$@\""
+run = "mpv --force-window \"$@\""
 
 [[opener.play]]
-desc = "play via mpv"
+desc = "Play via mpv"
 for = "windows"
 orphan = true
-run = "mpv \"%1\""
-
-[[opener.play]]
-block = true
-desc = "Show media info"
-for = "unix"
-run = "mediainfo \"$1\"; echo \"Press enter to exit\"; read"
+run = "mpv --force-window \"%1\""
 
 [[opener.reveal]]
-desc = "Reveal in Finder"
+desc = "Finder reveal"
 for = "macos"
 run = "open -R \"$1\""
 
 [[opener.reveal]]
-desc = "Reveal in Explorer"
+desc = "Explorer reveal"
 for = "windows"
 orphan = true
 run = "explorer /select, \"%1\""
 
-[plugin]
 [[plugin.append_previewers]]
 name = "*"
 run = "file"
@@ -341,14 +338,16 @@ run = "hexyl"
 
 [preview]
 cache_dir = ""
-image_filter = "triangle"
-image_quality = 75
-max_height = 900
-max_width = 600
+image_delay = 100
+image_filter = "nearest"
+image_quality = 50
+max_height = 2000
+max_width = 2000
 sixel_fraction = 15
 tab_size = 2
 ueberzug_offset = [0, 0, 0, 0]
 ueberzug_scale = 1
+wrap = "no"
 
 [select]
 open_offset = [0, 1, 50, 7]
