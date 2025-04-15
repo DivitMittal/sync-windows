@@ -1,7 +1,9 @@
 [core]
 	editor       = nvim
 	ignorecase   = false
-	excludesfile = ~/.config/git/ignore
+  excludesfile = ~/.config/git/ignore
+  autocrlf     = false
+	eol          = lf
 
 [credential "helperselector"]
 	selected = manager
