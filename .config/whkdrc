@@ -3,7 +3,7 @@
 ############## General rules and keys defined to integrate seamlessly with custom TLTR keyboard layout
 # cmd + ctrl + shift + alt or TL + d : hyper key (meant for popping stuff on the display)
 # cmd + ctrl + alt or TL + w         : window manager key (meant for window manipulation)
-# fn or TL + x                       : function key
+# fn or TL + p                       : function key
 
 # Reload whkd configuration
 alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
