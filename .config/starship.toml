@@ -45,6 +45,7 @@ symbol = "🐳"
 [custom.yazi]
 description = "Indicate the shell was launched by `yazi`"
 disabled = false
+os = "unix"
 symbol = "on 🦆 "
 when = "test -n \"$YAZI_LEVEL\""
 
