@@ -36,8 +36,8 @@
   "logo": {
     "height": 20,
     "preserveAspectRatio": true,
-    "source": "../../assets/qezta.png",
-    "type": "kitty",
+    "source": "./../../assets/qezta.png",
+    "type": "iterm",
     "width": 40
   },
   "modules": [
