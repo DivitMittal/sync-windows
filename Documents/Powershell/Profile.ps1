@@ -14,7 +14,6 @@ $env:SHELL = "pwsh"
 
 $env:YAZI_FILE_ONE = "$scoopPath\git\current\usr\bin\file.exe"
 $env:KOMOREBI_CONFIG_HOME = "$env:userprofile\.config\komorebi"
-$env:MAMBA_ROOT_PREFIX = "$env:userprofile\.local\share\mambaenv"
 
 #################################################################################
 # Aliases
@@ -208,4 +207,3 @@ Set-Alias -Name cdi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 #########################################################################################
 fastfetch
 Invoke-Expression (&starship init powershell)
-micromamba shell hook -s powershell | Out-String | Invoke-Expression
