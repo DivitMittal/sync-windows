@@ -12,8 +12,8 @@ This repository utilizes a clever technique to manage dotfiles directly within y
 
 The `sw` command is an alias for a PowerShell function that invokes `git` with specific parameters:
 
--   `--git-dir=$env:userprofile/sync-windows/`: Specifies that the Git repository data (the `.git` directory, essentially) resides within this project's directory located directly under your user profile.
--   `--work-tree=$env:userprofile`: Sets the working directory for Git to your entire user profile directory.
+- `--git-dir=$env:userprofile/sync-windows/`: Specifies that the Git repository data (the `.git` directory, essentially) resides within this project's directory located directly under your user profile.
+- `--work-tree=$env:userprofile`: Sets the working directory for Git to your entire user profile directory.
 
 This means you can run standard Git commands using `sw` instead of `git` to track, manage, and synchronize any file within your user profile directory using this repository.
 
