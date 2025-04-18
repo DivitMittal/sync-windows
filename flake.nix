@@ -18,7 +18,35 @@
     flake-parts.lib.mkFlake {inherit inputs;} {
       systems = import inputs.systems;
       imports = [
-        ./flake
+        inputs.treefmt-nix.flakeModule
+        inputs.devshell.flakeModule
       ];
+
+      perSystem = {pkgs, ...}: {
+        devshells.default = {
+          packages = builtins.attrValues {
+            inherit
+              (pkgs)
+              powershell
+              ;
+          };
+        };
+
+        treefmt = {
+          flakeCheck = false;
+
+          programs = {
+            #typos.enable = true;
+            ## Nix
+            alejandra.enable = true;
+            deadnix.enable = true;
+            statix.enable = true;
+            ## JSON
+            prettier.enable = true;
+          };
+
+          projectRootFile = "flake.nix";
+        };
+      };
     };
 }
