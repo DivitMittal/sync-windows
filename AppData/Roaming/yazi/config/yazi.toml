@@ -125,6 +125,7 @@ run = "$EDITOR \"$@\""
 desc = "Edit via $EDITOR"
 for = "windows"
 orphan = true
+block = true
 run = "$EDITOR \"%*\""
 
 [[opener.editVS]]
