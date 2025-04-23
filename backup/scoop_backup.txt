@@ -4,12 +4,12 @@ Name                      Version                  Source                 Update
 7zip                      24.09                    main                   2024-12-01 00:00:35 
 bat                       0.25.0                   main                   2025-04-13 22:06:43 
 Cascadia-Code             2407.24                  nerd-fonts             2024-12-01 00:01:16 
-dark                      3.14                     main                   2024-10-29 21:56:18 
+dark                      3.14.1                   main                   2025-04-24 00:04:10 
 eza                       0.21.0                   anderlli0053_DEV-tools 2025-04-09 22:06:19 
-fastfetch                 2.40.4                   main                   2025-04-09 22:06:43 
-firefox                   133.0                                           2025-04-16 04:39:24 
+fastfetch                 2.41.0                   main                   2025-04-24 00:04:13 
+firefox                   133.0                                           2025-04-24 00:01:12 
 fzf                       0.61.1                   anderlli0053_DEV-tools 2025-04-09 22:06:56 
-gh                        2.70.0                   main                   2025-04-16 03:55:46 
+gh                        2.71.0                   main                   2025-04-24 00:04:24 
 git                       2.49.0                   main                   2025-04-09 22:13:41 
 innounp                   2.64.3                   main                   2025-04-09 22:13:42 
 komorebi                  0.1.36                   extras                 2025-04-16 03:37:23 
@@ -20,12 +20,13 @@ msys2                     2025-02-21               main                   2025-0
 neovim                    0.11.0                   main                   2025-04-09 22:14:19 
 nircmd                    2.87                     main                   2024-09-25 02:26:15 
 nodejs                    23.11.0                  main                   2025-04-09 22:14:42 
-onlyoffice-desktopeditors 8.3.2                    extras                 2025-04-10 01:09:29 
-ouch                      0.5.1                    main                   2024-08-11 16:57:00 
+onlyoffice-desktopeditors 8.3.3                    extras                 2025-04-24 00:07:48 
+ouch                      0.6.1                    main                   2025-04-24 00:07:51 
 psshutdown                2.6                      sysinternals           2024-08-12 18:55:03 
 python                    3.13.3                   main                   2025-04-10 01:10:19 
 starship                  1.22.1                   main                   2025-01-19 21:58:29 
-vscode                    1.99.2                   extras                 2025-04-16 03:36:49 
+throttlestop              9.7.3                    extras                 2025-04-24 00:06:01 
+vscode                    1.99.3                   extras                 2025-04-24 00:08:47 
 wezterm                   20240203-110809-5046fc22 extras                 2024-03-18 14:34:20 
 whkd                      0.2.7                    extras                 2025-03-05 16:08:57 
 yazi                      25.4.8                   main                   2025-04-10 01:18:44 
