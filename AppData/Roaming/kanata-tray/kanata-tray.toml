@@ -1,0 +1,13 @@
+'$schema' = 'https://raw.githubusercontent.com/rszyma/kanata-tray/main/doc/config_schema.json'
+
+[general]
+allow_concurrent_presets = false
+
+[defaults]
+kanata_executable = '~/.local/bin/kanata.exe'
+tcp_port = 5829
+
+[presets.'TLTR']
+kanata_config = '~/AppData/Roaming/kanata/kanata.kbd'
+autorun = true
+extra_args = ['-n']
