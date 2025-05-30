@@ -86,6 +86,9 @@ Set-Alias -Name cat -Value Invoke-Bat
 function Invoke-Msys { msys2 -shell fish }
 Set-Alias -Name msys -Value Invoke-Msys
 
+# lazygit
+Set-Alias -Name lg -Value "lazygit"
+
 #################################################################################
 # Implementation to manage dotfiles
 #################################################################################
