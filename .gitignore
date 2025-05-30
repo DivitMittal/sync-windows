@@ -1,5 +1,7 @@
 ## macOS Finder metadata
 **/.DS_Store
+## Windows Explorer metadata
+**/desktop.ini
 ## nix builds
 .direnv
 result
