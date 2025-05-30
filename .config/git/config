@@ -4,6 +4,7 @@
   excludesfile = ~/.config/git/ignore
   autocrlf     = false
 	eol          = lf
+  symlinks     = true
 
 [credential "helperselector"]
 	selected = manager
