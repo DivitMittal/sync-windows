@@ -14,9 +14,11 @@
     };
   };
 
-  outputs = {flake-parts, ...} @ inputs:
-    flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = import inputs.systems;
+  outputs = inputs: let
+    inherit (inputs.flake-parts.lib) mkFlake;
+  in
+    mkFlake {inherit inputs;} {
+      systems = builtins.import inputs.systems;
       imports = [
         inputs.treefmt-nix.flakeModule
         inputs.devshell.flakeModule
@@ -33,6 +35,8 @@
         };
 
         treefmt = {
+          projectRootFile = "flake.nix";
+
           flakeCheck = false;
 
           programs = {
@@ -44,8 +48,6 @@
             ## JSON
             prettier.enable = true;
           };
-
-          projectRootFile = "flake.nix";
         };
       };
     };

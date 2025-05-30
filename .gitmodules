@@ -1,6 +1,4 @@
-[submodule "Nvim"]
-  path = AppData/Local/nvim
-  url = https://github.com/DivitMittal/Nvim-Cfg
+
 [submodule "TLTR"]
   path = AppData/Roaming/TLTR
   url = https://github.com/DivitMittal/TLTR
