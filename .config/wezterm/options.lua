@@ -1,7 +1,7 @@
 return function(wezterm, config)
   config.term = "xterm-256color"
   config.enable_kitty_graphics = true
-  config.default_prog = { "pwsh.exe", '-NoLogo'},
+  config.default_prog = { "pwsh.exe", '-NoLogo'}
 
   -- font
   config.font = wezterm.font "Cascadia Code"
