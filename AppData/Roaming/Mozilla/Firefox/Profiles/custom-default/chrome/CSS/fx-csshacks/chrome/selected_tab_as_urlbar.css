@@ -28,6 +28,7 @@ See the above repository for updates as well as full license text. */
 }
 .urlbar-input-container > :not(.urlbar-input-box){ opacity: 0 }
 
+:where(#urlbar) > .urlbar-background,
 #urlbar-background{
   background: transparent !important;
   border: none !important;
@@ -76,8 +77,7 @@ See the above repository for updates as well as full license text. */
   background-color: var(--toolbar-field-focus-background-color) !important;
   background-size: auto !important;
 }
-:root:not([customizing]) #navigator-toolbox > #TabsToolbar,
-:root:not([customizing]) #titlebar{
+:root:not([customizing]) #navigator-toolbox > #TabsToolbar{
   margin-bottom: calc(0px - var(--tab-min-height) - 2*var(--tab-block-margin));
 }
 
@@ -98,8 +98,7 @@ See the above repository for updates as well as full license text. */
 
 /* By default this style moves your back and forward buttons to the left edge of the navbar and adds a placeholder space for them.
    Set the following pref to false to disable that behavior */
-@media (-moz-bool-pref: "userchrome.selected-tab-as-urlbar.nav-buttons-space.disabled"),
-       -moz-pref("userchrome.selected-tab-as-urlbar.nav-buttons-space.disabled"){
+@media -moz-pref("userchrome.selected-tab-as-urlbar.nav-buttons-space.disabled"){
   #TabsToolbar > .toolbar-items{ margin-left: 0px !important; }
   #nav-bar-customization-target{ margin-left: 0px !important; }
   #back-button, #forward-button{
@@ -112,8 +111,4 @@ See the above repository for updates as well as full license text. */
   height: calc(var(--tab-min-height) + 2*var(--tab-block-margin));
   box-shadow: none !important;
   background-color: transparent !important;
-}
-
-:root:is([tabsintitlebar],[customtitlebar]) #titlebar:has(> [autohide="false"]) + #nav-bar{
-  border-inline-width: 0 !important;
 }

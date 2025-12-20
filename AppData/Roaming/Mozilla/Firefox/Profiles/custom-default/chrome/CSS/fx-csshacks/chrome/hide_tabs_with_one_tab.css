@@ -10,10 +10,10 @@ This will NOT work correctly if you have hidden tabs such as with tab groups ext
 
 :root[sizemode="normal"] #nav-bar{ --uc-window-drag-space-width: 20px }
 
-#titlebar{ -moz-appearance: none !important; }
 #TabsToolbar{ min-height: 0px !important }
 
 #tabbrowser-tabs,
+#pinned-tabs-container,
 #tabbrowser-arrowscrollbox{ min-height: 0 !important; }
 
 .accessibility-indicator,
@@ -34,7 +34,7 @@ This will NOT work correctly if you have hidden tabs such as with tab groups ext
 }
 
 /* Fix window controls not being clickable */
-:root[tabsintitlebar] #toolbar-menubar[autohide="true"][inactive]{
+:root[customtitlebar] #toolbar-menubar:not([autohide="true"],[autohide=""])[inactive]{
   transition: height 0ms steps(1) 80ms;
 }
 :where(#nav-bar){

@@ -31,8 +31,7 @@ See the above repository for updates as well as full license text. */
   --toolbarbutton-inner-padding: 7px !important;
 }
 /* Few exceptions for default light theme */
-:root[lwtheme] #navigator-toolbox:not([movingtab]) > #TabsToolbar,
-:root[lwtheme] #navigator-toolbox:not([movingtab]) > #titlebar > #TabsToolbar{
+:root[lwtheme] #navigator-toolbox:not([movingtab]) > #TabsToolbar{
   --toolbar-bgcolor: transparent;
 }
 
@@ -76,10 +75,6 @@ See the above repository for updates as well as full license text. */
 
 /* tab shaping */
 .tabbrowser-tab{ padding-inline: 0 !important; }
-
-:root[uidensity="compact"] #tabbrowser-tabs[positionpinnedtabs] .tabbrowser-tab[pinned]{
-  min-height: calc(var(--tab-min-height) + 2px) !important;
-}
 
 .tab-content[pinned]{ padding-inline: 11px !important; }
 
@@ -139,8 +134,7 @@ See the above repository for updates as well as full license text. */
 .tab-group-line{
   order: -1;
 }
-:where(#navigator-toolbox) > #TabsToolbar,
-#titlebar{
+:where(#navigator-toolbox) > #TabsToolbar{
   will-change: unset !important;
   transition: none !important;
   opacity: 1 !important;

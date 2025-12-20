@@ -16,6 +16,7 @@ See the above repository for updates as well as full license text. */
 #main-window > body > #browser,
 .global-notificationbox,
  #tab-notification-deck,
+ #notifications-toolbar,
  #toolbar-menubar{
   order: -1;
 }
@@ -72,8 +73,7 @@ See the above repository for updates as well as full license text. */
 }
 .urlbarView-body-inner{ border-top-style: none !important; }
 
-@media (-moz-bool-pref: "userchrome.toolbars-below-content.tabs-at-bottom.enabled"),
-       -moz-pref("userchrome.toolbars-below-content.tabs-at-bottom.enabled"){
+@media -moz-pref("userchrome.toolbars-below-content.tabs-at-bottom.enabled"){
   #TabsToolbar{
     order: 3
   }

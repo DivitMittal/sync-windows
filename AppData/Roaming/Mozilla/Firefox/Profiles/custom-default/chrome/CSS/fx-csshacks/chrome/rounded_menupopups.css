@@ -11,11 +11,12 @@ menupopup,
 .panel-arrowcontent{
   -moz-appearance: none !important;
   border-radius: var(--uc-menupopup-border-radius) !important;
-  overflow: -moz-hidden-unscrollable !important;
+  overflow: clip !important;
 }
 
 /* The rounding is also applied to searchbar and urlbar to look consistent */
 searchbar#searchbar,
+:where(#urlbar) > .urlbar-background,
 #urlbar-background{
   border-radius: var(--uc-menupopup-border-radius) !important
 }

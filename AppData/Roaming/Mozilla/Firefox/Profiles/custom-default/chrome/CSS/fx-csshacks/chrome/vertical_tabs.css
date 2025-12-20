@@ -14,11 +14,13 @@ See the above repository for updates as well as full license text. */
 }
 #PersonalToolbar,
 #tab-notification-deck,
+#notifications-toolbar,
 .global-notificationbox,
 #main-window:not([inDOMFullscreen]) > body > #browser{
   margin-left: var(--uc-vertical-tabs-width);
 }
 #tab-notification-deck,
+#notifications-toolbar,
 .global-notificationbox{
   width: auto !important;
 }
@@ -39,11 +41,12 @@ See the above repository for updates as well as full license text. */
   contain: size;
 }
 :root[lwtheme]:not([customizing]) #tabbrowser-tabs{
-  background-color: var(--lwt-accent-color);
+  background-color: var(--lwt-accent-color,var(--toolbox-bgcolor));
 }
-@media (-moz-bool-pref: "userchrome.vertical-tabs.on-right.enabled"){
+@media -moz-pref("userchrome.vertical-tabs.on-right.enabled"){
   #PersonalToolbar,
   #tab-notification-deck,
+  #notifications-toolbar,
   .global-notificationbox,
   #main-window:not([inDOMFullscreen]) > body > #browser{
     margin-left: 0;
@@ -54,7 +57,7 @@ See the above repository for updates as well as full license text. */
     right: 0;
   }
 }
-:root:not([customizing]) #toolbar-menubar[autohide="false"] + #TabsToolbar #tabbrowser-tabs{
+:root:not([customizing]) #toolbar-menubar:is([autohide="false"],:not([autohide])) + #TabsToolbar #tabbrowser-tabs{
   height: calc(100vh - 28px); /* 28px is however tall your menubar is */
 }
 :root:not([customizing]) #TabsToolbar #new-tab-button,
@@ -85,7 +88,7 @@ See the above repository for updates as well as full license text. */
   position: absolute;
   right: 0;
 }
-@media (-moz-bool-pref: "userchrome.force-window-controls-on-left.enabled"),
+@media -moz-pref("userchrome.force-window-controls-on-left.enabled"),
        (-moz-gtk-csd-reversed-placement),
        (-moz-platform: macos){
   #TabsToolbar > .titlebar-buttonbox-container{
@@ -108,9 +111,4 @@ scrollbox[orient="horizontal"]{
 #scrollbutton-up,
 #scrollbutton-down{
   display: var(--uc-scrollbutton-display,initial);
-}
-#titlebar{
-  will-change: unset !important;
-  transition: none !important;
-  opacity: 1 !important;
 }

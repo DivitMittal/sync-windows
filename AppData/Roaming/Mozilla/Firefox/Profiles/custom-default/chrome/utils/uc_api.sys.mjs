@@ -1,7 +1,7 @@
 const {
   Hotkey,
   windowUtils,
-  SharedGlobal,
+  SharedStorage,
   Pref,
   FileSystem,
   restartApplication,
@@ -16,14 +16,15 @@ const {
   parseStringAsScriptInfo,
   toggleScript,
   updateStyleSheet,
-  showNotification
+  showNotification,
+  defineModuleGettersWithFallback
   } = ChromeUtils.importESModule("chrome://userchromejs/content/utils.sys.mjs");
 
 export {
   FileSystem,
   Hotkey as Hotkeys,
   Pref as Prefs,
-  SharedGlobal as SharedStorage,
+  SharedStorage,
   windowUtils as Windows
 }
 
@@ -42,7 +43,8 @@ export const Utils = Object.freeze({
   createElement: createElement,
   createWidget: createWidget,
   escapeXUL: escapeXUL,
-  loadURI: loadURI
+  loadURI: loadURI,
+  defineModuleGettersWithFallback: defineModuleGettersWithFallback
 });
 
 export const Scripts = Object.freeze({
