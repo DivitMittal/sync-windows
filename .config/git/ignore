@@ -1,22 +1,19 @@
-Favorites
-Intel
-Music
-Pictures
-Saved Games
-Searches
-Videos
-Contacts
-Desktop
-Downloads
-Links
-*ntuser*
-sync-windows
-Cookies
-My Documents
-NetHood
-PrintHood
-Recent
-SendTo
-Start Menu
-Templates
-
+*.pyc
+.DS_Store
+Desktop.ini
+.bash_history
+.zsh_history
+.viminfo
+.idea/
+.vscode/
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+log/
+logs/
+*.log
+*.tmp
+*.temp
+.dockerignore
+TODO.md
