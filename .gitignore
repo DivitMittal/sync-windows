@@ -1,11 +1,16 @@
 ## macOS Finder metadata
 **/.DS_Store
+
 ## Windows Explorer metadata
 **/desktop.ini
+
 ## nix builds
 .direnv
 result
 result-
+
+## Tools
+.claude/
 
 ## Windows User Home Directory
 Favorites
