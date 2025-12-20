@@ -5,7 +5,7 @@ Name                      Version                  Source       Updated         
 Cascadia-Code             2407.24                  nerd-fonts   2024-12-01 00:01:16 
 dark                      3.14.1                   main         2025-04-24 00:04:10 
 fastfetch                 2.56.1                   main         2025-12-20 17:09:03 
-firefox                   133.0                                 2025-12-20 19:08:49 
+firefox                   133.0                                 2025-12-20 22:02:10 
 git                       2.52.0                   main         2025-12-20 17:09:32 
 innounp                   2.66.1                   main         2025-12-20 17:09:33 
 localsend                 1.17.0                   extras       2025-03-05 15:29:41 
@@ -21,6 +21,7 @@ python                    3.14.2                   main         2025-12-20 17:13
 starship                  1.24.1                   main         2025-12-20 17:13:59 
 sudo                      0.2020.01.26             main         2025-12-20 20:53:03 
 throttlestop              9.7.3                    extras       2025-04-24 00:06:01 
+vim                       9.1.1825                 main         2025-12-20 22:14:13 
 wezterm                   20240203-110809-5046fc22 extras       2024-03-18 14:34:20 
 whkd                      0.2.10                   extras       2025-10-21 03:03:48 
 
