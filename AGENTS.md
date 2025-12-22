@@ -1,7 +1,3 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Overview
 
 This is a Windows dotfiles repository that uses a bare Git repository pattern to track configuration files directly in the user profile directory (`$env:userprofile`). The repository is designed to manage dotfiles on Windows while respecting both Windows conventions (AppData) and Unix conventions (XDG Base Directory).
