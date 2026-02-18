@@ -42,12 +42,6 @@ files = ["Dockerfile", "docker-compose.yml", "docker-compose.yaml"]
 format = "with $symbol "
 symbol = "🐳"
 
-[custom.yazi]
-description = "Indicate the shell was launched by `yazi`"
-disabled = false
-symbol = "on 🦆 "
-when = "test -n \"$YAZI_LEVEL\""
-
 [dart]
 disabled = false
 
