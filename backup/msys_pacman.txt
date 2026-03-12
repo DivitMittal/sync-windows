@@ -1,3 +1,4 @@
 base 2022.06-1
-filesystem 2025.05.08-1
-msys2-runtime 3.6.1-4
+filesystem 2025.05.08-2
+fish 4.5.0-1
+msys2-runtime 3.6.7-1

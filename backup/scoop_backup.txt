@@ -1,27 +1,27 @@
 
 Name                      Version                  Source       Updated             Info
 ----                      -------                  ------       -------             ----
-7zip                      25.01                    main         2025-08-17 16:14:50 
+7zip                      26.00                    main         2026-02-13 15:47:32 
 Cascadia-Code             2407.24                  nerd-fonts   2024-12-01 00:01:16 
 dark                      3.14.1                   main         2025-04-24 00:04:10 
-fastfetch                 2.56.1                   main         2025-12-20 17:09:03 
-firefox                   133.0                                 2025-12-20 22:02:10 
-git                       2.52.0                   main         2025-12-20 17:09:32 
-innounp                   2.66.1                   main         2025-12-20 17:09:33 
+fastfetch                 2.60.0                   main         2026-03-12 12:07:26 
+firefox                   133.0                                 2026-03-13 03:19:29 
+git                       2.53.0.2                 main         2026-03-12 12:08:28 
+hwinfo                    8.44-5935                extras       2026-03-12 12:08:41 
+innounp                   2.67.4                   main         2026-03-12 12:08:43 
+lazygit                   0.60.0                   extras       2026-03-13 02:53:01 
 localsend                 1.17.0                   extras       2025-03-05 15:29:41 
 mingw-winlibs-llvm-ucrt   14.2.0-19.1.1-12.0.0-r2  versions     2025-05-31 04:33:51 
 msys2                     2025-12-13               main         2025-12-20 17:10:50 
 nircmd                    2.87                     main         2025-04-24 01:07:40 
-nodejs                    25.2.1                   main         2025-12-20 17:11:13 
-onlyoffice-desktopeditors 9.2.0                    extras       2025-12-20 17:13:12 
-ouch                      0.6.1                    main         2025-04-24 00:07:51 
+onlyoffice-desktopeditors 9.3.1                    extras       2026-03-12 12:10:51 
 psshutdown                2.6                      sysinternals 2024-08-12 18:55:03 
 pwsh                      7.5.4                    main         2025-12-20 16:42:08 
-python                    3.14.2                   main         2025-12-20 17:13:57 
-starship                  1.24.1                   main         2025-12-20 17:13:59 
+python                    3.14.3                   main         2026-02-13 15:52:21 
+starship                  1.24.2                   main         2026-02-13 15:52:23 
 sudo                      0.2020.01.26             main         2025-12-20 20:53:03 
 throttlestop              9.7.3                    extras       2025-04-24 00:06:01 
-vim                       9.1.1825                 main         2025-12-20 22:14:13 
+vim                       9.2.0125                 main         2026-03-12 12:11:26 
 wezterm                   20240203-110809-5046fc22 extras       2024-03-18 14:34:20 
 whkd                      0.2.10                   extras       2025-10-21 03:03:48 
 

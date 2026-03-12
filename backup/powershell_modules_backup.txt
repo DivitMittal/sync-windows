@@ -1,0 +1,5 @@
+
+Version              Name                                Repository           Description
+-------              ----                                ----------           -----------
+2.2.1.5              PSWindowsUpdate                     PSGallery            This module contain cmdlets to manage Windows Update Client.
+

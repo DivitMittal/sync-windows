@@ -1,0 +1,43 @@
+[?25l                                 
+[38;5;69m-[0m Loading installed applications…
+                                 [2A                                 
+[38;5;69m\[0m Loading installed applications…
+                                 [2A                                 
+[38;5;69m|[0m Loading installed applications…
+                                 [2A                                 
+[38;5;69m/[0m Loading installed applications…
+                                 [2A                                 
+[38;5;69m-[0m Loading installed applications…
+                                 [2A                                 
+[38;5;69m\[0m Loading installed applications…
+                                 [2A                                 
+[38;5;69m|[0m Loading installed applications…
+                                 [2K[1A[2K[1A[2K[?25h
+[38;5;8m── [0m[38;5;69mInstalled apps (22 found)[0m[38;5;8m ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m
+
+[38;5;238m┌─────────────────────────────────────────────────┬───────────────────────────┬────────────────────┬────────────┐[0m
+[38;5;238m│[0m [38;5;189mName[0m                                            [38;5;238m│[0m [38;5;189mPublisher[0m                 [38;5;238m│[0m [38;5;189mVersion[0m            [38;5;238m│[0m [38;5;189mDate[0m       [38;5;238m│[0m
+[38;5;238m├─────────────────────────────────────────────────┼───────────────────────────┼────────────────────┼────────────┤[0m
+[38;5;238m│[0m App Installer                                   [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 1.28.220.0         [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Apple Music                                     [38;5;238m│[0m Apple Inc.                [38;5;238m│[0m 1.1538.24068.0     [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m CPU Monitor for Game Bar                        [38;5;238m│[0m Alex Shats                [38;5;238m│[0m 0.1.7.0            [38;5;238m│[0m 2024-07-15 [38;5;238m│[0m
+[38;5;238m│[0m Cross Device Experience Host                    [38;5;238m│[0m Microsoft Windows         [38;5;238m│[0m 1.26012.79.0       [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Dolby Atmos                                     [38;5;238m│[0m Dolby Laboratories        [38;5;238m│[0m 3.20201.255.0      [38;5;238m│[0m 2024-01-24 [38;5;238m│[0m
+[38;5;238m│[0m English (United Kingdom) Local Experience Pack  [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 26100.124.233.0    [38;5;238m│[0m 2026-02-13 [38;5;238m│[0m
+[38;5;238m│[0m Game Bar                                        [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 7.326.2102.0       [38;5;238m│[0m 2026-02-18 [38;5;238m│[0m
+[38;5;238m│[0m Microsoft Photos                                [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 2026.11020.20001.0 [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Microsoft Store                                 [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 22601.1401.3.0     [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Power BI Desktop                                [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 2.151.1182.0       [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Raycast                                         [38;5;238m│[0m Raycast Technologies Ltd. [38;5;238m│[0m 0.48.1.0           [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Snipping Tool                                   [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 11.2601.0.0        [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Start Experiences App                           [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 1.229.1.0          [38;5;238m│[0m 2026-02-18 [38;5;238m│[0m
+[38;5;238m│[0m Store Experience Host                           [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 22512.1401.1.0     [38;5;238m│[0m 2026-02-13 [38;5;238m│[0m
+[38;5;238m│[0m Widgets Platform Runtime                        [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 1.6.14.0           [38;5;238m│[0m 2025-09-03 [38;5;238m│[0m
+[38;5;238m│[0m Windows Application Compatibility Enhancements  [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 1.2511.9.0         [38;5;238m│[0m 2025-11-19 [38;5;238m│[0m
+[38;5;238m│[0m Windows Camera                                  [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 2025.2510.2.0      [38;5;238m│[0m 2025-12-16 [38;5;238m│[0m
+[38;5;238m│[0m Windows Package Manager Source (winget-font) V2 [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 2025.1016.311.49   [38;5;238m│[0m 2025-12-20 [38;5;238m│[0m
+[38;5;238m│[0m Windows Package Manager Source (winget) V2      [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 2026.312.2127.51   [38;5;238m│[0m 2026-03-13 [38;5;238m│[0m
+[38;5;238m│[0m Windows Security                                [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 1000.29510.1001.0  [38;5;238m│[0m 2026-02-13 [38;5;238m│[0m
+[38;5;238m│[0m Windows Terminal                                [38;5;238m│[0m Microsoft Corporation     [38;5;238m│[0m 1.24.10621.0       [38;5;238m│[0m 2026-03-12 [38;5;238m│[0m
+[38;5;238m│[0m Windows Web Experience Pack                     [38;5;238m│[0m Microsoft Windows         [38;5;238m│[0m 526.1202.40.0      [38;5;238m│[0m 2026-02-13 [38;5;238m│[0m
+[38;5;238m└─────────────────────────────────────────────────┴───────────────────────────┴────────────────────┴────────────┘[0m
