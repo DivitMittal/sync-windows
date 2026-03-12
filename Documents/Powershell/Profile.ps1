@@ -1,5 +1,5 @@
 #################################################################################
-# Environment Variables
+## Environment Variables
 #################################################################################
 $scoopPath = "$env:userprofile\scoop\apps"
 
@@ -13,9 +13,9 @@ $env:VISUAL = "$EDITOR"
 $env:SHELL = "pwsh"
 
 #################################################################################
-# Aliases
+## Aliases
 #################################################################################
-# scoop-ultimate
+## scoop-ultimate
 function Invoke-UltimateScoop {
   scoop update
   scoop update --all
@@ -24,7 +24,7 @@ function Invoke-UltimateScoop {
 }
 Set-Alias -Name scoop-ultimate -Value Invoke-UltimateScoop
 
-# winget-ultimate
+## winget-ultimate
 function Invoke-UltimateWinget {
   winget source update
   winget list --upgrade-available  # winget upgrade/update
@@ -34,18 +34,9 @@ Set-Alias -Name winget-ultimate -Value Invoke-UltimateWinget
 
 # store-ultimate
 function Invoke-UltimateStore {
-  store updates --apply
+  store updates --apply 1
 }
 Set-Alias -Name store-ultimate -Value Invoke-UltimateStore
-
-# windows-ultimate
-function Invoke-UltimateWindows {
-  scoop-ultimate
-  winget-ultimate
-  store-ultimate
-  windows-backup
-}
-Set-Alias -Name windows-ultimate -Value Invoke-UltimateWindows
 
 # msys
 function Invoke-Msys { msys2 -shell fish }
@@ -57,9 +48,18 @@ function Invoke-WinPackageManagerBackup {
   scoop list > "$backupDir/scoop_backup.txt"
   winget list > "$backupDir/winget_backup.txt"
   store installed > "$backupDir/store_backup.txt"
+  Get-InstalledModule > "$backupDir/powershell_modules_backup.txt"
 }
 Set-Alias -Name windows-backup -Value Invoke-WinPackageManagerBackup
 
+# windows-ultimate
+function Invoke-UltimateWindows {
+  scoop-ultimate
+  winget-ultimate
+  store-ultimate
+  windows-backup
+}
+Set-Alias -Name windows-ultimate -Value Invoke-UltimateWindows
 
 #################################################################################
 # Implementation to manage dotfiles
