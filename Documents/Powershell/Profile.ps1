@@ -44,11 +44,14 @@ Set-Alias -Name msys -Value Invoke-Msys
 
 # windows-backup
 function Invoke-WinPackageManagerBackup {
-  $backupDir = "$env:userprofile/backup/"
-  scoop list > "$backupDir/scoop_backup.txt"
-  winget list > "$backupDir/winget_backup.txt"
-  store installed > "$backupDir/store_backup.txt"
-  Get-InstalledModule > "$backupDir/powershell_modules_backup.txt"
+  $backupDir = "$env:userprofile/backup"
+  New-Item -ItemType Directory -Force -Path $backupDir | Out-Null
+
+  scoop export | Set-Content -Path (Join-Path $backupDir "scoop_export.json")
+  winget export -o (Join-Path $backupDir "winget_export.json") --include-versions --accept-source-agreements
+
+  store installed > (Join-Path $backupDir "store_backup.txt")
+  Get-InstalledModule > (Join-Path $backupDir "powershell_modules_backup.txt")
 }
 Set-Alias -Name windows-backup -Value Invoke-WinPackageManagerBackup
 
